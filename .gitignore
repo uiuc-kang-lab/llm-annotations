@@ -1,0 +1,4 @@
+resources
+datasets/raw
+**/data.csv
+**/process.ipynb
