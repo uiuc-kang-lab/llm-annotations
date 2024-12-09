@@ -18,5 +18,17 @@ def compute_statistics(data: pd.DataFrame, dataset: str):
         n_positive = len(data[data["label"] == 1])
         percentage = n_positive / len(data)
         return percentage
+    if dataset == "implicit_hate":
+        n_white_grievance = len(data[data["label"] == "white_grievance"])
+        percentage = n_white_grievance / len(data)
+        return percentage
+    if dataset == "mathematical_capabilities":
+        n_positive = len(data[data["gpt_label"] == "success"])
+        percentage = n_positive / len(data)
+        return percentage
+    if dataset == "persuasion":
+        n_positive = len(data[data["label"] == "True"])
+        percentage = n_positive / len(data)
+        return percentage
     else:
         raise NotImplementedError("Dataset not implemented")
