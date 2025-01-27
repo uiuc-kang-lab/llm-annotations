@@ -19,7 +19,7 @@ def load_data(dataset: str) -> Tuple[pd.DataFrame, float]:
         groundtruth = compute_statistics(data, dataset)
         data.drop(columns=["label"], inplace=True)
     elif dataset == "implicit_hate":
-        data = pd.read_csv("../dataset/implicit_hate/data.csv")
+        data = pd.read_csv("../dataset/implicit_hate/formatted_data_gpt_results.csv")
         data["label"] = data["gold_label"]
         groundtruth = compute_statistics(data, dataset)
         data.drop(columns=["label"], inplace=True)
