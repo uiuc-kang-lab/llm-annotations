@@ -18,6 +18,21 @@ def load_data(dataset: str) -> Tuple[pd.DataFrame, float]:
         data["label"] = data["gold_label"]
         groundtruth = compute_statistics(data, dataset)
         data.drop(columns=["label"], inplace=True)
+    elif dataset == "implicit_hate":
+        data = pd.read_csv("../dataset/implicit_hate/formatted_data_gpt_results.csv")
+        data["label"] = data["gold_label"]
+        groundtruth = compute_statistics(data, dataset)
+        data.drop(columns=["label"], inplace=True)
+    elif dataset == "mathematical_capabilities":
+        data = pd.read_csv("/Users/zacharylee/TestTest/llm-annotations/dataset/mathematical_capabilities/data.csv")
+        data["label"] = data["gold_label"]
+        groundtruth = compute_statistics(data, dataset)
+        data.drop(columns=["label"], inplace=True)
+    elif dataset == "persuasion":
+        data = pd.read_csv("/Users/zacharylee/TestTest/llm-annotations/dataset/persuasion/data.csv")
+        data["label"] = data["gold_label"]
+        groundtruth = compute_statistics(data, dataset)
+        data.drop(columns=["label"], inplace=True)        
     else:
         raise NotImplementedError("Dataset not implemented")
     
