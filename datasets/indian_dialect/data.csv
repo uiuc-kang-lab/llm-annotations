@@ -1,0 +1,267 @@
+,sentence,gold_label,gpt_label,gold_label_text
+0,two years I stayed alone,0,7,Preposition Omission
+1,at the Tirupati temple I stayed one or two days,1,22,None of the Above
+2,person I like most is from the mechanical department,2,9,Article Omission
+3,there are five balls,1,1,None of the Above
+4,I like the cake very much.,1,1,None of the Above
+5,every year inflation is there,3,6,"Non-initial Existential ""is / are there"""
+6,"My parents and siblings and all, they really enjoy playing board games.",4,12,"General Extender ""and all"""
+7,I was there yesterday only,5,16,Focus Only
+8,some flower part is there,3,18,"Non-initial Existential ""is / are there"""
+9,"My parents and siblings and all, they really enjoy playing board games.",6,1,Left Dislocation
+10,My old life I want to spend in India.,1,12,None of the Above
+11,as recently as April there was a big fight,1,1,None of the Above
+12,Some teachers when I was in school I liked them very much.,7,11,Resumptive Object Pronoun
+13,we want to know how we can make your favorite dish,1,1,None of the Above
+14,tomorrow you have to try this cake,1,1,None of the Above
+15,Here life is busy.,1,1,None of the Above
+16,My old life I want to spend it in India.,6,2,Left Dislocation
+17,"A person living in Calcutta, which he didn’t know Hindi earlier, when he comes to Delhi he has to learn English.",8,1,Resumptive Subject Pronoun
+18,they use proper grammar there,1,1,None of the Above
+19,So that time they said okay go and work for a few months.,0,16,Preposition Omission
+20,they use proper grammars there,9,1,Mass Nouns As Count Nouns
+21,So at that time they said okay go and work for a few months.,1,20,None of the Above
+22,She has business experience.,1,22,None of the Above
+23,he talk to them,10,1,Lack Of Agreement
+24,person I like most is from mechanical department,2,0,Article Omission
+25,You get on the train and buy the ticket there only,5,12,Focus Only
+26,nowadays all the children they are mature from a very early age,6,13,Left Dislocation
+27,in the daytime I work for the courier service,11,12,Topicalized Non-argument Constituent
+28,why are you telling this to everybody?,1,5,None of the Above
+29,"first of all, we can see a plate the right side",1,1,None of the Above
+30,She was brought up there and her college was there too,1,1,None of the Above
+31,those who come here definitely they should learn English,6,21,Left Dislocation
+32,We don’t feel that we should go any other country.,0,1,Preposition Omission
+33,"It’s come from me, no?",12,1,"Invariant Tag ""isn’t it, no, na"""
+34,open a shop wherever there is a foot traffic,9,2,Mass Nouns As Count Nouns
+35,for many years I did not travel,11,1,Topicalized Non-argument Constituent
+36,and in the background there are a lot of buildings,11,9,Topicalized Non-argument Constituent
+37,we will be knowing how much the structure is getting deflected,13,6,Stative Progressive
+38,Chandigarh was full of employed people.,1,15,None of the Above
+39,"We are like we are in touch, but not before when we was in school and all.",10,1,Lack Of Agreement
+40,you can say anything but tenth I’m leaving,2,1,Article Omission
+41,they are speaking Portuguese in Brazil,13,6,Stative Progressive
+42,in fifteen years lot of changes we have seen,14,1,Object Fronting
+43,he didn’t give me,15,0,Direct Object Pronoun Drop
+44,"he liked it, didn’t he, even though you said he wouldn’t",1,8,None of the Above
+45,he is having a television,13,16,Stative Progressive
+46,we will know how much the structure is getting deflected,1,7,None of the Above
+47,and the production function gives you the relationship between input and output,2,10,Article Omission
+48,"first of all, right side we can see a plate",16,11,Prepositional Phrase Fronting With Reduction
+49,Tirupati temple I stayed one or two days,2,1,Article Omission
+50,"actually, this part I have not been",0,1,Preposition Omission
+51,he do a lot of things,10,19,Lack Of Agreement
+52,"first of all, we can see a plate the right side",0,1,Preposition Omission
+53,we can only see the blue sky,1,10,None of the Above
+54,some people are very nice,1,1,None of the Above
+55,and the production function is giving you the relationship between input and output,13,2,Stative Progressive
+56,she gets nightmares,1,5,None of the Above
+57,in our old age we can go and enjoy it,1,13,None of the Above
+58,I think Nina must know her sister,1,1,None of the Above
+59,I think she is a teacher.,1,21,None of the Above
+60,my bother said that one of his favorite places is the beach nearby,1,0,None of the Above
+61,My daughter she is attending the University of Delhi.,6,6,Left Dislocation
+62,a recipe is simple thing,2,1,Article Omission
+63,They have pressure from their in-laws.,1,20,None of the Above
+64,two years I stayed alone,16,2,Prepositional Phrase Fronting With Reduction
+65,all the music is very good,1,1,None of the Above
+66,daytime I work for the courier service,11,1,Topicalized Non-argument Constituent
+67,"yeah, so my parent’s house I go very often",16,2,Prepositional Phrase Fronting With Reduction
+68,union person contacted his representative at the school,2,6,Article Omission
+69,I don’t know now what they are doing,1,16,None of the Above
+70,they are getting H1B visas to come to the country,17,1,Habitual Progressive
+71,what you are doing?,18,1,Lack Of Inversion In Wh-questions
+72,because there is no individuality in India,1,6,None of the Above
+73,Whereas we had lot of time and we didn’t have any TV and all and we used to play outdoor games.,4,11,"General Extender ""and all"""
+74,I’m working very near my house,1,1,None of the Above
+75,they tease the new children when they join,1,1,None of the Above
+76,I love to go shopping with your mother,1,1,None of the Above
+77,I think you should start going to the gym from now.,1,17,None of the Above
+78,you can say anything but tenth I’m leaving,16,19,Prepositional Phrase Fronting With Reduction
+79,"the children are playing outside, no?",12,1,"Invariant Tag ""isn’t it, no, na"""
+80,I’m going to find my bag which I left in the room.,1,1,None of the Above
+81,Because educated people get a good money.,19,11,Extraneous Article
+82,she doesn’t like,15,1,Direct Object Pronoun Drop
+83,Whereas we had lot of time and we didn’t have any TV and we used to play outdoor games.,1,1,None of the Above
+84,it was first day of term,2,1,Article Omission
+85,I did one refresher course in the month of June itself.,20,1,Focus Itself
+86,"My parents and siblings, they really enjoy playing board games.",6,6,Left Dislocation
+87,"The book that I left here, where is it?",1,1,None of the Above
+88,"A person living in Calcutta, who didn’t know Hindi earlier, when he comes to Delhi he has to learn English.",1,1,None of the Above
+89,in fifteen years we have seen a lot of changes,1,22,None of the Above
+90,he likes here more,15,1,Direct Object Pronoun Drop
+91,"he liked it, na, even though you said he wouldn’t",12,1,"Invariant Tag ""isn’t it, no, na"""
+92,the school principal called me to ask when are you going back,21,10,Inversion In Embedded Clause
+93,for two years I stayed alone,1,22,None of the Above
+94,he has a television,1,4,None of the Above
+95,"the children are playing outside, na?",12,1,"Invariant Tag ""isn’t it, no, na"""
+96,I went one year there.,0,1,Preposition Omission
+97,and all the company people are my clients,1,1,None of the Above
+98,"yeah, so to my parent’s house I go very often",11,11,Topicalized Non-argument Constituent
+99,the store is around the corner by the post office,1,1,None of the Above
+100,they are teasing the new children when they join,17,1,Habitual Progressive
+101,all the musics are very good,9,1,Mass Nouns As Count Nouns
+102,"first of all, right side we can see a plate",2,1,Article Omission
+103,He is doing Engineering in Delhi.,1,2,None of the Above
+104,she doesn’t like it,1,1,None of the Above
+105,So if you’re not good at communication you may get filtered at the first level itself,20,10,Focus Itself
+106,Chandigarh was full of the employed people.,19,3,Extraneous Article
+107,you cannot ask them why are they not coming for clinic visits,21,1,Inversion In Embedded Clause
+108,"the camera, the dog is facing towards it",6,10,Left Dislocation
+109,"The cake, I like it very much.",7,6,Resumptive Object Pronoun
+110,every year there is inflation,1,8,None of the Above
+111,"the store is around the corner, na, by the post office",12,1,"Invariant Tag ""isn’t it, no, na"""
+112,So I did my schooling and all from there.,4,12,"General Extender ""and all"""
+113,I’m going to find my bag which I left it in the room.,7,1,Resumptive Object Pronoun
+114,You get on the train and buy the ticket there too,1,6,None of the Above
+115,"We are like we are in touch, but not before when we was in school.",1,14,None of the Above
+116,where you will get anything?,18,15,Lack Of Inversion In Wh-questions
+117,"actually, I have not been to this part",1,17,None of the Above
+118,open a shop wherever there is foot traffic,1,1,None of the Above
+119,everyone gets that vaccination in childhood,1,17,None of the Above
+120,he talks to them,1,2,None of the Above
+121,"The cake, I like it very much.",6,1,Left Dislocation
+122,Tirupati temple I stayed one or two days,16,13,Prepositional Phrase Fronting With Reduction
+123,and the production function is giving you the relationship between input and output,2,21,Article Omission
+124,"Sorry I can’t come, everything busy in our life.",22,1,Copula Omission
+125,So I did my schooling from there.,1,1,None of the Above
+126,"My parents and siblings, they really enjoy playing board games.",1,1,None of the Above
+127,he didn’t give it to me,1,12,None of the Above
+128,My daughter she is attending the University of Delhi.,8,1,Resumptive Subject Pronoun
+129,But I did have some difficulty getting to know people among Indians themselves,1,1,None of the Above
+130,"first of all, we can see a plate on the right side",1,1,None of the Above
+131,They have a pressure from their in-laws.,19,22,Extraneous Article
+132,i have to make not so much adjustment,1,20,None of the Above
+133,ten years ago you didn’t operated a machine that could lift a house all by itself,10,1,Lack Of Agreement
+134,we have two tailors who can make clothes for us,1,1,None of the Above
+135,recipe is simple thing,2,1,Article Omission
+136,I think you should start going to the gym from now itself.,20,1,Focus Itself
+137,"yeah, so I go very often to my parent’s house",1,2,None of the Above
+138,I think she a teacher.,22,1,Copula Omission
+139,"if anybody gives a donation, we give a receipt",1,1,None of the Above
+140,Here the life is busy.,19,9,Extraneous Article
+141,"and that roommate, he will do an interview",8,1,Resumptive Subject Pronoun
+142,We don’t feel that we should go to any other country.,1,14,None of the Above
+143,some informations are available free,9,1,Mass Nouns As Count Nouns
+144,she is getting nightmares,17,1,Habitual Progressive
+145,it was the first day of term,1,5,None of the Above
+146,those who come here should definitely learn English,1,7,None of the Above
+147,some information is available free,1,1,None of the Above
+148,So marketing keeps its communication with the different embassies.,1,1,None of the Above
+149,you can say anything but on the tenth I’m leaving,1,7,None of the Above
+150,They all aggressive states.,22,1,Copula Omission
+151,he does a lot of things,1,1,None of the Above
+152,Some teachers when I was in school I liked very much.,1,3,None of the Above
+153,everyone is getting that vaccination in childhood,17,19,Habitual Progressive
+154,Those days it was considered a good job.,0,20,Preposition Omission
+155,daytime I work for the courier service,16,18,Prepositional Phrase Fronting With Reduction
+156,But now all kids they have a computer and all new technology.,6,2,Left Dislocation
+157,"he liked it, no, even though you said he wouldn’t",12,21,"Invariant Tag ""isn’t it, no, na"""
+158,So if you’re not good at communication you may get filtered at even the first level,1,1,None of the Above
+159,why you are driving like a lorry?,18,1,Lack Of Inversion In Wh-questions
+160,he was wondering why did the police stop him,21,16,Inversion In Embedded Clause
+161,why are you driving like a lorry?,1,11,None of the Above
+162,only his shoes is visible,10,1,Lack Of Agreement
+163,there is corruption obviously,1,6,None of the Above
+164,"and all the company people, they are my clients",6,6,Left Dislocation
+165,many years I did not travel,16,12,Prepositional Phrase Fronting With Reduction
+166,why you are telling this to everybody?,18,4,Lack Of Inversion In Wh-questions
+167,I’m working very nearby to my house only,5,0,Focus Only
+168,My old life I want to spend it in India.,7,1,Resumptive Object Pronoun
+169,many years I did not travel,11,1,Topicalized Non-argument Constituent
+170,"We are like we are in touch, but not before when we was in school and all.",4,1,"General Extender ""and all"""
+171,"he liked it, right, even though you said he wouldn’t",1,15,None of the Above
+172,I can see some green colour leaves the left side,0,8,Preposition Omission
+173,"first of all, on the right side we can see a plate",1,2,None of the Above
+174,So marketing keeps its communication with the different embassies and all.,4,14,"General Extender ""and all"""
+175,you have to wait a minimum of one month,1,11,None of the Above
+176,in our old age we can go and enjoy,15,1,Direct Object Pronoun Drop
+177,But I did have some difficulty getting to know people among Indians itself,20,6,Focus Itself
+178,my bother said that one of his favorite place is the beach nearby,10,6,Lack Of Agreement
+179,the dog is facing towards the camera,1,1,None of the Above
+180,So my parents from Gujarat.,22,21,Copula Omission
+181,recently only in April there was a big fight,5,8,Focus Only
+182,"yeah, so my parent’s house I go very often",11,0,Topicalized Non-argument Constituent
+183,"It’s come from me, hasn’t it?",1,3,None of the Above
+184,In those days it was considered a good job.,1,1,None of the Above
+185,But now all kids they have a computer and all new technology.,8,17,Resumptive Subject Pronoun
+186,you can use Hindi Gujarati and Marathi in Bombay,1,18,None of the Above
+187,So my parents are from Gujarat.,1,12,None of the Above
+188,Hindi Gujarati and Marathi you can use in Bombay,14,19,Object Fronting
+189,and that roommate will do an interview,1,7,None of the Above
+190,"the children are playing outside, isn’t it?",12,1,"Invariant Tag ""isn’t it, no, na"""
+191,nowadays all the children are mature from a very early age,1,1,None of the Above
+192,"I was very scared to, no?",12,1,"Invariant Tag ""isn’t it, no, na"""
+193,and there are a lot of buildings in the background,1,6,None of the Above
+194,I stayed one or two days at the Tirupati temple,1,2,None of the Above
+195,we have two tailors who can make them for us,1,1,None of the Above
+196,Whereas we had lot of time and we didn’t have any TV and all that stuff and we used to play outdoor games.,1,4,None of the Above
+197,"The book that I left it here, where is it?",7,1,Resumptive Object Pronoun
+198,I did not travel for many years,1,5,None of the Above
+199,I did one refresher course in the month of June.,1,1,None of the Above
+200,I think Nina must be knowing her sister,13,2,Stative Progressive
+201,the person I like the most is from the mechanical department,1,13,None of the Above
+202,I work for the courier service in the daytime,1,17,None of the Above
+203,a recipe is a simple thing,1,1,None of the Above
+204,Now they are wearing American type of dresses.,1,1,None of the Above
+205,this is a menial work,9,1,Mass Nouns As Count Nouns
+206,I can see some green colour leaves on the left side,1,12,None of the Above
+207,"the store is around the corner, no, by the post office",12,1,"Invariant Tag ""isn’t it, no, na"""
+208,we have two tailors who can make for us,15,1,Direct Object Pronoun Drop
+209,My daughter is attending the University of Delhi.,1,15,None of the Above
+210,not so much adjustment i have to make,14,1,Object Fronting
+211,you can say anything but tenth I’m leaving,0,2,Preposition Omission
+212,They are all aggressive states.,1,20,None of the Above
+213,"actually, this part I have not been",16,16,Prepositional Phrase Fronting With Reduction
+214,he likes it here more,1,1,None of the Above
+215,Now they wearing American type of dresses.,22,1,Copula Omission
+216,with your mother I love to go shopping,11,14,Topicalized Non-argument Constituent
+217,and the production function gives you the relationship between input and output,1,16,None of the Above
+218,person I like the most is from the mechanical department,2,1,Article Omission
+219,"Sorry I can’t come, everything is busy in our life.",1,1,None of the Above
+220,"first of all, right side we can see a plate",0,1,Preposition Omission
+221,But now all kids have a computer and all new technology.,1,1,None of the Above
+222,how is your mother feeling?,1,16,None of the Above
+223,Tirupati temple I stayed one or two days,0,2,Preposition Omission
+224,some people they are very nice,6,1,Left Dislocation
+225,we can only see blue sky,2,9,Article Omission
+226,"It’s come from me, na?",12,1,"Invariant Tag ""isn’t it, no, na"""
+227,there is some flower part,1,1,None of the Above
+228,this is menial work,1,11,None of the Above
+229,Because educated people get good money.,1,0,None of the Above
+230,"I was very scared to, na?",12,0,"Invariant Tag ""isn’t it, no, na"""
+231,what are you doing?,1,4,None of the Above
+232,ten years ago you didn’t operate a machine that could lift a house all by itself,1,1,None of the Above
+233,"We are like we are in touch, but not before when we was in school.",10,1,Lack Of Agreement
+234,you cannot ask them why they are not coming for clinic visits,1,1,None of the Above
+235,he was wondering why the police stopped him,1,5,None of the Above
+236,the union person contacted his representative at the school,1,9,None of the Above
+237,"my father, he works for a mining company",6,2,Left Dislocation
+238,five balls are there,3,12,"Non-initial Existential ""is / are there"""
+239,where will you get anything?,1,1,None of the Above
+240,we want to know how can we make your favorite dish,21,1,Inversion In Embedded Clause
+241,only his shoes are visible,1,14,None of the Above
+242,He is doing Engineering in Delhi itself.,20,1,Focus Itself
+243,recipe is a simple thing,2,1,Article Omission
+244,how your mother is feeling?,18,10,Lack Of Inversion In Wh-questions
+245,tomorrow this cake you have to try,14,15,Object Fronting
+246,the person I like the most is from mechanical department,2,1,Article Omission
+247,they get H1B visas to come to the country,1,18,None of the Above
+248,"and that roommate, he will do an interview",6,1,Left Dislocation
+249,Some teachers when I was in school I liked them very much.,6,13,Left Dislocation
+250,"I was very scared to, wasn’t I?",1,1,None of the Above
+251,because in India individuality is not there,3,0,"Non-initial Existential ""is / are there"""
+252,they speak Portuguese in Brazil,1,1,None of the Above
+253,I was there just yesterday,1,3,None of the Above
+254,some people they are very nice,8,0,Resumptive Subject Pronoun
+255,I went there for one year.,1,18,None of the Above
+256,I don’t know now what are they doing,21,12,Inversion In Embedded Clause
+257,minimum one month you have to wait,14,3,Object Fronting
+258,She was brought up there and her college was there only,5,4,Focus Only
+259,the school principal called me to ask when you are going back,1,0,None of the Above
+260,She has a business experience.,19,19,Extraneous Article
+261,i don’t have to make so much adjustment,1,10,None of the Above
+262,corruption is there obviously,3,0,"Non-initial Existential ""is / are there"""
+263,"anybody giving donation, we are giving receipt",17,1,Habitual Progressive
+264,my father works for a mining company,1,1,None of the Above
+265,"the children are playing outside, aren’t they?",1,8,None of the Above

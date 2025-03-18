@@ -1,4 +1,4 @@
 resources
 datasets/raw
-**/data.csv
-**/process.ipynb
+**/.DS_Store
+**/__pycache__
