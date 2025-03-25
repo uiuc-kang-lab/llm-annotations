@@ -8,13 +8,13 @@ def load_data(dataset: str, label_column: str = "gold_label") -> Tuple[pd.DataFr
     elif dataset == "helmet":
         data = pd.read_csv("../llm-annotations/datasets/helmet/helmet.csv")
     elif dataset == "implicit_hate":
-        data = pd.read_csv("../llm-annotations/dataset/implicit_hate/implicit_hate.csv")
+        data = pd.read_csv("../llm-annotations/datasets/implicit_hate/implicit_hate.csv")
     elif dataset == "persuasion":
-        data = pd.read_csv("../llm-annotations/dataset/persuasion/persuasion.csv")
+        data = pd.read_csv("../llm-annotations/datasets/persuasion/persuasion.csv")
     elif dataset == "mrpc":
-        data = pd.read_csv("../llm-annotations/dataset/coannotating/MRPC.csv")
+        data = pd.read_csv("../llm-annotations/datasets/coannotating/MRPC.csv")
     elif dataset == "med-safe":
-        data = pd.read_csv("../llm-annotations/dataset/judge-bench/judge_bench.csv")
+        data = pd.read_csv("../llm-annotations/datasets/judge-bench/judge_bench.csv")
     else:
         raise NotImplementedError(f"Dataset '{dataset}' not implemented")
     
