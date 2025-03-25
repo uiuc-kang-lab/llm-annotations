@@ -1,4 +1,4 @@
-Index,gold_label,gpt_label,Confidence,Normalized Confidence
+Index,gold_label,gpt_label,Confidence,confidence_normalized
 28,incitement,incitement,0.75,0.0001500438127933
 29,white_grievance,stereotypical,0.75,0.0001500438127933
 30,white_grievance,stereotypical,0.75,0.0001500438127933
