@@ -1,42 +1,40 @@
 import pandas as pd
 
-def compute_statistics(data: pd.DataFrame, dataset: str):
+def compute_statistics(data: pd.DataFrame, dataset: str, label_column: str = "gpt_label"):
     if dataset == "global_warming":
-        # Proportion of samples with affirming devices
-        n_affirming = len(data[data["contains_affirming_device"] == True])
-        ground_truth = n_affirming / len(data)
-        return ground_truth
+        n_data_affirming = len(data[data["contains_affirming_device"] == True])
+        n_data_not_affirming = len(data[data["contains_affirming_device"] == False])
+        n_data_agree_affirming = len(data[(data[label_column] == 1) & (data["contains_affirming_device"] == True)])
+        n_data_agree_not_affirming = len(data[(data[label_column] == 1) & (data["contains_affirming_device"] == False)])
+        odds = ((n_data_agree_affirming / n_data_affirming) / (1 - n_data_agree_affirming / n_data_affirming)) / \
+               ((n_data_agree_not_affirming / n_data_not_affirming) / (1 - n_data_agree_not_affirming / n_data_not_affirming))
+        return odds
 
     if dataset == "helmet":
-        # Proportion of positive labels in the gold standard
-        n_positive = len(data[data["gold_label"] == 1])
-        ground_truth = n_positive / len(data)
-        return ground_truth
+        n_positive = len(data[data[label_column] == 1])
+        percentage = n_positive / len(data)
+        return percentage
 
     if dataset == "implicit_hate":
-        # Proportion of samples labeled as "white_grievance" in the gold standard
-        n_white_grievance = len(data[data["gold_label"] == "white_grievance"])
-        ground_truth = n_white_grievance / len(data)
-        return ground_truth
+        n_white_grievance = len(data[data[label_column] == "white_grievance"])
+        percentage = n_white_grievance / len(data)
+        return percentage
 
     if dataset == "persuasion":
-        # Proportion of samples labeled as "True" in the gold standard
-        n_positive = len(data[data["gold_label"] == "True"])
-        ground_truth = n_positive / len(data)
-        return ground_truth
+        n_positive = len(data[data[label_column] == "True"])
+        percentage = n_positive / len(data)
+        return percentage
 
     if dataset == "mrpc":
-        # Accuracy of human-labeled baseline (if available)
-        correct_predictions = (data["gold_label"] == data["gold_label"]).sum()
+        correct_predictions = (data[label_column] == data["gold_label"]).sum()
         total_samples = len(data)
-        ground_truth = correct_predictions / total_samples
-        return ground_truth
+        accuracy = correct_predictions / total_samples
+        return accuracy
 
     if dataset == "med-safe":
-        # Proportion of samples labeled as "Serious" in the gold standard
-        n_serious = len(data[data["gold_label"] == "Serious"])
-        ground_truth = n_serious / len(data)
-        return ground_truth
+        n_serious = len(data[data[label_column] == "Serious"])
+        percentage = n_serious / len(data)
+        return percentage
 
     else:
         raise NotImplementedError(f"Dataset '{dataset}' not implemented")

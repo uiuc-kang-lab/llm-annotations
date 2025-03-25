@@ -4,7 +4,6 @@ from statistic import compute_statistics
 
 def run_llm_only(dataset: str):
     data, groundtruth = load_data(dataset)
-    data["label"] = data["gpt_label"]
     estimate = compute_statistics(data, dataset)
     relative_error = abs(estimate - groundtruth) / groundtruth
     return relative_error, len(data), 0

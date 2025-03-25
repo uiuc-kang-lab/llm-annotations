@@ -1,27 +1,23 @@
 import pandas as pd
 from typing import Tuple
-from statistic import compute_ground_truth
+from statistic import compute_statistics
 
-def load_data(dataset: str) -> Tuple[pd.DataFrame, float]:
+def load_data(dataset: str, label_column: str = "gold_label") -> Tuple[pd.DataFrame, float]:
     if dataset == "global_warming":
-        data = pd.read_csv("../datasets/global_warming/data.csv")
-        groundtruth = compute_ground_truth(data, dataset)
+        data = pd.read_csv("../llm-annotations/datasets/global_warming/global_warming.csv")
     elif dataset == "helmet":
-        data = pd.read_csv("../datasets/helmet/data.csv")
-        groundtruth = compute_ground_truth(data, dataset)
+        data = pd.read_csv("../llm-annotations/datasets/helmet/helmet.csv")
     elif dataset == "implicit_hate":
-        data = pd.read_csv("../dataset/implicit_hate/formatted_data_gpt_results.csv")
-        groundtruth = compute_ground_truth(data, dataset)
+        data = pd.read_csv("../llm-annotations/dataset/implicit_hate/implicit_hate.csv")
     elif dataset == "persuasion":
-        data = pd.read_csv("/Users/zacharylee/TestTest/llm-annotations/dataset/persuasion/data.csv")
-        groundtruth = compute_ground_truth(data, dataset)
+        data = pd.read_csv("../llm-annotations/dataset/persuasion/persuasion.csv")
     elif dataset == "mrpc":
-        data = pd.read_csv("/Users/zacharylee/TestTest/llm-annotations/coannotating_datasets/MRPC.csv")
-        groundtruth = compute_ground_truth(data, dataset)
+        data = pd.read_csv("../llm-annotations/dataset/coannotating/MRPC.csv")
     elif dataset == "med-safe":
-        data = pd.read_csv("judge-bench/full_medical_safety_data.csv")
-        groundtruth = compute_ground_truth(data, dataset)
+        data = pd.read_csv("../llm-annotations/dataset/judge-bench/judge_bench.csv")
     else:
         raise NotImplementedError(f"Dataset '{dataset}' not implemented")
     
-    return data, groundtruth
+    # Compute the statistic using the specified label column
+    statistic = compute_statistics(data, dataset, label_column=label_column)
+    return data, statistic
