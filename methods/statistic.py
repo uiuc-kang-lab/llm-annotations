@@ -10,10 +10,6 @@ def compute_statistics(data: pd.DataFrame, dataset: str):
         odds = ((n_data_agree_affirming / n_data_affirming) / (1 - n_data_agree_affirming / n_data_affirming)) / \
                ((n_data_agree_not_affirming / n_data_not_affirming) / (1 - n_data_agree_not_affirming / n_data_not_affirming))
         return odds
-    if dataset == "indian_dialect":
-        n_positive = len(data[data["label"] == 3])
-        percentage = n_positive / len(data)
-        return percentage
     if dataset == "helmet":
         n_positive = len(data[data["label"] == 1])
         percentage = n_positive / len(data)
@@ -22,13 +18,18 @@ def compute_statistics(data: pd.DataFrame, dataset: str):
         n_white_grievance = len(data[data["label"] == "white_grievance"])
         percentage = n_white_grievance / len(data)
         return percentage
-    if dataset == "mathematical_capabilities":
-        n_positive = len(data[data["gpt_label"] == "success"])
-        percentage = n_positive / len(data)
-        return percentage
     if dataset == "persuasion":
         n_positive = len(data[data["label"] == "True"])
         percentage = n_positive / len(data)
+        return percentage
+    if dataset == "mrpc":
+        correct_predictions = len(data["gold_label"] == data["gpt_label"])
+        total_samples = len(data)
+        accuracy = correct_predictions / total_samples
+        return accuracy
+    if dataset == "med-safe":
+        n_serious = len(data[data["Query Risk Level (GPT-4o)"] == "Serious"])
+        percentage = n_serious / len(data)
         return percentage
     else:
         raise NotImplementedError("Dataset not implemented")

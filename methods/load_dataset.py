@@ -8,10 +8,6 @@ def load_data(dataset: str) -> Tuple[pd.DataFrame, float]:
         data["label"] = data["gold_label"]
         groundtruth = compute_statistics(data, dataset)
         data.drop(columns=["label"], inplace=True)
-    elif dataset == "indian_dialect":
-        data = pd.read_csv("../datasets/indian_dialect/data.csv")
-        data["label"] = data["gold_label"]
-        groundtruth = compute_statistics(data, dataset)
         data.drop(columns=["label"], inplace=True)
     elif dataset == "helmet":
         data = pd.read_csv("../datasets/helmet/data.csv")
@@ -23,16 +19,17 @@ def load_data(dataset: str) -> Tuple[pd.DataFrame, float]:
         data["label"] = data["gold_label"]
         groundtruth = compute_statistics(data, dataset)
         data.drop(columns=["label"], inplace=True)
-    elif dataset == "mathematical_capabilities":
-        data = pd.read_csv("/Users/zacharylee/TestTest/llm-annotations/dataset/mathematical_capabilities/data.csv")
-        data["label"] = data["gold_label"]
-        groundtruth = compute_statistics(data, dataset)
-        data.drop(columns=["label"], inplace=True)
     elif dataset == "persuasion":
         data = pd.read_csv("/Users/zacharylee/TestTest/llm-annotations/dataset/persuasion/data.csv")
         data["label"] = data["gold_label"]
         groundtruth = compute_statistics(data, dataset)
-        data.drop(columns=["label"], inplace=True)        
+        data.drop(columns=["label"], inplace=True)
+    elif dataset == "mrpc":
+        data = pd.read_csv("/Users/zacharylee/TestTest/llm-annotations/coannotating_datasets/MRPC.csv")
+        groundtruth = compute_statistics(data, dataset)   
+    elif dataset == "med-safe":
+        data = pd.read_csv("judge-bench/full_medical_safety_data.csv")
+        groundtruth = compute_statistics(data, dataset)   
     else:
         raise NotImplementedError("Dataset not implemented")
     
