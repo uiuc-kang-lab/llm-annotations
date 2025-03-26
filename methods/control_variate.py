@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from load_dataset import load_data
+from statistic import compute_statistics
 import argparse
 
 
@@ -10,7 +11,8 @@ def control_variate_sampling(
     gold_label_col: str,
     gpt_label_col: str,
     sample_sizes: list,
-    repeat: int = 1000
+    repeat: int = 1000,
+    dataset_name: str = None  # Pass dataset_name to compute the correct statistic
 ) -> pd.DataFrame:
     """
     Perform control variate sampling using model confidence as a proxy variable.
@@ -22,13 +24,16 @@ def control_variate_sampling(
     - gpt_label_col: Column name for GPT predictions.
     - sample_sizes: List of sample sizes (human budgets).
     - repeat: Number of iterations for stability.
+    - dataset_name: Name of the dataset to handle dataset-specific logic.
 
     Returns:
     - DataFrame of relative errors per sample size.
     """
 
-    # Ground-truth statistic: full accuracy
-    true_accuracy = (df[gold_label_col] == df[gpt_label_col]).mean()
+    # Step 1: Compute the ground-truth statistic using compute_statistics
+    true_statistic = compute_statistics(df, dataset_name, label_column=gpt_label_col)
+
+    # Step 2: Compute the full proxy statistic (mean confidence)
     t_full = df[confidence_col].mean()
 
     results = {"Human Samples": [], "Relative Error": []}
@@ -37,31 +42,34 @@ def control_variate_sampling(
         errors = []
 
         for _ in range(repeat):
-            # Uniformly sample n_samples rows
+            # Step 3: Uniformly sample n_samples rows
             sampled = df.sample(n=n_samples, replace=True).copy()
 
-            # Correctness (1 if correct, 0 if incorrect)
-            correctness = (sampled[gold_label_col] == sampled[gpt_label_col]).astype(float)
+            # Step 4: Calculate the proxy statistic and the estimate
             t_hat = sampled[confidence_col].mean()
-            m_hat = correctness.mean()
+
+            # Dataset-specific logic for the estimate
+            estimate = compute_statistics(sampled, dataset_name, label_column=gpt_label_col)
+
+            # Step 5: Correctness (1 if correct, 0 if incorrect)
+            correctness = (sampled[gold_label_col] == sampled[gpt_label_col]).astype(float)
 
             # Control variate coefficient
             cov = np.cov(sampled[confidence_col], correctness, ddof=0)[0, 1]
             var_t = np.var(sampled[confidence_col], ddof=0)
-            c_hat = -cov / var_t if var_t > 1e-6 else 0  # regularized
+            c_hat = -cov / var_t if var_t > 1e-6 else 0  # Regularized to avoid division by zero
 
             # Adjusted estimate
-            adjusted = m_hat + c_hat * (t_hat - t_full)
+            adjusted = estimate + c_hat * (t_hat - t_full)
 
-            # Relative error
-            error = abs(adjusted - true_accuracy) / true_accuracy
+            # Step 6: Relative error
+            error = abs(adjusted - true_statistic) / true_statistic
             errors.append(error)
 
         results["Human Samples"].append(n_samples)
         results["Relative Error"].append(np.sqrt(np.mean(np.array(errors) ** 2)))  # RMSE
 
     return pd.DataFrame(results)
-
 
 def run_control_variate(dataset_name, step_size, max_human_budget, repeat):
     """
@@ -94,12 +102,12 @@ def run_control_variate(dataset_name, step_size, max_human_budget, repeat):
         gold_label_col=gold_label_col,
         gpt_label_col=gpt_label_col,
         sample_sizes=sample_sizes,
-        repeat=repeat
+        repeat=repeat,
+        dataset_name=dataset_name  # Pass dataset_name explicitly
     )
 
     # Print results
     print(results)
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run control variate sampling on a dataset")
