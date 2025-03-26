@@ -11,8 +11,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 37,incitement,stereotypical,0.75,0.0001500438127933
 38,incitement,incitement,0.85,0.0001700496544991
 39,white_grievance,stereotypical,0.75,0.0001500438127933
-40,incitement,white grievance,0.85,0.0001700496544991
-41,incitement,white grievance,0.85,0.0001700496544991
+40,incitement,white_grievance,0.85,0.0001700496544991
+41,incitement,white_grievance,0.85,0.0001700496544991
 42,incitement,stereotypical,0.75,0.0001500438127933
 43,incitement,incitement,0.85,0.0001700496544991
 44,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -34,7 +34,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 60,incitement,stereotypical,0.75,0.0001500438127933
 61,stereotypical,stereotypical,0.75,0.0001500438127933
 62,threatening,stereotypical,0.75,0.0001500438127933
-63,white_grievance,white grievance,0.85,0.0001700496544991
+63,white_grievance,white_grievance,0.85,0.0001700496544991
 64,white_grievance,stereotypical,0.75,0.0001500438127933
 65,incitement,stereotypical,0.75,0.0001500438127933
 66,incitement,incitement,0.85,0.0001700496544991
@@ -56,10 +56,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 82,stereotypical,stereotypical,0.75,0.0001500438127933
 83,stereotypical,incitement,0.75,0.0001500438127933
 84,stereotypical,inferiority,0.85,0.0001700496544991
-85,white_grievance,white grievance,0.85,0.0001700496544991
+85,white_grievance,white_grievance,0.85,0.0001700496544991
 86,white_grievance,stereotypical,0.75,0.0001500438127933
 87,incitement,incitement,0.85,0.0001700496544991
-88,incitement,white grievance,0.85,0.0001700496544991
+88,incitement,white_grievance,0.85,0.0001700496544991
 89,inferiority,stereotypical,0.75,0.0001500438127933
 90,white_grievance,inferiority,0.85,0.0001700496544991
 91,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -68,9 +68,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 94,white_grievance,incitement,0.85,0.0001700496544991
 95,stereotypical,stereotypical,0.75,0.0001500438127933
 96,stereotypical,inferiority,0.85,0.0001700496544991
-97,incitement,white grievance,0.85,0.0001700496544991
+97,incitement,white_grievance,0.85,0.0001700496544991
 98,inferiority,inferiority,0.85,0.0001700496544991
-99,white_grievance,white grievance,0.85,0.0001700496544991
+99,white_grievance,white_grievance,0.85,0.0001700496544991
 100,white_grievance,stereotypical,0.75,0.0001500438127933
 101,stereotypical,stereotypical,0.75,0.0001500438127933
 102,other,stereotypical,0.75,0.0001500438127933
@@ -92,14 +92,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 118,stereotypical,stereotypical,0.75,0.0001500438127933
 119,stereotypical,incitement,0.85,0.0001700496544991
 120,stereotypical,stereotypical,0.75,0.0001500438127933
-121,white_grievance,white grievance,0.85,0.0001700496544991
+121,white_grievance,white_grievance,0.85,0.0001700496544991
 122,stereotypical,inferiority,0.85,0.0001700496544991
 123,stereotypical,stereotypical,0.75,0.0001500438127933
-124,incitement,white grievance,0.85,0.0001700496544991
+124,incitement,white_grievance,0.85,0.0001700496544991
 125,white_grievance,stereotypical,0.75,0.0001500438127933
 126,white_grievance,incitement,0.85,0.0001700496544991
 127,incitement,stereotypical,0.75,0.0001500438127933
-128,incitement,white grievance,0.85,0.0001700496544991
+128,incitement,white_grievance,0.85,0.0001700496544991
 129,stereotypical,threatening,0.85,0.0001700496544991
 130,white_grievance,stereotypical,0.75,0.0001500438127933
 131,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -109,7 +109,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 135,stereotypical,stereotypical,0.75,0.0001500438127933
 136,irony,stereotypical,0.75,0.0001500438127933
 137,incitement,stereotypical,0.75,0.0001500438127933
-138,white_grievance,white grievance,0.85,0.0001700496544991
+138,white_grievance,white_grievance,0.85,0.0001700496544991
 139,white_grievance,threatening,0.85,0.0001700496544991
 140,white_grievance,stereotypical,0.75,0.0001500438127933
 141,incitement,stereotypical,0.75,0.0001500438127933
@@ -117,8 +117,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 143,white_grievance,stereotypical,0.75,0.0001500438127933
 144,incitement,stereotypical,0.75,0.0001500438127933
 145,incitement,stereotypical,0.75,0.0001500438127933
-146,white_grievance,white grievance,0.85,0.0001700496544991
-147,white_grievance,white grievance,0.85,0.0001700496544991
+146,white_grievance,white_grievance,0.85,0.0001700496544991
+147,white_grievance,white_grievance,0.85,0.0001700496544991
 148,stereotypical,stereotypical,0.75,0.0001500438127933
 149,stereotypical,stereotypical,0.75,0.0001500438127933
 150,incitement,inferiority,0.85,0.0001700496544991
@@ -126,23 +126,23 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 152,stereotypical,stereotypical,0.75,0.0001500438127933
 153,stereotypical,stereotypical,0.75,0.0001500438127933
 154,stereotypical,stereotypical,0.75,0.0001500438127933
-155,incitement,white grievance,0.85,0.0001700496544991
+155,incitement,white_grievance,0.85,0.0001700496544991
 156,incitement,incitement,0.85,0.0001700496544991
 157,white_grievance,stereotypical,0.75,0.0001500438127933
 158,white_grievance,stereotypical,0.75,0.0001500438127933
 159,inferiority,inferiority,0.85,0.0001700496544991
 160,incitement,stereotypical,0.75,0.0001500438127933
-161,incitement,white grievance,0.85,0.0001700496544991
+161,incitement,white_grievance,0.85,0.0001700496544991
 162,stereotypical,stereotypical,0.75,0.0001500438127933
 163,threatening,incitement,0.85,0.0001700496544991
-164,incitement,white grievance,0.85,0.0001700496544991
+164,incitement,white_grievance,0.85,0.0001700496544991
 165,stereotypical,incitement,0.85,0.0001700496544991
 166,white_grievance,stereotypical,0.75,0.0001500438127933
 167,white_grievance,stereotypical,0.75,0.0001500438127933
 168,white_grievance,stereotypical,0.75,0.0001500438127933
-169,incitement,white grievance,0.85,0.0001700496544991
+169,incitement,white_grievance,0.85,0.0001700496544991
 170,white_grievance,stereotypical,0.75,0.0001500438127933
-171,incitement,white grievance,0.85,0.0001700496544991
+171,incitement,white_grievance,0.85,0.0001700496544991
 172,incitement,stereotypical,0.75,0.0001500438127933
 173,incitement,stereotypical,0.75,0.0001500438127933
 174,incitement,incitement,0.85,0.0001700496544991
@@ -170,7 +170,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 196,incitement,incitement,0.85,0.0001700496544991
 197,white_grievance,stereotypical,0.75,0.0001500438127933
 198,white_grievance,threatening,0.85,0.0001700496544991
-199,white_grievance,white grievance,0.85,0.0001700496544991
+199,white_grievance,white_grievance,0.85,0.0001700496544991
 200,stereotypical,stereotypical,0.75,0.0001500438127933
 201,white_grievance,stereotypical,0.75,0.0001500438127933
 202,inferiority,stereotypical,0.75,0.0001500438127933
@@ -178,18 +178,18 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 204,white_grievance,stereotypical,0.75,0.0001500438127933
 205,white_grievance,stereotypical,0.75,0.0001500438127933
 206,white_grievance,stereotypical,0.75,0.0001500438127933
-207,white_grievance,white grievance,0.85,0.0001700496544991
+207,white_grievance,white_grievance,0.85,0.0001700496544991
 208,stereotypical,stereotypical,0.75,0.0001500438127933
 209,white_grievance,stereotypical,0.75,0.0001500438127933
-210,incitement,white grievance,0.85,0.0001700496544991
+210,incitement,white_grievance,0.85,0.0001700496544991
 211,stereotypical,stereotypical,0.75,0.0001500438127933
 212,stereotypical,stereotypical,0.75,0.0001500438127933
 213,white_grievance,threatening,0.85,0.0001700496544991
 214,white_grievance,incitement,0.85,0.0001700496544991
-215,incitement,white grievance,0.85,0.0001700496544991
+215,incitement,white_grievance,0.85,0.0001700496544991
 216,irony,stereotypical,0.75,0.0001500438127933
 217,stereotypical,stereotypical,0.75,0.0001500438127933
-218,white_grievance,white grievance,0.85,0.0001700496544991
+218,white_grievance,white_grievance,0.85,0.0001700496544991
 219,stereotypical,stereotypical,0.75,0.0001500438127933
 220,white_grievance,incitement,0.85,0.0001700496544991
 221,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -201,7 +201,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 227,stereotypical,stereotypical,0.75,0.0001500438127933
 228,incitement,stereotypical,0.75,0.0001500438127933
 229,incitement,incitement,0.85,0.0001700496544991
-230,white_grievance,white grievance,0.85,0.0001700496544991
+230,white_grievance,white_grievance,0.85,0.0001700496544991
 231,white_grievance,stereotypical,0.75,0.0001500438127933
 232,white_grievance,threatening,0.85,0.0001700496544991
 233,incitement,incitement,0.85,0.0001700496544991
@@ -209,7 +209,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 235,stereotypical,stereotypical,0.75,0.0001500438127933
 236,white_grievance,stereotypical,0.75,0.0001500438127933
 237,irony,stereotypical,0.75,0.0001500438127933
-238,inferiority,white grievance,0.85,0.0001700496544991
+238,inferiority,white_grievance,0.85,0.0001700496544991
 239,white_grievance,stereotypical,0.75,0.0001500438127933
 240,white_grievance,stereotypical,0.75,0.0001500438127933
 241,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -221,15 +221,15 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 247,stereotypical,stereotypical,0.75,0.0001500438127933
 248,incitement,stereotypical,0.75,0.0001500438127933
 249,stereotypical,stereotypical,0.75,0.0001500438127933
-250,white_grievance,white grievance,0.85,0.0001700496544991
+250,white_grievance,white_grievance,0.85,0.0001700496544991
 251,incitement,stereotypical,0.75,0.0001500438127933
 252,incitement,incitement,0.85,0.0001700496544991
 253,stereotypical,stereotypical,0.75,0.0001500438127933
 254,incitement,stereotypical,0.75,0.0001500438127933
-255,white_grievance,white grievance,0.85,0.0001700496544991
+255,white_grievance,white_grievance,0.85,0.0001700496544991
 256,inferiority,incitement,0.85,0.0001700496544991
 257,incitement,stereotypical,0.75,0.0001500438127933
-258,inferiority,white grievance,0.85,0.0001700496544991
+258,inferiority,white_grievance,0.85,0.0001700496544991
 259,white_grievance,stereotypical,0.75,0.0001500438127933
 260,stereotypical,stereotypical,0.75,0.0001500438127933
 261,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -240,7 +240,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 266,incitement,stereotypical,0.75,0.0001500438127933
 267,incitement,stereotypical,0.75,0.0001500438127933
 268,white_grievance,stereotypical,0.75,0.0001500438127933
-269,white_grievance,white grievance,0.85,0.0001700496544991
+269,white_grievance,white_grievance,0.85,0.0001700496544991
 270,incitement,stereotypical,0.75,0.0001500438127933
 271,incitement,stereotypical,0.75,0.0001500438127933
 272,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -276,20 +276,20 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 302,white_grievance,stereotypical,0.75,0.0001500438127933
 303,white_grievance,stereotypical,0.75,0.0001500438127933
 304,stereotypical,stereotypical,0.75,0.0001500438127933
-305,white_grievance,white grievance,0.85,0.0001700496544991
+305,white_grievance,white_grievance,0.85,0.0001700496544991
 306,irony,stereotypical,0.75,0.0001500438127933
 307,white_grievance,stereotypical,0.75,0.0001500438127933
 308,stereotypical,stereotypical,0.75,0.0001500438127933
 309,white_grievance,stereotypical,0.75,0.0001500438127933
 310,white_grievance,stereotypical,0.75,0.0001500438127933
-311,white_grievance,white grievance,0.85,0.0001700496544991
+311,white_grievance,white_grievance,0.85,0.0001700496544991
 312,stereotypical,stereotypical,0.75,0.0001500438127933
 313,stereotypical,stereotypical,0.75,0.0001500438127933
 314,white_grievance,stereotypical,0.75,0.0001500438127933
-315,white_grievance,white grievance,0.85,0.0001700496544991
+315,white_grievance,white_grievance,0.85,0.0001700496544991
 316,inferiority,stereotypical,0.75,0.0001500438127933
 317,incitement,stereotypical,0.75,0.0001500438127933
-318,white_grievance,white grievance,0.85,0.0001700496544991
+318,white_grievance,white_grievance,0.85,0.0001700496544991
 319,incitement,stereotypical,0.75,0.0001500438127933
 320,stereotypical,stereotypical,0.75,0.0001500438127933
 321,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -301,7 +301,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 327,stereotypical,stereotypical,0.75,0.0001500438127933
 328,stereotypical,stereotypical,0.75,0.0001500438127933
 329,white_grievance,threatening,0.85,0.0001700496544991
-330,incitement,white grievance,0.85,0.0001700496544991
+330,incitement,white_grievance,0.85,0.0001700496544991
 331,inferiority,inferiority,0.85,0.0001700496544991
 332,white_grievance,stereotypical,0.75,0.0001500438127933
 333,incitement,incitement,0.85,0.0001700496544991
@@ -322,7 +322,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 348,inferiority,stereotypical,0.75,0.0001500438127933
 349,incitement,stereotypical,0.75,0.0001500438127933
 350,white_grievance,stereotypical,0.75,0.0001500438127933
-351,white_grievance,white grievance,0.85,0.0001700496544991
+351,white_grievance,white_grievance,0.85,0.0001700496544991
 352,white_grievance,stereotypical,0.75,0.0001500438127933
 353,incitement,incitement,0.85,0.0001700496544991
 354,white_grievance,inferiority,0.85,0.0001700496544991
@@ -333,13 +333,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 359,white_grievance,threatening,0.85,0.0001700496544991
 360,stereotypical,stereotypical,0.75,0.0001500438127933
 361,white_grievance,stereotypical,0.75,0.0001500438127933
-362,incitement,white grievance,0.85,0.0001700496544991
+362,incitement,white_grievance,0.85,0.0001700496544991
 363,stereotypical,stereotypical,0.75,0.0001500438127933
 364,incitement,stereotypical,0.75,0.0001500438127933
 365,incitement,stereotypical,0.75,0.0001500438127933
 366,stereotypical,stereotypical,0.75,0.0001500438127933
 367,stereotypical,threatening,0.85,0.0001700496544991
-368,white_grievance,white grievance,0.85,0.0001700496544991
+368,white_grievance,white_grievance,0.85,0.0001700496544991
 369,white_grievance,stereotypical,0.75,0.0001500438127933
 370,white_grievance,stereotypical,0.75,0.0001500438127933
 371,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -350,7 +350,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 376,incitement,stereotypical,0.75,0.0001500438127933
 377,incitement,stereotypical,0.75,0.0001500438127933
 378,incitement,stereotypical,0.75,0.0001500438127933
-379,incitement,white grievance,0.85,0.0001700496544991
+379,incitement,white_grievance,0.85,0.0001700496544991
 380,white_grievance,stereotypical,0.75,0.0001500438127933
 381,threatening,threatening,0.85,0.0001700496544991
 382,incitement,stereotypical,0.75,0.0001500438127933
@@ -365,12 +365,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 391,white_grievance,stereotypical,0.75,0.0001500438127933
 392,incitement,incitement,0.85,0.0001700496544991
 393,threatening,stereotypical,0.75,0.0001500438127933
-394,white_grievance,white grievance,0.85,0.0001700496544991
+394,white_grievance,white_grievance,0.85,0.0001700496544991
 395,incitement,stereotypical,0.75,0.0001500438127933
 396,stereotypical,stereotypical,0.75,0.0001500438127933
-397,incitement,white grievance,0.85,0.0001700496544991
+397,incitement,white_grievance,0.85,0.0001700496544991
 398,incitement,stereotypical,0.75,0.0001500438127933
-399,other,white grievance,0.85,0.0001700496544991
+399,other,white_grievance,0.85,0.0001700496544991
 400,white_grievance,threatening,0.85,0.0001700496544991
 401,white_grievance,stereotypical,0.75,0.0001500438127933
 402,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -389,16 +389,16 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 415,incitement,stereotypical,0.75,0.0001500438127933
 416,incitement,stereotypical,0.75,0.0001500438127933
 417,stereotypical,stereotypical,0.75,0.0001500438127933
-418,incitement,white grievance,0.85,0.0001700496544991
+418,incitement,white_grievance,0.85,0.0001700496544991
 419,stereotypical,stereotypical,0.75,0.0001500438127933
 420,incitement,incitement,0.85,0.0001700496544991
 421,inferiority,inferiority,0.85,0.0001700496544991
-422,white_grievance,white grievance,0.85,0.0001700496544991
+422,white_grievance,white_grievance,0.85,0.0001700496544991
 423,stereotypical,stereotypical,0.75,0.0001500438127933
 424,white_grievance,threatening,0.85,0.0001700496544991
 425,incitement,stereotypical,0.75,0.0001500438127933
 426,irony,stereotypical,0.75,0.0001500438127933
-427,inferiority,white grievance,0.85,0.0001700496544991
+427,inferiority,white_grievance,0.85,0.0001700496544991
 428,incitement,incitement,0.85,0.0001700496544991
 429,stereotypical,inferiority,0.85,0.0001700496544991
 430,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -415,7 +415,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 441,incitement,stereotypical,0.75,0.0001500438127933
 442,stereotypical,incitement,0.85,0.0001700496544991
 443,white_grievance,incitement,0.85,0.0001700496544991
-444,incitement,white grievance,0.85,0.0001700496544991
+444,incitement,white_grievance,0.85,0.0001700496544991
 445,stereotypical,threatening,0.85,0.0001700496544991
 446,stereotypical,stereotypical,0.75,0.0001500438127933
 447,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -425,7 +425,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 451,incitement,stereotypical,0.75,0.0001500438127933
 452,incitement,stereotypical,0.75,0.0001500438127933
 453,stereotypical,stereotypical,0.75,0.0001500438127933
-454,incitement,white grievance,0.85,0.0001700496544991
+454,incitement,white_grievance,0.85,0.0001700496544991
 455,white_grievance,stereotypical,0.75,0.0001500438127933
 456,threatening,incitement,0.85,0.0001700496544991
 457,irony,stereotypical,0.75,0.0001500438127933
@@ -433,7 +433,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 459,incitement,incitement,0.75,0.0001500438127933
 460,incitement,threatening,0.85,0.0001700496544991
 461,incitement,incitement,0.85,0.0001700496544991
-462,white_grievance,white grievance,0.85,0.0001700496544991
+462,white_grievance,white_grievance,0.85,0.0001700496544991
 463,stereotypical,incitement,0.85,0.0001700496544991
 464,incitement,stereotypical,0.75,0.0001500438127933
 465,incitement,inferiority,0.85,0.0001700496544991
@@ -441,24 +441,24 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 467,stereotypical,stereotypical,0.75,0.0001500438127933
 468,threatening,threatening,0.85,0.0001700496544991
 469,incitement,stereotypical,0.75,0.0001500438127933
-470,incitement,white grievance,0.85,0.0001700496544991
+470,incitement,white_grievance,0.85,0.0001700496544991
 471,incitement,stereotypical,0.75,0.0001500438127933
 472,stereotypical,stereotypical,0.75,0.0001500438127933
 473,incitement,incitement,0.75,0.0001500438127933
 474,stereotypical,stereotypical,0.75,0.0001500438127933
-475,incitement,white grievance,0.85,0.0001700496544991
+475,incitement,white_grievance,0.85,0.0001700496544991
 476,stereotypical,stereotypical,0.75,0.0001500438127933
 477,incitement,stereotypical,0.75,0.0001500438127933
-478,incitement,white grievance,0.85,0.0001700496544991
-479,incitement,white grievance,0.85,0.0001700496544991
+478,incitement,white_grievance,0.85,0.0001700496544991
+479,incitement,white_grievance,0.85,0.0001700496544991
 480,white_grievance,stereotypical,0.75,0.0001500438127933
-481,incitement,white grievance,0.85,0.0001700496544991
+481,incitement,white_grievance,0.85,0.0001700496544991
 482,white_grievance,stereotypical,0.75,0.0001500438127933
 483,stereotypical,stereotypical,0.75,0.0001500438127933
 484,incitement,stereotypical,0.75,0.0001500438127933
-485,incitement,white grievance,0.85,0.0001700496544991
-486,incitement,white grievance,0.85,0.0001700496544991
-487,incitement,white grievance,0.85,0.0001700496544991
+485,incitement,white_grievance,0.85,0.0001700496544991
+486,incitement,white_grievance,0.85,0.0001700496544991
+487,incitement,white_grievance,0.85,0.0001700496544991
 488,stereotypical,stereotypical,0.75,0.0001500438127933
 489,incitement,stereotypical,0.75,0.0001500438127933
 490,stereotypical,incitement,0.85,0.0001700496544991
@@ -467,13 +467,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 493,inferiority,stereotypical,0.75,0.0001500438127933
 494,incitement,stereotypical,0.75,0.0001500438127933
 495,incitement,stereotypical,0.75,0.0001500438127933
-496,incitement,white grievance,0.85,0.0001700496544991
+496,incitement,white_grievance,0.85,0.0001700496544991
 497,incitement,stereotypical,0.75,0.0001500438127933
 498,incitement,stereotypical,0.75,0.0001500438127933
 499,inferiority,stereotypical,0.75,0.0001500438127933
 500,incitement,inferiority,0.85,0.0001700496544991
-501,incitement,white grievance,0.85,0.0001700496544991
-502,white_grievance,white grievance,0.85,0.0001700496544991
+501,incitement,white_grievance,0.85,0.0001700496544991
+502,white_grievance,white_grievance,0.85,0.0001700496544991
 503,incitement,stereotypical,0.75,0.0001500438127933
 504,incitement,incitement,0.85,0.0001700496544991
 505,incitement,incitement,0.85,0.0001700496544991
@@ -482,14 +482,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 508,irony,stereotypical,0.75,0.0001500438127933
 509,stereotypical,stereotypical,0.75,0.0001500438127933
 510,irony,stereotypical,0.75,0.0001500438127933
-511,white_grievance,white grievance,0.85,0.0001700496544991
+511,white_grievance,white_grievance,0.85,0.0001700496544991
 512,irony,threatening,0.85,0.0001700496544991
 513,irony,inferiority,0.85,0.0001700496544991
 514,irony,stereotypical,0.75,0.0001500438127933
 515,incitement,stereotypical,0.75,0.0001500438127933
 516,stereotypical,stereotypical,0.75,0.0001500438127933
 517,stereotypical,stereotypical,0.75,0.0001500438127933
-518,incitement,white grievance,0.85,0.0001700496544991
+518,incitement,white_grievance,0.85,0.0001700496544991
 519,other,stereotypical,0.75,0.0001500438127933
 520,stereotypical,incitement,0.85,0.0001700496544991
 521,white_grievance,incitement,0.85,0.0001700496544991
@@ -497,17 +497,17 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 523,stereotypical,stereotypical,0.75,0.0001500438127933
 524,incitement,stereotypical,0.75,0.0001500438127933
 525,stereotypical,stereotypical,0.75,0.0001500438127933
-526,white_grievance,white grievance,0.85,0.0001700496544991
+526,white_grievance,white_grievance,0.85,0.0001700496544991
 527,white_grievance,stereotypical,0.75,0.0001500438127933
 528,white_grievance,stereotypical,0.75,0.0001500438127933
 529,stereotypical,stereotypical,0.75,0.0001500438127933
 530,stereotypical,stereotypical,0.75,0.0001500438127933
 531,stereotypical,stereotypical,0.75,0.0001500438127933
-532,white_grievance,white grievance,0.85,0.0001700496544991
+532,white_grievance,white_grievance,0.85,0.0001700496544991
 533,white_grievance,stereotypical,0.75,0.0001500438127933
 534,white_grievance,stereotypical,0.75,0.0001500438127933
 535,stereotypical,stereotypical,0.75,0.0001500438127933
-536,white_grievance,white grievance,0.85,0.0001700496544991
+536,white_grievance,white_grievance,0.85,0.0001700496544991
 537,white_grievance,stereotypical,0.75,0.0001500438127933
 538,stereotypical,stereotypical,0.75,0.0001500438127933
 539,irony,stereotypical,0.75,0.0001500438127933
@@ -518,7 +518,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 544,stereotypical,stereotypical,0.75,0.0001500438127933
 545,inferiority,incitement,0.85,0.0001700496544991
 546,irony,stereotypical,0.75,0.0001500438127933
-547,white_grievance,white grievance,0.85,0.0001700496544991
+547,white_grievance,white_grievance,0.85,0.0001700496544991
 548,stereotypical,stereotypical,0.75,0.0001500438127933
 549,white_grievance,incitement,0.85,0.0001700496544991
 550,white_grievance,incitement,0.85,0.0001700496544991
@@ -544,8 +544,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 570,white_grievance,stereotypical,0.75,0.0001500438127933
 571,incitement,incitement,0.85,0.0001700496544991
 572,stereotypical,stereotypical,0.75,0.0001500438127933
-573,incitement,white grievance,0.85,0.0001700496544991
-574,white_grievance,white grievance,0.85,0.0001700496544991
+573,incitement,white_grievance,0.85,0.0001700496544991
+574,white_grievance,white_grievance,0.85,0.0001700496544991
 575,incitement,stereotypical,0.75,0.0001500438127933
 576,white_grievance,stereotypical,0.75,0.0001500438127933
 577,incitement,stereotypical,0.75,0.0001500438127933
@@ -562,7 +562,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 588,white_grievance,stereotypical,0.75,0.0001500438127933
 589,stereotypical,threatening,0.85,0.0001700496544991
 590,stereotypical,stereotypical,0.75,0.0001500438127933
-591,threatening,white grievance,0.85,0.0001700496544991
+591,threatening,white_grievance,0.85,0.0001700496544991
 592,irony,stereotypical,0.75,0.0001500438127933
 593,white_grievance,incitement,0.85,0.0001700496544991
 594,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -574,7 +574,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 600,white_grievance,stereotypical,0.75,0.0001500438127933
 601,incitement,stereotypical,0.75,0.0001500438127933
 602,white_grievance,stereotypical,0.75,0.0001500438127933
-603,incitement,white grievance,0.85,0.0001700496544991
+603,incitement,white_grievance,0.85,0.0001700496544991
 604,white_grievance,stereotypical,0.75,0.0001500438127933
 605,incitement,stereotypical,0.75,0.0001500438127933
 606,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -586,9 +586,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 612,stereotypical,stereotypical,0.75,0.0001500438127933
 613,incitement,stereotypical,0.75,0.0001500438127933
 614,incitement,incitement,0.85,0.0001700496544991
-615,white_grievance,white grievance,0.85,0.0001700496544991
+615,white_grievance,white_grievance,0.85,0.0001700496544991
 616,stereotypical,stereotypical,0.75,0.0001500438127933
-617,incitement,white grievance,0.85,0.0001700496544991
+617,incitement,white_grievance,0.85,0.0001700496544991
 618,irony,stereotypical,0.75,0.0001500438127933
 619,incitement,stereotypical,0.75,0.0001500438127933
 620,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -600,14 +600,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 626,incitement,stereotypical,0.75,0.0001500438127933
 627,white_grievance,stereotypical,0.75,0.0001500438127933
 628,stereotypical,inferiority,0.85,0.0001700496544991
-629,white_grievance,white grievance,0.85,0.0001700496544991
+629,white_grievance,white_grievance,0.85,0.0001700496544991
 630,stereotypical,stereotypical,0.75,0.0001500438127933
 631,white_grievance,stereotypical,0.75,0.0001500438127933
 632,stereotypical,stereotypical,0.75,0.0001500438127933
-633,white_grievance,white grievance,0.85,0.0001700496544991
+633,white_grievance,white_grievance,0.85,0.0001700496544991
 634,incitement,stereotypical,0.75,0.0001500438127933
 635,stereotypical,stereotypical,0.75,0.0001500438127933
-636,incitement,white grievance,0.85,0.0001700496544991
+636,incitement,white_grievance,0.85,0.0001700496544991
 637,white_grievance,stereotypical,0.75,0.0001500438127933
 638,incitement,stereotypical,0.75,0.0001500438127933
 639,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -620,32 +620,32 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 646,stereotypical,threatening,0.85,0.0001700496544991
 647,incitement,stereotypical,0.75,0.0001500438127933
 648,white_grievance,stereotypical,0.75,0.0001500438127933
-649,white_grievance,white grievance,0.85,0.0001700496544991
+649,white_grievance,white_grievance,0.85,0.0001700496544991
 650,inferiority,stereotypical,0.75,0.0001500438127933
 651,incitement,stereotypical,0.75,0.0001500438127933
 652,stereotypical,stereotypical,0.75,0.0001500438127933
 653,other,stereotypical,0.75,0.0001500438127933
 654,incitement,stereotypical,0.75,0.0001500438127933
-655,stereotypical,white grievance,0.85,0.0001700496544991
+655,stereotypical,white_grievance,0.85,0.0001700496544991
 656,other,inferiority,0.85,0.0001700496544991
 657,stereotypical,stereotypical,0.75,0.0001500438127933
 658,stereotypical,stereotypical,0.75,0.0001500438127933
 659,threatening,threatening,0.85,0.0001700496544991
 660,white_grievance,stereotypical,0.75,0.0001500438127933
-661,stereotypical,white grievance,0.85,0.0001700496544991
+661,stereotypical,white_grievance,0.85,0.0001700496544991
 662,white_grievance,stereotypical,0.75,0.0001500438127933
 663,incitement,stereotypical,0.75,0.0001500438127933
 664,white_grievance,stereotypical,0.75,0.0001500438127933
 665,white_grievance,stereotypical,0.75,0.0001500438127933
-666,white_grievance,white grievance,0.85,0.0001700496544991
-667,incitement,white grievance,0.85,0.0001700496544991
+666,white_grievance,white_grievance,0.85,0.0001700496544991
+667,incitement,white_grievance,0.85,0.0001700496544991
 668,incitement,stereotypical,0.75,0.0001500438127933
 669,stereotypical,stereotypical,0.75,0.0001500438127933
 670,white_grievance,stereotypical,0.75,0.0001500438127933
 671,stereotypical,stereotypical,0.75,0.0001500438127933
 672,irony,stereotypical,0.75,0.0001500438127933
 673,other,stereotypical,0.75,0.0001500438127933
-674,white_grievance,white grievance,0.85,0.0001700496544991
+674,white_grievance,white_grievance,0.85,0.0001700496544991
 675,incitement,stereotypical,0.75,0.0001500438127933
 676,incitement,incitement,0.85,0.0001700496544991
 677,other,stereotypical,0.75,0.0001500438127933
@@ -660,26 +660,26 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 686,white_grievance,stereotypical,0.75,0.0001500438127933
 687,white_grievance,stereotypical,0.75,0.0001500438127933
 688,white_grievance,stereotypical,0.75,0.0001500438127933
-689,white_grievance,white grievance,0.85,0.0001700496544991
+689,white_grievance,white_grievance,0.85,0.0001700496544991
 690,incitement,inferiority,0.85,0.0001700496544991
-691,white_grievance,white grievance,0.85,0.0001700496544991
+691,white_grievance,white_grievance,0.85,0.0001700496544991
 692,white_grievance,stereotypical,0.75,0.0001500438127933
 693,inferiority,stereotypical,0.75,0.0001500438127933
-694,inferiority,white grievance,0.85,0.0001700496544991
+694,inferiority,white_grievance,0.85,0.0001700496544991
 695,incitement,threatening,0.85,0.0001700496544991
 696,inferiority,stereotypical,0.75,0.0001500438127933
 697,white_grievance,stereotypical,0.75,0.0001500438127933
 698,incitement,incitement,0.85,0.0001700496544991
 699,white_grievance,stereotypical,0.75,0.0001500438127933
 700,white_grievance,stereotypical,0.75,0.0001500438127933
-701,white_grievance,white grievance,0.85,0.0001700496544991
+701,white_grievance,white_grievance,0.85,0.0001700496544991
 702,stereotypical,stereotypical,0.75,0.0001500438127933
 703,incitement,incitement,0.85,0.0001700496544991
 704,incitement,incitement,0.85,0.0001700496544991
 705,threatening,incitement,0.85,0.0001700496544991
-706,white_grievance,white grievance,0.85,0.0001700496544991
+706,white_grievance,white_grievance,0.85,0.0001700496544991
 707,white_grievance,stereotypical,0.75,0.0001500438127933
-708,white_grievance,white grievance,0.85,0.0001700496544991
+708,white_grievance,white_grievance,0.85,0.0001700496544991
 709,white_grievance,stereotypical,0.75,0.0001500438127933
 710,stereotypical,stereotypical,0.75,0.0001500438127933
 711,incitement,stereotypical,0.75,0.0001500438127933
@@ -690,7 +690,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 716,stereotypical,stereotypical,0.75,0.0001500438127933
 717,incitement,stereotypical,0.75,0.0001500438127933
 718,white_grievance,stereotypical,0.75,0.0001500438127933
-719,white_grievance,white grievance,0.85,0.0001700496544991
+719,white_grievance,white_grievance,0.85,0.0001700496544991
 720,incitement,stereotypical,0.75,0.0001500438127933
 721,white_grievance,stereotypical,0.75,0.0001500438127933
 722,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -707,7 +707,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 733,incitement,stereotypical,0.75,0.0001500438127933
 734,irony,stereotypical,0.75,0.0001500438127933
 735,stereotypical,threatening,0.85,0.0001700496544991
-736,stereotypical,white grievance,0.85,0.0001700496544991
+736,stereotypical,white_grievance,0.85,0.0001700496544991
 737,incitement,incitement,0.85,0.0001700496544991
 738,stereotypical,incitement,0.85,0.0001700496544991
 739,incitement,stereotypical,0.75,0.0001500438127933
@@ -715,7 +715,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 741,incitement,inferiority,0.85,0.0001700496544991
 742,threatening,stereotypical,0.75,0.0001500438127933
 743,white_grievance,stereotypical,0.75,0.0001500438127933
-744,white_grievance,white grievance,0.85,0.0001700496544991
+744,white_grievance,white_grievance,0.85,0.0001700496544991
 745,stereotypical,stereotypical,0.75,0.0001500438127933
 746,white_grievance,stereotypical,0.75,0.0001500438127933
 747,stereotypical,incitement,0.85,0.0001700496544991
@@ -744,7 +744,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 770,incitement,stereotypical,0.75,0.0001500438127933
 771,inferiority,stereotypical,0.75,0.0001500438127933
 772,white_grievance,stereotypical,0.75,0.0001500438127933
-773,incitement,white grievance,0.85,0.0001700496544991
+773,incitement,white_grievance,0.85,0.0001700496544991
 774,irony,threatening,0.85,0.0001700496544991
 775,incitement,inferiority,0.85,0.0001700496544991
 776,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -763,12 +763,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 789,incitement,inferiority,0.85,0.0001700496544991
 790,incitement,stereotypical,0.75,0.0001500438127933
 791,white_grievance,stereotypical,0.75,0.0001500438127933
-792,incitement,white grievance,0.85,0.0001700496544991
+792,incitement,white_grievance,0.85,0.0001700496544991
 793,white_grievance,threatening,0.85,0.0001700496544991
 794,white_grievance,stereotypical,0.75,0.0001500438127933
 795,incitement,stereotypical,0.75,0.0001500438127933
 796,incitement,incitement,0.85,0.0001700496544991
-797,white_grievance,white grievance,0.85,0.0001700496544991
+797,white_grievance,white_grievance,0.85,0.0001700496544991
 798,incitement,stereotypical,0.75,0.0001500438127933
 799,incitement,stereotypical,0.75,0.0001500438127933
 800,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -776,7 +776,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 802,white_grievance,stereotypical,0.75,0.0001500438127933
 803,incitement,inferiority,0.85,0.0001700496544991
 804,white_grievance,stereotypical,0.75,0.0001500438127933
-805,inferiority,white grievance,0.85,0.0001700496544991
+805,inferiority,white_grievance,0.85,0.0001700496544991
 806,incitement,inferiority,0.85,0.0001700496544991
 807,incitement,stereotypical,0.75,0.0001500438127933
 808,incitement,stereotypical,0.75,0.0001500438127933
@@ -794,7 +794,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 820,incitement,stereotypical,0.75,0.0001500438127933
 821,stereotypical,stereotypical,0.75,0.0001500438127933
 822,incitement,stereotypical,0.75,0.0001500438127933
-823,inferiority,white grievance,0.85,0.0001700496544991
+823,inferiority,white_grievance,0.85,0.0001700496544991
 824,stereotypical,stereotypical,0.75,0.0001500438127933
 825,inferiority,inferiority,0.85,0.0001700496544991
 826,incitement,stereotypical,0.75,0.0001500438127933
@@ -824,7 +824,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 850,white_grievance,stereotypical,0.75,0.0001500438127933
 851,white_grievance,stereotypical,0.75,0.0001500438127933
 852,stereotypical,stereotypical,0.75,0.0001500438127933
-853,white_grievance,white grievance,0.85,0.0001700496544991
+853,white_grievance,white_grievance,0.85,0.0001700496544991
 854,incitement,stereotypical,0.75,0.0001500438127933
 855,white_grievance,stereotypical,0.75,0.0001500438127933
 856,stereotypical,inferiority,0.85,0.0001700496544991
@@ -845,19 +845,19 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 871,white_grievance,stereotypical,0.75,0.0001500438127933
 872,incitement,stereotypical,0.75,0.0001500438127933
 873,incitement,stereotypical,0.75,0.0001500438127933
-874,white_grievance,white grievance,0.85,0.0001700496544991
+874,white_grievance,white_grievance,0.85,0.0001700496544991
 875,irony,stereotypical,0.75,0.0001500438127933
-876,white_grievance,white grievance,0.85,0.0001700496544991
+876,white_grievance,white_grievance,0.85,0.0001700496544991
 877,white_grievance,stereotypical,0.75,0.0001500438127933
 878,incitement,stereotypical,0.75,0.0001500438127933
-879,incitement,white grievance,0.85,0.0001700496544991
+879,incitement,white_grievance,0.85,0.0001700496544991
 880,inferiority,stereotypical,0.75,0.0001500438127933
 881,incitement,stereotypical,0.75,0.0001500438127933
 882,irony,stereotypical,0.75,0.0001500438127933
 883,white_grievance,stereotypical,0.75,0.0001500438127933
-884,white_grievance,white grievance,0.85,0.0001700496544991
+884,white_grievance,white_grievance,0.85,0.0001700496544991
 885,incitement,stereotypical,0.75,0.0001500438127933
-886,incitement,white grievance,0.85,0.0001700496544991
+886,incitement,white_grievance,0.85,0.0001700496544991
 887,white_grievance,stereotypical,0.75,0.0001500438127933
 888,incitement,stereotypical,0.75,0.0001500438127933
 889,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -874,9 +874,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 900,incitement,incitement,0.85,0.0001700496544991
 901,white_grievance,stereotypical,0.75,0.0001500438127933
 902,incitement,stereotypical,0.75,0.0001500438127933
-903,incitement,white grievance,0.85,0.0001700496544991
+903,incitement,white_grievance,0.85,0.0001700496544991
 904,stereotypical,stereotypical,0.75,0.0001500438127933
-905,white_grievance,white grievance,0.85,0.0001700496544991
+905,white_grievance,white_grievance,0.85,0.0001700496544991
 906,stereotypical,stereotypical,0.75,0.0001500438127933
 907,white_grievance,stereotypical,0.75,0.0001500438127933
 908,incitement,stereotypical,0.75,0.0001500438127933
@@ -896,7 +896,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 922,white_grievance,threatening,0.85,0.0001700496544991
 923,stereotypical,stereotypical,0.75,0.0001500438127933
 924,incitement,stereotypical,0.75,0.0001500438127933
-925,white_grievance,white grievance,0.85,0.0001700496544991
+925,white_grievance,white_grievance,0.85,0.0001700496544991
 926,inferiority,inferiority,0.85,0.0001700496544991
 927,white_grievance,stereotypical,0.75,0.0001500438127933
 928,irony,stereotypical,0.75,0.0001500438127933
@@ -911,7 +911,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 937,stereotypical,incitement,0.85,0.0001700496544991
 938,incitement,stereotypical,0.75,0.0001500438127933
 939,white_grievance,stereotypical,0.75,0.0001500438127933
-940,incitement,white grievance,0.85,0.0001700496544991
+940,incitement,white_grievance,0.85,0.0001700496544991
 941,white_grievance,stereotypical,0.75,0.0001500438127933
 942,incitement,inferiority,0.85,0.0001700496544991
 943,irony,stereotypical,0.75,0.0001500438127933
@@ -926,7 +926,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 952,stereotypical,stereotypical,0.75,0.0001500438127933
 953,stereotypical,stereotypical,0.75,0.0001500438127933
 954,stereotypical,stereotypical,0.75,0.0001500438127933
-955,white_grievance,white grievance,0.85,0.0001700496544991
+955,white_grievance,white_grievance,0.85,0.0001700496544991
 956,stereotypical,incitement,0.85,0.0001700496544991
 957,white_grievance,stereotypical,0.75,0.0001500438127933
 958,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -937,7 +937,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 963,stereotypical,incitement,0.85,0.0001700496544991
 964,stereotypical,stereotypical,0.75,0.0001500438127933
 965,white_grievance,stereotypical,0.75,0.0001500438127933
-966,white_grievance,white grievance,0.85,0.0001700496544991
+966,white_grievance,white_grievance,0.85,0.0001700496544991
 967,stereotypical,stereotypical,0.75,0.0001500438127933
 968,white_grievance,stereotypical,0.75,0.0001500438127933
 969,white_grievance,threatening,0.85,0.0001700496544991
@@ -969,20 +969,20 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 995,stereotypical,stereotypical,0.75,0.0001500438127933
 996,white_grievance,stereotypical,0.75,0.0001500438127933
 997,incitement,stereotypical,0.75,0.0001500438127933
-998,incitement,white grievance,0.85,0.0001700496544991
+998,incitement,white_grievance,0.85,0.0001700496544991
 999,incitement,stereotypical,0.75,0.0001500438127933
 1000,white_grievance,stereotypical,0.75,0.0001500438127933
 1001,other,stereotypical,0.75,0.0001500438127933
 1002,inferiority,stereotypical,0.75,0.0001500438127933
-1003,incitement,white grievance,0.85,0.0001700496544991
+1003,incitement,white_grievance,0.85,0.0001700496544991
 1004,stereotypical,stereotypical,0.75,0.0001500438127933
-1005,white_grievance,white grievance,0.85,0.0001700496544991
+1005,white_grievance,white_grievance,0.85,0.0001700496544991
 1006,stereotypical,stereotypical,0.75,0.0001500438127933
 1007,incitement,stereotypical,0.75,0.0001500438127933
-1008,white_grievance,white grievance,0.85,0.0001700496544991
+1008,white_grievance,white_grievance,0.85,0.0001700496544991
 1009,incitement,stereotypical,0.75,0.0001500438127933
 1010,inferiority,stereotypical,0.75,0.0001500438127933
-1011,white_grievance,white grievance,0.85,0.0001700496544991
+1011,white_grievance,white_grievance,0.85,0.0001700496544991
 1012,stereotypical,stereotypical,0.75,0.0001500438127933
 1013,stereotypical,stereotypical,0.75,0.0001500438127933
 1014,stereotypical,inferiority,0.85,0.0001700496544991
@@ -995,23 +995,23 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1021,stereotypical,stereotypical,0.75,0.0001500438127933
 1022,stereotypical,stereotypical,0.75,0.0001500438127933
 1023,stereotypical,stereotypical,0.75,0.0001500438127933
-1024,white_grievance,white grievance,0.85,0.0001700496544991
+1024,white_grievance,white_grievance,0.85,0.0001700496544991
 1025,other,threatening,0.85,0.0001700496544991
 1026,incitement,incitement,0.85,0.0001700496544991
 1027,white_grievance,stereotypical,0.75,0.0001500438127933
 1028,white_grievance,stereotypical,0.75,0.0001500438127933
 1029,white_grievance,stereotypical,0.75,0.0001500438127933
-1030,white_grievance,white grievance,0.85,0.0001700496544991
-1031,white_grievance,white grievance,0.85,0.0001700496544991
+1030,white_grievance,white_grievance,0.85,0.0001700496544991
+1031,white_grievance,white_grievance,0.85,0.0001700496544991
 1032,incitement,stereotypical,0.75,0.0001500438127933
 1033,stereotypical,stereotypical,0.75,0.0001500438127933
 1034,white_grievance,stereotypical,0.75,0.0001500438127933
-1035,white_grievance,white grievance,0.85,0.0001700496544991
+1035,white_grievance,white_grievance,0.85,0.0001700496544991
 1036,other,inferiority,0.85,0.0001700496544991
 1037,stereotypical,stereotypical,0.75,0.0001500438127933
 1038,white_grievance,inferiority,0.85,0.0001700496544991
 1039,stereotypical,stereotypical,0.75,0.0001500438127933
-1040,incitement,white grievance,0.85,0.0001700496544991
+1040,incitement,white_grievance,0.85,0.0001700496544991
 1041,incitement,incitement,0.85,0.0001700496544991
 1042,white_grievance,incitement,0.85,0.0001700496544991
 1043,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1021,24 +1021,24 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1047,white_grievance,stereotypical,0.75,0.0001500438127933
 1048,white_grievance,incitement,0.85,0.0001700496544991
 1049,incitement,stereotypical,0.75,0.0001500438127933
-1050,white_grievance,white grievance,0.85,0.0001700496544991
-1051,white_grievance,white grievance,0.85,0.0001700496544991
+1050,white_grievance,white_grievance,0.85,0.0001700496544991
+1051,white_grievance,white_grievance,0.85,0.0001700496544991
 1052,white_grievance,incitement,0.85,0.0001700496544991
 1053,incitement,stereotypical,0.75,0.0001500438127933
 1054,incitement,stereotypical,0.75,0.0001500438127933
-1055,incitement,white grievance,0.85,0.0001700496544991
+1055,incitement,white_grievance,0.85,0.0001700496544991
 1056,incitement,stereotypical,0.75,0.0001500438127933
-1057,incitement,white grievance,0.85,0.0001700496544991
+1057,incitement,white_grievance,0.85,0.0001700496544991
 1058,stereotypical,stereotypical,0.75,0.0001500438127933
 1059,incitement,stereotypical,0.75,0.0001500438127933
-1060,white_grievance,white grievance,0.85,0.0001700496544991
+1060,white_grievance,white_grievance,0.85,0.0001700496544991
 1061,white_grievance,stereotypical,0.75,0.0001500438127933
 1062,stereotypical,stereotypical,0.75,0.0001500438127933
 1063,stereotypical,incitement,0.85,0.0001700496544991
 1064,white_grievance,inferiority,0.85,0.0001700496544991
 1065,white_grievance,stereotypical,0.75,0.0001500438127933
 1066,incitement,inferiority,0.85,0.0001700496544991
-1067,white_grievance,white grievance,0.85,0.0001700496544991
+1067,white_grievance,white_grievance,0.85,0.0001700496544991
 1068,white_grievance,stereotypical,0.75,0.0001500438127933
 1069,white_grievance,stereotypical,0.75,0.0001500438127933
 1070,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1072,7 +1072,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1098,stereotypical,stereotypical,0.75,0.0001500438127933
 1099,stereotypical,stereotypical,0.75,0.0001500438127933
 1100,irony,stereotypical,0.75,0.0001500438127933
-1101,incitement,white grievance,0.85,0.0001700496544991
+1101,incitement,white_grievance,0.85,0.0001700496544991
 1102,white_grievance,inferiority,0.85,0.0001700496544991
 1103,stereotypical,stereotypical,0.75,0.0001500438127933
 1104,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1083,13 +1083,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1109,incitement,stereotypical,0.75,0.0001500438127933
 1110,incitement,inferiority,0.85,0.0001700496544991
 1111,irony,stereotypical,0.75,0.0001500438127933
-1112,incitement,white grievance,0.85,0.0001700496544991
+1112,incitement,white_grievance,0.85,0.0001700496544991
 1113,stereotypical,stereotypical,0.75,0.0001500438127933
 1114,white_grievance,threatening,0.85,0.0001700496544991
 1115,incitement,stereotypical,0.75,0.0001500438127933
 1116,incitement,incitement,0.85,0.0001700496544991
 1117,stereotypical,stereotypical,0.75,0.0001500438127933
-1118,incitement,white grievance,0.85,0.0001700496544991
+1118,incitement,white_grievance,0.85,0.0001700496544991
 1119,incitement,threatening,0.85,0.0001700496544991
 1120,stereotypical,stereotypical,0.75,0.0001500438127933
 1121,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1100,7 +1100,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1126,stereotypical,stereotypical,0.75,0.0001500438127933
 1127,white_grievance,stereotypical,0.75,0.0001500438127933
 1128,stereotypical,stereotypical,0.75,0.0001500438127933
-1129,white_grievance,white grievance,0.85,0.0001700496544991
+1129,white_grievance,white_grievance,0.85,0.0001700496544991
 1130,stereotypical,incitement,0.75,0.0001500438127933
 1131,stereotypical,stereotypical,0.75,0.0001500438127933
 1132,inferiority,stereotypical,0.75,0.0001500438127933
@@ -1114,25 +1114,25 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1140,other,stereotypical,0.75,0.0001500438127933
 1141,inferiority,stereotypical,0.75,0.0001500438127933
 1142,inferiority,stereotypical,0.75,0.0001500438127933
-1143,white_grievance,white grievance,0.85,0.0001700496544991
-1144,incitement,white grievance,0.85,0.0001700496544991
-1145,white_grievance,white grievance,0.85,0.0001700496544991
+1143,white_grievance,white_grievance,0.85,0.0001700496544991
+1144,incitement,white_grievance,0.85,0.0001700496544991
+1145,white_grievance,white_grievance,0.85,0.0001700496544991
 1146,inferiority,stereotypical,0.75,0.0001500438127933
 1147,white_grievance,stereotypical,0.75,0.0001500438127933
-1148,inferiority,white grievance,0.85,0.0001700496544991
+1148,inferiority,white_grievance,0.85,0.0001700496544991
 1149,white_grievance,stereotypical,0.75,0.0001500438127933
 1150,incitement,incitement,0.85,0.0001700496544991
 1151,white_grievance,stereotypical,0.75,0.0001500438127933
 1152,incitement,stereotypical,0.75,0.0001500438127933
 1153,white_grievance,threatening,0.85,0.0001700496544991
-1154,white_grievance,white grievance,0.85,0.0001700496544991
+1154,white_grievance,white_grievance,0.85,0.0001700496544991
 1155,irony,stereotypical,0.75,0.0001500438127933
 1156,stereotypical,stereotypical,0.75,0.0001500438127933
 1157,white_grievance,stereotypical,0.75,0.0001500438127933
 1158,white_grievance,stereotypical,0.75,0.0001500438127933
 1159,stereotypical,stereotypical,0.75,0.0001500438127933
 1160,incitement,incitement,0.85,0.0001700496544991
-1161,irony,white grievance,0.85,0.0001700496544991
+1161,irony,white_grievance,0.85,0.0001700496544991
 1162,stereotypical,incitement,0.85,0.0001700496544991
 1163,stereotypical,stereotypical,0.75,0.0001500438127933
 1164,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1143,13 +1143,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1169,stereotypical,stereotypical,0.75,0.0001500438127933
 1170,white_grievance,incitement,0.85,0.0001700496544991
 1171,incitement,incitement,0.85,0.0001700496544991
-1172,incitement,white grievance,0.85,0.0001700496544991
+1172,incitement,white_grievance,0.85,0.0001700496544991
 1173,white_grievance,stereotypical,0.75,0.0001500438127933
-1174,incitement,white grievance,0.85,0.0001700496544991
-1175,white_grievance,white grievance,0.85,0.0001700496544991
+1174,incitement,white_grievance,0.85,0.0001700496544991
+1175,white_grievance,white_grievance,0.85,0.0001700496544991
 1176,white_grievance,stereotypical,0.75,0.0001500438127933
 1177,white_grievance,stereotypical,0.75,0.0001500438127933
-1178,white_grievance,white grievance,0.85,0.0001700496544991
+1178,white_grievance,white_grievance,0.85,0.0001700496544991
 1179,incitement,stereotypical,0.75,0.0001500438127933
 1180,stereotypical,threatening,0.87,0.0001740508228402
 1181,stereotypical,threatening,0.85,0.0001700496544991
@@ -1169,7 +1169,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1195,white_grievance,stereotypical,0.75,0.0001500438127933
 1196,white_grievance,stereotypical,0.75,0.0001500438127933
 1197,inferiority,inferiority,0.85,0.0001700496544991
-1198,incitement,white grievance,0.85,0.0001700496544991
+1198,incitement,white_grievance,0.85,0.0001700496544991
 1199,incitement,stereotypical,0.75,0.0001500438127933
 1200,stereotypical,stereotypical,0.75,0.0001500438127933
 1201,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1181,7 +1181,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1207,white_grievance,inferiority,0.85,0.0001700496544991
 1208,incitement,stereotypical,0.75,0.0001500438127933
 1209,irony,stereotypical,0.75,0.0001500438127933
-1210,incitement,white grievance,0.85,0.0001700496544991
+1210,incitement,white_grievance,0.85,0.0001700496544991
 1211,threatening,threatening,0.85,0.0001700496544991
 1212,white_grievance,incitement,0.85,0.0001700496544991
 1213,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1191,7 +1191,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1217,stereotypical,stereotypical,0.75,0.0001500438127933
 1218,white_grievance,stereotypical,0.75,0.0001500438127933
 1219,inferiority,stereotypical,0.75,0.0001500438127933
-1220,white_grievance,white grievance,0.85,0.0001700496544991
+1220,white_grievance,white_grievance,0.85,0.0001700496544991
 1221,stereotypical,incitement,0.85,0.0001700496544991
 1222,incitement,stereotypical,0.75,0.0001500438127933
 1223,incitement,inferiority,0.85,0.0001700496544991
@@ -1210,13 +1210,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1236,stereotypical,stereotypical,0.75,0.0001500438127933
 1237,stereotypical,stereotypical,0.75,0.0001500438127933
 1238,stereotypical,stereotypical,0.75,0.0001500438127933
-1239,incitement,white grievance,0.85,0.0001700496544991
+1239,incitement,white_grievance,0.85,0.0001700496544991
 1240,stereotypical,inferiority,0.85,0.0001700496544991
 1241,white_grievance,incitement,0.85,0.0001700496544991
 1242,stereotypical,stereotypical,0.75,0.0001500438127933
 1243,white_grievance,stereotypical,0.75,0.0001500438127933
 1244,stereotypical,stereotypical,0.75,0.0001500438127933
-1245,incitement,white grievance,0.85,0.0001700496544991
+1245,incitement,white_grievance,0.85,0.0001700496544991
 1246,stereotypical,stereotypical,0.75,0.0001500438127933
 1247,white_grievance,stereotypical,0.75,0.0001500438127933
 1248,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1229,7 +1229,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1255,stereotypical,stereotypical,0.75,0.0001500438127933
 1256,stereotypical,threatening,0.85,0.0001700496544991
 1257,stereotypical,stereotypical,0.75,0.0001500438127933
-1258,incitement,white grievance,0.85,0.0001700496544991
+1258,incitement,white_grievance,0.85,0.0001700496544991
 1259,incitement,stereotypical,0.75,0.0001500438127933
 1260,incitement,inferiority,0.85,0.0001700496544991
 1261,white_grievance,threatening,0.85,0.0001700496544991
@@ -1243,7 +1243,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1269,white_grievance,stereotypical,0.75,0.0001500438127933
 1270,white_grievance,stereotypical,0.75,0.0001500438127933
 1271,white_grievance,stereotypical,0.75,0.0001500438127933
-1272,white_grievance,white grievance,0.85,0.0001700496544991
+1272,white_grievance,white_grievance,0.85,0.0001700496544991
 1273,stereotypical,threatening,0.85,0.0001700496544991
 1274,irony,stereotypical,0.75,0.0001500438127933
 1275,incitement,stereotypical,0.75,0.0001500438127933
@@ -1256,37 +1256,37 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1282,threatening,threatening,0.85,0.0001700496544991
 1283,stereotypical,stereotypical,0.75,0.0001500438127933
 1284,white_grievance,stereotypical,0.75,0.0001500438127933
-1285,incitement,white grievance,0.85,0.0001700496544991
+1285,incitement,white_grievance,0.85,0.0001700496544991
 1286,white_grievance,incitement,0.85,0.0001700496544991
 1287,incitement,incitement,0.85,0.0001700496544991
 1288,threatening,stereotypical,0.75,0.0001500438127933
 1289,white_grievance,stereotypical,0.75,0.0001500438127933
-1290,white_grievance,white grievance,0.85,0.0001700496544991
+1290,white_grievance,white_grievance,0.85,0.0001700496544991
 1291,incitement,incitement,0.85,0.0001700496544991
 1292,white_grievance,threatening,0.85,0.0001700496544991
 1293,white_grievance,stereotypical,0.75,0.0001500438127933
-1294,white_grievance,white grievance,0.85,0.0001700496544991
-1295,incitement,white grievance,0.85,0.0001700496544991
+1294,white_grievance,white_grievance,0.85,0.0001700496544991
+1295,incitement,white_grievance,0.85,0.0001700496544991
 1296,threatening,threatening,0.85,0.0001700496544991
 1297,stereotypical,stereotypical,0.75,0.0001500438127933
 1298,stereotypical,stereotypical,0.75,0.0001500438127933
 1299,white_grievance,stereotypical,0.75,0.0001500438127933
 1300,inferiority,stereotypical,0.75,0.0001500438127933
 1301,white_grievance,stereotypical,0.75,0.0001500438127933
-1302,incitement,white grievance,0.85,0.0001700496544991
+1302,incitement,white_grievance,0.85,0.0001700496544991
 1303,white_grievance,stereotypical,0.75,0.0001500438127933
 1304,white_grievance,incitement,0.85,0.0001700496544991
 1305,threatening,threatening,0.85,0.0001700496544991
 1306,stereotypical,stereotypical,0.75,0.0001500438127933
-1307,incitement,white grievance,0.85,0.0001700496544991
+1307,incitement,white_grievance,0.85,0.0001700496544991
 1308,stereotypical,stereotypical,0.75,0.0001500438127933
 1309,stereotypical,stereotypical,0.75,0.0001500438127933
 1310,white_grievance,stereotypical,0.75,0.0001500438127933
 1311,stereotypical,stereotypical,0.75,0.0001500438127933
 1312,stereotypical,stereotypical,0.75,0.0001500438127933
-1313,white_grievance,white grievance,0.85,0.0001700496544991
-1314,white_grievance,white grievance,0.85,0.0001700496544991
-1315,white_grievance,white grievance,0.85,0.0001700496544991
+1313,white_grievance,white_grievance,0.85,0.0001700496544991
+1314,white_grievance,white_grievance,0.85,0.0001700496544991
+1315,white_grievance,white_grievance,0.85,0.0001700496544991
 1316,stereotypical,stereotypical,0.75,0.0001500438127933
 1317,incitement,inferiority,0.85,0.0001700496544991
 1318,white_grievance,inferiority,0.85,0.0001700496544991
@@ -1296,7 +1296,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1322,incitement,incitement,0.85,0.0001700496544991
 1323,incitement,stereotypical,0.75,0.0001500438127933
 1324,incitement,stereotypical,0.75,0.0001500438127933
-1325,incitement,white grievance,0.85,0.0001700496544991
+1325,incitement,white_grievance,0.85,0.0001700496544991
 1326,other,inferiority,0.85,0.0001700496544991
 1327,white_grievance,stereotypical,0.75,0.0001500438127933
 1328,white_grievance,incitement,0.85,0.0001700496544991
@@ -1308,10 +1308,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1334,other,stereotypical,0.75,0.0001500438127933
 1335,white_grievance,stereotypical,0.75,0.0001500438127933
 1336,stereotypical,stereotypical,0.75,0.0001500438127933
-1337,incitement,white grievance,0.85,0.0001700496544991
+1337,incitement,white_grievance,0.85,0.0001700496544991
 1338,incitement,stereotypical,0.75,0.0001500438127933
 1339,white_grievance,stereotypical,0.75,0.0001500438127933
-1340,white_grievance,white grievance,0.85,0.0001700496544991
+1340,white_grievance,white_grievance,0.85,0.0001700496544991
 1341,stereotypical,inferiority,0.85,0.0001700496544991
 1342,white_grievance,stereotypical,0.75,0.0001500438127933
 1343,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1326,7 +1326,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1352,white_grievance,stereotypical,0.75,0.0001500438127933
 1353,white_grievance,stereotypical,0.75,0.0001500438127933
 1354,stereotypical,incitement,0.85,0.0001700496544991
-1355,incitement,white grievance,0.85,0.0001700496544991
+1355,incitement,white_grievance,0.85,0.0001700496544991
 1356,irony,threatening,0.85,0.0001700496544991
 1357,stereotypical,stereotypical,0.75,0.0001500438127933
 1358,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1342,7 +1342,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1368,stereotypical,incitement,0.85,0.0001700496544991
 1369,stereotypical,threatening,0.85,0.0001700496544991
 1370,incitement,stereotypical,0.75,0.0001500438127933
-1371,white_grievance,white grievance,0.85,0.0001700496544991
+1371,white_grievance,white_grievance,0.85,0.0001700496544991
 1372,white_grievance,stereotypical,0.75,0.0001500438127933
 1373,stereotypical,stereotypical,0.75,0.0001500438127933
 1374,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1357,12 +1357,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1383,white_grievance,stereotypical,0.75,0.0001500438127933
 1384,inferiority,stereotypical,0.75,0.0001500438127933
 1385,stereotypical,stereotypical,0.75,0.0001500438127933
-1386,white_grievance,white grievance,0.85,0.0001700496544991
+1386,white_grievance,white_grievance,0.85,0.0001700496544991
 1387,inferiority,stereotypical,0.75,0.0001500438127933
 1388,inferiority,stereotypical,0.75,0.0001500438127933
 1389,stereotypical,stereotypical,0.75,0.0001500438127933
 1390,incitement,threatening,0.85,0.0001700496544991
-1391,incitement,white grievance,0.85,0.0001700496544991
+1391,incitement,white_grievance,0.85,0.0001700496544991
 1392,stereotypical,stereotypical,0.75,0.0001500438127933
 1393,white_grievance,incitement,0.85,0.0001700496544991
 1394,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1376,31 +1376,31 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1402,stereotypical,incitement,0.85,0.0001700496544991
 1403,incitement,stereotypical,0.75,0.0001500438127933
 1404,incitement,stereotypical,0.75,0.0001500438127933
-1405,incitement,white grievance,0.85,0.0001700496544991
+1405,incitement,white_grievance,0.85,0.0001700496544991
 1406,incitement,stereotypical,0.75,0.0001500438127933
 1407,stereotypical,threatening,0.87,0.0001740508228402
 1408,white_grievance,threatening,0.85,0.0001700496544991
 1409,irony,stereotypical,0.75,0.0001500438127933
 1410,stereotypical,incitement,0.85,0.0001700496544991
-1411,white_grievance,white grievance,0.85,0.0001700496544991
+1411,white_grievance,white_grievance,0.85,0.0001700496544991
 1412,white_grievance,stereotypical,0.75,0.0001500438127933
 1413,white_grievance,stereotypical,0.75,0.0001500438127933
-1414,incitement,white grievance,0.85,0.0001700496544991
+1414,incitement,white_grievance,0.85,0.0001700496544991
 1415,white_grievance,stereotypical,0.75,0.0001500438127933
 1416,stereotypical,stereotypical,0.75,0.0001500438127933
 1417,irony,stereotypical,0.75,0.0001500438127933
 1418,white_grievance,stereotypical,0.75,0.0001500438127933
 1419,white_grievance,stereotypical,0.75,0.0001500438127933
-1420,white_grievance,white grievance,0.85,0.0001700496544991
+1420,white_grievance,white_grievance,0.85,0.0001700496544991
 1421,white_grievance,threatening,0.87,0.0001740508228402
 1422,stereotypical,stereotypical,0.75,0.0001500438127933
 1423,white_grievance,stereotypical,0.75,0.0001500438127933
 1424,incitement,stereotypical,0.75,0.0001500438127933
 1425,white_grievance,stereotypical,0.75,0.0001500438127933
-1426,white_grievance,white grievance,0.85,0.0001700496544991
+1426,white_grievance,white_grievance,0.85,0.0001700496544991
 1427,incitement,incitement,0.85,0.0001700496544991
 1428,stereotypical,incitement,0.75,0.0001500438127933
-1429,white_grievance,white grievance,0.85,0.0001700496544991
+1429,white_grievance,white_grievance,0.85,0.0001700496544991
 1430,irony,stereotypical,0.75,0.0001500438127933
 1431,white_grievance,stereotypical,0.75,0.0001500438127933
 1432,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1412,11 +1412,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1438,incitement,stereotypical,0.75,0.0001500438127933
 1439,inferiority,stereotypical,0.75,0.0001500438127933
 1440,incitement,stereotypical,0.75,0.0001500438127933
-1441,white_grievance,white grievance,0.85,0.0001700496544991
+1441,white_grievance,white_grievance,0.85,0.0001700496544991
 1442,white_grievance,stereotypical,0.75,0.0001500438127933
 1443,stereotypical,stereotypical,0.75,0.0001500438127933
 1444,inferiority,inferiority,0.85,0.0001700496544991
-1445,incitement,white grievance,0.85,0.0001700496544991
+1445,incitement,white_grievance,0.85,0.0001700496544991
 1446,stereotypical,stereotypical,0.75,0.0001500438127933
 1447,white_grievance,threatening,0.85,0.0001700496544991
 1448,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1425,17 +1425,17 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1451,irony,stereotypical,0.75,0.0001500438127933
 1452,irony,stereotypical,0.75,0.0001500438127933
 1453,incitement,stereotypical,0.75,0.0001500438127933
-1454,white_grievance,white grievance,0.85,0.0001700496544991
-1455,incitement,white grievance,0.85,0.0001700496544991
-1456,incitement,white grievance,0.85,0.0001700496544991
+1454,white_grievance,white_grievance,0.85,0.0001700496544991
+1455,incitement,white_grievance,0.85,0.0001700496544991
+1456,incitement,white_grievance,0.85,0.0001700496544991
 1457,irony,stereotypical,0.75,0.0001500438127933
-1458,white_grievance,white grievance,0.85,0.0001700496544991
+1458,white_grievance,white_grievance,0.85,0.0001700496544991
 1459,white_grievance,threatening,0.85,0.0001700496544991
 1460,stereotypical,stereotypical,0.75,0.0001500438127933
 1461,incitement,stereotypical,0.75,0.0001500438127933
 1462,white_grievance,stereotypical,0.75,0.0001500438127933
 1463,white_grievance,incitement,0.85,0.0001700496544991
-1464,white_grievance,white grievance,0.85,0.0001700496544991
+1464,white_grievance,white_grievance,0.85,0.0001700496544991
 1465,inferiority,stereotypical,0.75,0.0001500438127933
 1466,irony,stereotypical,0.75,0.0001500438127933
 1467,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1461,11 +1461,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1487,incitement,incitement,0.85,0.0001700496544991
 1488,incitement,incitement,0.85,0.0001700496544991
 1489,white_grievance,threatening,0.85,0.0001700496544991
-1490,white_grievance,white grievance,0.85,0.0001700496544991
+1490,white_grievance,white_grievance,0.85,0.0001700496544991
 1491,white_grievance,incitement,0.85,0.0001700496544991
 1492,stereotypical,threatening,0.85,0.0001700496544991
 1493,incitement,stereotypical,0.75,0.0001500438127933
-1494,white_grievance,white grievance,0.85,0.0001700496544991
+1494,white_grievance,white_grievance,0.85,0.0001700496544991
 1495,stereotypical,stereotypical,0.75,0.0001500438127933
 1496,white_grievance,stereotypical,0.75,0.0001500438127933
 1497,incitement,incitement,0.85,0.0001700496544991
@@ -1473,11 +1473,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1499,white_grievance,stereotypical,0.75,0.0001500438127933
 1500,inferiority,stereotypical,0.75,0.0001500438127933
 1501,stereotypical,stereotypical,0.75,0.0001500438127933
-1502,white_grievance,white grievance,0.85,0.0001700496544991
+1502,white_grievance,white_grievance,0.85,0.0001700496544991
 1503,stereotypical,stereotypical,0.75,0.0001500438127933
 1504,white_grievance,stereotypical,0.75,0.0001500438127933
 1505,incitement,stereotypical,0.75,0.0001500438127933
-1506,white_grievance,white grievance,0.85,0.0001700496544991
+1506,white_grievance,white_grievance,0.85,0.0001700496544991
 1507,incitement,stereotypical,0.75,0.0001500438127933
 1508,white_grievance,stereotypical,0.75,0.0001500438127933
 1509,incitement,stereotypical,0.75,0.0001500438127933
@@ -1486,7 +1486,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1512,stereotypical,stereotypical,0.75,0.0001500438127933
 1513,white_grievance,stereotypical,0.75,0.0001500438127933
 1514,white_grievance,incitement,0.85,0.0001700496544991
-1515,white_grievance,white grievance,0.85,0.0001700496544991
+1515,white_grievance,white_grievance,0.85,0.0001700496544991
 1516,inferiority,stereotypical,0.75,0.0001500438127933
 1517,white_grievance,stereotypical,0.75,0.0001500438127933
 1518,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1498,10 +1498,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1524,white_grievance,stereotypical,0.75,0.0001500438127933
 1525,white_grievance,stereotypical,0.75,0.0001500438127933
 1526,white_grievance,stereotypical,0.75,0.0001500438127933
-1527,incitement,white grievance,0.85,0.0001700496544991
+1527,incitement,white_grievance,0.85,0.0001700496544991
 1528,white_grievance,incitement,0.85,0.0001700496544991
 1529,stereotypical,stereotypical,0.75,0.0001500438127933
-1530,white_grievance,white grievance,0.85,0.0001700496544991
+1530,white_grievance,white_grievance,0.85,0.0001700496544991
 1531,white_grievance,stereotypical,0.75,0.0001500438127933
 1532,white_grievance,stereotypical,0.75,0.0001500438127933
 1533,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1511,16 +1511,16 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1537,white_grievance,stereotypical,0.75,0.0001500438127933
 1538,incitement,stereotypical,0.75,0.0001500438127933
 1539,incitement,incitement,0.85,0.0001700496544991
-1540,white_grievance,white grievance,0.85,0.0001700496544991
+1540,white_grievance,white_grievance,0.85,0.0001700496544991
 1541,white_grievance,stereotypical,0.75,0.0001500438127933
 1542,inferiority,stereotypical,0.75,0.0001500438127933
 1543,white_grievance,stereotypical,0.75,0.0001500438127933
 1544,white_grievance,stereotypical,0.75,0.0001500438127933
 1545,inferiority,inferiority,0.85,0.0001700496544991
-1546,white_grievance,white grievance,0.85,0.0001700496544991
+1546,white_grievance,white_grievance,0.85,0.0001700496544991
 1547,white_grievance,threatening,0.85,0.0001700496544991
-1548,white_grievance,white grievance,0.85,0.0001700496544991
-1549,white_grievance,white grievance,0.85,0.0001700496544991
+1548,white_grievance,white_grievance,0.85,0.0001700496544991
+1549,white_grievance,white_grievance,0.85,0.0001700496544991
 1550,white_grievance,inferiority,0.85,0.0001700496544991
 1551,stereotypical,stereotypical,0.75,0.0001500438127933
 1552,incitement,incitement,0.85,0.0001700496544991
@@ -1541,34 +1541,34 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1567,white_grievance,stereotypical,0.75,0.0001500438127933
 1568,incitement,inferiority,0.85,0.0001700496544991
 1569,white_grievance,stereotypical,0.75,0.0001500438127933
-1570,white_grievance,white grievance,0.85,0.0001700496544991
+1570,white_grievance,white_grievance,0.85,0.0001700496544991
 1571,stereotypical,threatening,0.85,0.0001700496544991
 1572,other,stereotypical,0.75,0.0001500438127933
-1573,white_grievance,white grievance,0.85,0.0001700496544991
+1573,white_grievance,white_grievance,0.85,0.0001700496544991
 1574,inferiority,stereotypical,0.75,0.0001500438127933
 1575,stereotypical,incitement,0.85,0.0001700496544991
 1576,stereotypical,stereotypical,0.75,0.0001500438127933
 1577,incitement,stereotypical,0.75,0.0001500438127933
-1578,white_grievance,white grievance,0.85,0.0001700496544991
-1579,white_grievance,white grievance,0.85,0.0001700496544991
+1578,white_grievance,white_grievance,0.85,0.0001700496544991
+1579,white_grievance,white_grievance,0.85,0.0001700496544991
 1580,white_grievance,stereotypical,0.75,0.0001500438127933
 1581,incitement,stereotypical,0.75,0.0001500438127933
 1582,incitement,stereotypical,0.75,0.0001500438127933
 1583,stereotypical,stereotypical,0.75,0.0001500438127933
 1584,white_grievance,stereotypical,0.75,0.0001500438127933
-1585,white_grievance,white grievance,0.85,0.0001700496544991
+1585,white_grievance,white_grievance,0.85,0.0001700496544991
 1586,stereotypical,stereotypical,0.75,0.0001500438127933
 1587,stereotypical,stereotypical,0.75,0.0001500438127933
 1588,incitement,inferiority,0.85,0.0001700496544991
 1589,stereotypical,inferiority,0.85,0.0001700496544991
 1590,stereotypical,inferiority,0.85,0.0001700496544991
-1591,white_grievance,white grievance,0.85,0.0001700496544991
+1591,white_grievance,white_grievance,0.85,0.0001700496544991
 1592,stereotypical,threatening,0.85,0.0001700496544991
 1593,stereotypical,stereotypical,0.75,0.0001500438127933
 1594,stereotypical,incitement,0.85,0.0001700496544991
 1595,white_grievance,stereotypical,0.75,0.0001500438127933
 1596,white_grievance,stereotypical,0.75,0.0001500438127933
-1597,incitement,white grievance,0.85,0.0001700496544991
+1597,incitement,white_grievance,0.85,0.0001700496544991
 1598,incitement,incitement,0.85,0.0001700496544991
 1599,stereotypical,stereotypical,0.75,0.0001500438127933
 1600,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1578,12 +1578,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1604,stereotypical,stereotypical,0.75,0.0001500438127933
 1605,stereotypical,stereotypical,0.75,0.0001500438127933
 1606,stereotypical,stereotypical,0.75,0.0001500438127933
-1607,incitement,white grievance,0.85,0.0001700496544991
+1607,incitement,white_grievance,0.85,0.0001700496544991
 1608,stereotypical,incitement,0.85,0.0001700496544991
 1609,incitement,incitement,0.85,0.0001700496544991
 1610,stereotypical,inferiority,0.85,0.0001700496544991
 1611,stereotypical,stereotypical,0.75,0.0001500438127933
-1612,stereotypical,white grievance,0.85,0.0001700496544991
+1612,stereotypical,white_grievance,0.85,0.0001700496544991
 1613,white_grievance,stereotypical,0.75,0.0001500438127933
 1614,white_grievance,stereotypical,0.75,0.0001500438127933
 1615,incitement,incitement,0.85,0.0001700496544991
@@ -1594,14 +1594,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1620,irony,stereotypical,0.75,0.0001500438127933
 1621,stereotypical,stereotypical,0.75,0.0001500438127933
 1622,irony,stereotypical,0.75,0.0001500438127933
-1623,white_grievance,white grievance,0.85,0.0001700496544991
+1623,white_grievance,white_grievance,0.85,0.0001700496544991
 1624,other,stereotypical,0.75,0.0001500438127933
 1625,other,stereotypical,0.75,0.0001500438127933
 1626,stereotypical,stereotypical,0.75,0.0001500438127933
 1627,stereotypical,incitement,0.85,0.0001700496544991
 1628,incitement,threatening,0.85,0.0001700496544991
 1629,white_grievance,stereotypical,0.75,0.0001500438127933
-1630,incitement,white grievance,0.85,0.0001700496544991
+1630,incitement,white_grievance,0.85,0.0001700496544991
 1631,white_grievance,stereotypical,0.75,0.0001500438127933
 1632,stereotypical,incitement,0.85,0.0001700496544991
 1633,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1615,14 +1615,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1641,incitement,stereotypical,0.75,0.0001500438127933
 1642,stereotypical,stereotypical,0.75,0.0001500438127933
 1643,incitement,inferiority,0.85,0.0001700496544991
-1644,incitement,white grievance,0.85,0.0001700496544991
+1644,incitement,white_grievance,0.85,0.0001700496544991
 1645,stereotypical,stereotypical,0.75,0.0001500438127933
 1646,inferiority,stereotypical,0.75,0.0001500438127933
 1647,incitement,stereotypical,0.75,0.0001500438127933
-1648,white_grievance,white grievance,0.85,0.0001700496544991
+1648,white_grievance,white_grievance,0.85,0.0001700496544991
 1649,incitement,stereotypical,0.75,0.0001500438127933
 1650,white_grievance,stereotypical,0.75,0.0001500438127933
-1651,white_grievance,white grievance,0.85,0.0001700496544991
+1651,white_grievance,white_grievance,0.85,0.0001700496544991
 1652,stereotypical,stereotypical,0.75,0.0001500438127933
 1653,stereotypical,stereotypical,0.75,0.0001500438127933
 1654,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1643,10 +1643,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1669,inferiority,inferiority,0.85,0.0001700496544991
 1670,stereotypical,stereotypical,0.75,0.0001500438127933
 1671,incitement,stereotypical,0.75,0.0001500438127933
-1672,incitement,white grievance,0.85,0.0001700496544991
+1672,incitement,white_grievance,0.85,0.0001700496544991
 1673,incitement,stereotypical,0.75,0.0001500438127933
 1674,white_grievance,stereotypical,0.75,0.0001500438127933
-1675,white_grievance,white grievance,0.85,0.0001700496544991
+1675,white_grievance,white_grievance,0.85,0.0001700496544991
 1676,stereotypical,stereotypical,0.75,0.0001500438127933
 1677,stereotypical,stereotypical,0.75,0.0001500438127933
 1678,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -1659,37 +1659,37 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1685,incitement,incitement,0.85,0.0001700496544991
 1686,stereotypical,stereotypical,0.75,0.0001500438127933
 1687,stereotypical,stereotypical,0.75,0.0001500438127933
-1688,white_grievance,white grievance,0.85,0.0001700496544991
+1688,white_grievance,white_grievance,0.85,0.0001700496544991
 1689,white_grievance,stereotypical,0.75,0.0001500438127933
 1690,stereotypical,stereotypical,0.75,0.0001500438127933
-1691,irony,white grievance,0.85,0.0001700496544991
+1691,irony,white_grievance,0.85,0.0001700496544991
 1692,incitement,stereotypical,0.75,0.0001500438127933
 1693,stereotypical,stereotypical,0.75,0.0001500438127933
 1694,white_grievance,stereotypical,0.75,0.0001500438127933
 1695,white_grievance,stereotypical,0.75,0.0001500438127933
-1696,incitement,white grievance,0.85,0.0001700496544991
+1696,incitement,white_grievance,0.85,0.0001700496544991
 1697,stereotypical,stereotypical,0.75,0.0001500438127933
 1698,stereotypical,stereotypical,0.75,0.0001500438127933
-1699,white_grievance,white grievance,0.85,0.0001700496544991
+1699,white_grievance,white_grievance,0.85,0.0001700496544991
 1700,other,stereotypical,0.75,0.0001500438127933
 1701,incitement,stereotypical,0.75,0.0001500438127933
 1702,stereotypical,stereotypical,0.75,0.0001500438127933
 1703,white_grievance,incitement,0.85,0.0001700496544991
 1704,white_grievance,stereotypical,0.75,0.0001500438127933
 1705,incitement,stereotypical,0.75,0.0001500438127933
-1706,inferiority,white grievance,0.85,0.0001700496544991
+1706,inferiority,white_grievance,0.85,0.0001700496544991
 1707,other,stereotypical,0.75,0.0001500438127933
 1708,stereotypical,stereotypical,0.75,0.0001500438127933
 1709,irony,stereotypical,0.75,0.0001500438127933
 1710,stereotypical,stereotypical,0.75,0.0001500438127933
-1711,incitement,white grievance,0.85,0.0001700496544991
+1711,incitement,white_grievance,0.85,0.0001700496544991
 1712,stereotypical,stereotypical,0.75,0.0001500438127933
 1713,incitement,stereotypical,0.75,0.0001500438127933
 1714,incitement,stereotypical,0.75,0.0001500438127933
 1715,irony,threatening,0.85,0.0001700496544991
 1716,white_grievance,stereotypical,0.75,0.0001500438127933
 1717,white_grievance,stereotypical,0.75,0.0001500438127933
-1718,white_grievance,white grievance,0.85,0.0001700496544991
+1718,white_grievance,white_grievance,0.85,0.0001700496544991
 1719,white_grievance,incitement,0.85,0.0001700496544991
 1720,other,stereotypical,0.75,0.0001500438127933
 1721,incitement,stereotypical,0.75,0.0001500438127933
@@ -1698,7 +1698,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1724,white_grievance,stereotypical,0.75,0.0001500438127933
 1725,white_grievance,stereotypical,0.75,0.0001500438127933
 1726,white_grievance,stereotypical,0.75,0.0001500438127933
-1727,incitement,white grievance,0.85,0.0001700496544991
+1727,incitement,white_grievance,0.85,0.0001700496544991
 1728,irony,stereotypical,0.75,0.0001500438127933
 1729,incitement,threatening,0.85,0.0001700496544991
 1730,inferiority,stereotypical,0.75,0.0001500438127933
@@ -1710,7 +1710,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1736,incitement,incitement,0.85,0.0001700496544991
 1737,inferiority,inferiority,0.85,0.0001700496544991
 1738,stereotypical,stereotypical,0.75,0.0001500438127933
-1739,irony,white grievance,0.85,0.0001700496544991
+1739,irony,white_grievance,0.85,0.0001700496544991
 1740,incitement,stereotypical,0.75,0.0001500438127933
 1741,incitement,stereotypical,0.75,0.0001500438127933
 1742,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1729,7 +1729,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1755,inferiority,stereotypical,0.75,0.0001500438127933
 1756,incitement,incitement,0.85,0.0001700496544991
 1757,incitement,inferiority,0.85,0.0001700496544991
-1758,white_grievance,white grievance,0.85,0.0001700496544991
+1758,white_grievance,white_grievance,0.85,0.0001700496544991
 1759,incitement,incitement,0.85,0.0001700496544991
 1760,stereotypical,stereotypical,0.75,0.0001500438127933
 1761,stereotypical,inferiority,0.85,0.0001700496544991
@@ -1768,8 +1768,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1794,incitement,incitement,0.85,0.0001700496544991
 1795,stereotypical,stereotypical,0.75,0.0001500438127933
 1796,stereotypical,stereotypical,0.75,0.0001500438127933
-1797,white_grievance,white grievance,0.85,0.0001700496544991
-1798,white_grievance,white grievance,0.85,0.0001700496544991
+1797,white_grievance,white_grievance,0.85,0.0001700496544991
+1798,white_grievance,white_grievance,0.85,0.0001700496544991
 1799,white_grievance,stereotypical,0.75,0.0001500438127933
 1800,stereotypical,stereotypical,0.75,0.0001500438127933
 1801,incitement,stereotypical,0.75,0.0001500438127933
@@ -1789,12 +1789,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1815,stereotypical,threatening,0.85,0.0001700496544991
 1816,stereotypical,stereotypical,0.75,0.0001500438127933
 1817,incitement,incitement,0.85,0.0001700496544991
-1818,stereotypical,white grievance,0.85,0.0001700496544991
-1819,incitement,white grievance,0.85,0.0001700496544991
+1818,stereotypical,white_grievance,0.85,0.0001700496544991
+1819,incitement,white_grievance,0.85,0.0001700496544991
 1820,stereotypical,stereotypical,0.75,0.0001500438127933
 1821,stereotypical,stereotypical,0.75,0.0001500438127933
 1822,white_grievance,stereotypical,0.75,0.0001500438127933
-1823,inferiority,white grievance,0.85,0.0001700496544991
+1823,inferiority,white_grievance,0.85,0.0001700496544991
 1824,white_grievance,inferiority,0.85,0.0001700496544991
 1825,stereotypical,stereotypical,0.75,0.0001500438127933
 1826,incitement,stereotypical,0.75,0.0001500438127933
@@ -1803,10 +1803,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1829,inferiority,stereotypical,0.75,0.0001500438127933
 1830,incitement,stereotypical,0.75,0.0001500438127933
 1831,stereotypical,incitement,0.85,0.0001700496544991
-1832,white_grievance,white grievance,0.85,0.0001700496544991
+1832,white_grievance,white_grievance,0.85,0.0001700496544991
 1833,inferiority,stereotypical,0.75,0.0001500438127933
 1834,stereotypical,stereotypical,0.75,0.0001500438127933
-1835,white_grievance,white grievance,0.85,0.0001700496544991
+1835,white_grievance,white_grievance,0.85,0.0001700496544991
 1836,incitement,stereotypical,0.75,0.0001500438127933
 1837,incitement,incitement,0.85,0.0001700496544991
 1838,inferiority,inferiority,0.85,0.0001700496544991
@@ -1824,7 +1824,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1850,incitement,stereotypical,0.75,0.0001500438127933
 1851,inferiority,stereotypical,0.75,0.0001500438127933
 1852,incitement,stereotypical,0.75,0.0001500438127933
-1853,white_grievance,white grievance,0.85,0.0001700496544991
+1853,white_grievance,white_grievance,0.85,0.0001700496544991
 1854,stereotypical,stereotypical,0.75,0.0001500438127933
 1855,stereotypical,stereotypical,0.75,0.0001500438127933
 1856,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1847,10 +1847,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1873,inferiority,inferiority,0.85,0.0001700496544991
 1874,white_grievance,stereotypical,0.75,0.0001500438127933
 1875,stereotypical,stereotypical,0.75,0.0001500438127933
-1876,incitement,white grievance,0.85,0.0001700496544991
+1876,incitement,white_grievance,0.85,0.0001700496544991
 1877,incitement,stereotypical,0.75,0.0001500438127933
 1878,white_grievance,stereotypical,0.75,0.0001500438127933
-1879,white_grievance,white grievance,0.85,0.0001700496544991
+1879,white_grievance,white_grievance,0.85,0.0001700496544991
 1880,stereotypical,stereotypical,0.75,0.0001500438127933
 1881,stereotypical,stereotypical,0.75,0.0001500438127933
 1882,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1860,16 +1860,16 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1886,white_grievance,inferiority,0.85,0.0001700496544991
 1887,white_grievance,stereotypical,0.75,0.0001500438127933
 1888,white_grievance,stereotypical,0.75,0.0001500438127933
-1889,incitement,white grievance,0.85,0.0001700496544991
-1890,incitement,white grievance,0.85,0.0001700496544991
-1891,incitement,white grievance,0.85,0.0001700496544991
-1892,incitement,white grievance,0.85,0.0001700496544991
+1889,incitement,white_grievance,0.85,0.0001700496544991
+1890,incitement,white_grievance,0.85,0.0001700496544991
+1891,incitement,white_grievance,0.85,0.0001700496544991
+1892,incitement,white_grievance,0.85,0.0001700496544991
 1893,white_grievance,stereotypical,0.75,0.0001500438127933
-1894,incitement,white grievance,0.85,0.0001700496544991
+1894,incitement,white_grievance,0.85,0.0001700496544991
 1895,incitement,incitement,0.85,0.0001700496544991
 1896,incitement,incitement,0.85,0.0001700496544991
 1897,incitement,stereotypical,0.75,0.0001500438127933
-1898,incitement,white grievance,0.85,0.0001700496544991
+1898,incitement,white_grievance,0.85,0.0001700496544991
 1899,white_grievance,incitement,0.85,0.0001700496544991
 1900,stereotypical,stereotypical,0.75,0.0001500438127933
 1901,inferiority,stereotypical,0.75,0.0001500438127933
@@ -1877,9 +1877,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1903,stereotypical,incitement,0.85,0.0001700496544991
 1904,incitement,stereotypical,0.75,0.0001500438127933
 1905,white_grievance,stereotypical,0.75,0.0001500438127933
-1906,incitement,white grievance,0.85,0.0001700496544991
+1906,incitement,white_grievance,0.85,0.0001700496544991
 1907,stereotypical,stereotypical,0.75,0.0001500438127933
-1908,white_grievance,white grievance,0.85,0.0001700496544991
+1908,white_grievance,white_grievance,0.85,0.0001700496544991
 1909,white_grievance,stereotypical,0.75,0.0001500438127933
 1910,white_grievance,threatening,0.85,0.0001700496544991
 1911,incitement,stereotypical,0.75,0.0001500438127933
@@ -1888,25 +1888,25 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1914,stereotypical,stereotypical,0.75,0.0001500438127933
 1915,white_grievance,stereotypical,0.75,0.0001500438127933
 1916,white_grievance,stereotypical,0.75,0.0001500438127933
-1917,white_grievance,white grievance,0.85,0.0001700496544991
+1917,white_grievance,white_grievance,0.85,0.0001700496544991
 1918,incitement,incitement,0.85,0.0001700496544991
 1919,white_grievance,stereotypical,0.75,0.0001500438127933
 1920,incitement,incitement,0.75,0.0001500438127933
 1921,stereotypical,stereotypical,0.75,0.0001500438127933
 1922,stereotypical,stereotypical,0.75,0.0001500438127933
-1923,incitement,white grievance,0.85,0.0001700496544991
+1923,incitement,white_grievance,0.85,0.0001700496544991
 1924,incitement,stereotypical,0.75,0.0001500438127933
 1925,white_grievance,stereotypical,0.75,0.0001500438127933
 1926,white_grievance,stereotypical,0.75,0.0001500438127933
 1927,white_grievance,stereotypical,0.75,0.0001500438127933
 1928,white_grievance,stereotypical,0.75,0.0001500438127933
 1929,white_grievance,stereotypical,0.75,0.0001500438127933
-1930,white_grievance,white grievance,0.85,0.0001700496544991
+1930,white_grievance,white_grievance,0.85,0.0001700496544991
 1931,stereotypical,incitement,0.85,0.0001700496544991
-1932,white_grievance,white grievance,0.85,0.0001700496544991
-1933,incitement,white grievance,0.85,0.0001700496544991
-1934,white_grievance,white grievance,0.85,0.0001700496544991
-1935,inferiority,white grievance,0.85,0.0001700496544991
+1932,white_grievance,white_grievance,0.85,0.0001700496544991
+1933,incitement,white_grievance,0.85,0.0001700496544991
+1934,white_grievance,white_grievance,0.85,0.0001700496544991
+1935,inferiority,white_grievance,0.85,0.0001700496544991
 1936,stereotypical,stereotypical,0.75,0.0001500438127933
 1937,incitement,incitement,0.85,0.0001700496544991
 1938,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1921,7 +1921,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1947,inferiority,stereotypical,0.75,0.0001500438127933
 1948,white_grievance,stereotypical,0.75,0.0001500438127933
 1949,white_grievance,stereotypical,0.75,0.0001500438127933
-1950,white_grievance,white grievance,0.85,0.0001700496544991
+1950,white_grievance,white_grievance,0.85,0.0001700496544991
 1951,white_grievance,stereotypical,0.75,0.0001500438127933
 1952,white_grievance,stereotypical,0.75,0.0001500438127933
 1953,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1932,7 +1932,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1958,threatening,threatening,0.85,0.0001700496544991
 1959,white_grievance,threatening,0.85,0.0001700496544991
 1960,white_grievance,threatening,0.85,0.0001700496544991
-1961,white_grievance,white grievance,0.85,0.0001700496544991
+1961,white_grievance,white_grievance,0.85,0.0001700496544991
 1962,stereotypical,stereotypical,0.75,0.0001500438127933
 1963,white_grievance,stereotypical,0.75,0.0001500438127933
 1964,white_grievance,incitement,0.85,0.0001700496544991
@@ -1942,15 +1942,15 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1968,white_grievance,inferiority,0.85,0.0001700496544991
 1969,irony,stereotypical,0.75,0.0001500438127933
 1970,white_grievance,stereotypical,0.75,0.0001500438127933
-1971,white_grievance,white grievance,0.85,0.0001700496544991
+1971,white_grievance,white_grievance,0.85,0.0001700496544991
 1972,white_grievance,stereotypical,0.75,0.0001500438127933
 1973,inferiority,stereotypical,0.75,0.0001500438127933
 1974,white_grievance,stereotypical,0.75,0.0001500438127933
 1975,stereotypical,stereotypical,0.75,0.0001500438127933
 1976,stereotypical,stereotypical,0.75,0.0001500438127933
-1977,white_grievance,white grievance,0.85,0.0001700496544991
+1977,white_grievance,white_grievance,0.85,0.0001700496544991
 1978,incitement,threatening,0.85,0.0001700496544991
-1979,white_grievance,white grievance,0.85,0.0001700496544991
+1979,white_grievance,white_grievance,0.85,0.0001700496544991
 1980,incitement,incitement,0.85,0.0001700496544991
 1981,incitement,stereotypical,0.75,0.0001500438127933
 1982,stereotypical,threatening,0.87,0.0001740508228402
@@ -1959,9 +1959,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 1985,stereotypical,stereotypical,0.75,0.0001500438127933
 1986,white_grievance,stereotypical,0.75,0.0001500438127933
 1987,white_grievance,stereotypical,0.75,0.0001500438127933
-1988,irony,white grievance,0.85,0.0001700496544991
+1988,irony,white_grievance,0.85,0.0001700496544991
 1989,stereotypical,stereotypical,0.75,0.0001500438127933
-1990,incitement,white grievance,0.85,0.0001700496544991
+1990,incitement,white_grievance,0.85,0.0001700496544991
 1991,white_grievance,stereotypical,0.75,0.0001500438127933
 1992,incitement,inferiority,0.85,0.0001700496544991
 1993,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -1975,12 +1975,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2001,incitement,stereotypical,0.75,0.0001500438127933
 2002,incitement,incitement,0.85,0.0001700496544991
 2003,stereotypical,stereotypical,0.75,0.0001500438127933
-2004,white_grievance,white grievance,0.85,0.0001700496544991
+2004,white_grievance,white_grievance,0.85,0.0001700496544991
 2005,incitement,incitement,0.85,0.0001700496544991
 2006,white_grievance,stereotypical,0.75,0.0001500438127933
 2007,incitement,stereotypical,0.75,0.0001500438127933
 2008,incitement,incitement,0.85,0.0001700496544991
-2009,white_grievance,white grievance,0.85,0.0001700496544991
+2009,white_grievance,white_grievance,0.85,0.0001700496544991
 2010,incitement,stereotypical,0.75,0.0001500438127933
 2011,white_grievance,stereotypical,0.75,0.0001500438127933
 2012,inferiority,stereotypical,0.75,0.0001500438127933
@@ -1990,7 +1990,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2016,white_grievance,stereotypical,0.75,0.0001500438127933
 2017,white_grievance,inferiority,0.85,0.0001700496544991
 2018,white_grievance,stereotypical,0.75,0.0001500438127933
-2019,white_grievance,white grievance,0.85,0.0001700496544991
+2019,white_grievance,white_grievance,0.85,0.0001700496544991
 2020,white_grievance,stereotypical,0.75,0.0001500438127933
 2021,incitement,stereotypical,0.75,0.0001500438127933
 2022,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2006,26 +2006,26 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2032,stereotypical,stereotypical,0.75,0.0001500438127933
 2033,incitement,incitement,0.85,0.0001700496544991
 2034,white_grievance,stereotypical,0.75,0.0001500438127933
-2035,incitement,white grievance,0.85,0.0001700496544991
+2035,incitement,white_grievance,0.85,0.0001700496544991
 2036,white_grievance,incitement,0.85,0.0001700496544991
 2037,white_grievance,threatening,0.87,0.0001740508228402
 2038,white_grievance,stereotypical,0.75,0.0001500438127933
 2039,incitement,incitement,0.85,0.0001700496544991
-2040,white_grievance,white grievance,0.85,0.0001700496544991
-2041,white_grievance,white grievance,0.85,0.0001700496544991
+2040,white_grievance,white_grievance,0.85,0.0001700496544991
+2041,white_grievance,white_grievance,0.85,0.0001700496544991
 2042,white_grievance,threatening,0.85,0.0001700496544991
-2043,incitement,white grievance,0.85,0.0001700496544991
+2043,incitement,white_grievance,0.85,0.0001700496544991
 2044,white_grievance,stereotypical,0.75,0.0001500438127933
 2045,stereotypical,threatening,0.85,0.0001700496544991
 2046,incitement,incitement,0.85,0.0001700496544991
-2047,white_grievance,white grievance,0.85,0.0001700496544991
-2048,white_grievance,white grievance,0.85,0.0001700496544991
-2049,white_grievance,white grievance,0.85,0.0001700496544991
-2050,white_grievance,white grievance,0.85,0.0001700496544991
+2047,white_grievance,white_grievance,0.85,0.0001700496544991
+2048,white_grievance,white_grievance,0.85,0.0001700496544991
+2049,white_grievance,white_grievance,0.85,0.0001700496544991
+2050,white_grievance,white_grievance,0.85,0.0001700496544991
 2051,stereotypical,stereotypical,0.75,0.0001500438127933
 2052,stereotypical,stereotypical,0.75,0.0001500438127933
 2053,white_grievance,stereotypical,0.75,0.0001500438127933
-2054,incitement,white grievance,0.85,0.0001700496544991
+2054,incitement,white_grievance,0.85,0.0001700496544991
 2055,incitement,stereotypical,0.75,0.0001500438127933
 2056,white_grievance,stereotypical,0.75,0.0001500438127933
 2057,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2036,7 +2036,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2062,white_grievance,inferiority,0.85,0.0001700496544991
 2063,white_grievance,stereotypical,0.75,0.0001500438127933
 2064,incitement,stereotypical,0.75,0.0001500438127933
-2065,white_grievance,white grievance,0.85,0.0001700496544991
+2065,white_grievance,white_grievance,0.85,0.0001700496544991
 2066,incitement,threatening,0.85,0.0001700496544991
 2067,incitement,stereotypical,0.75,0.0001500438127933
 2068,inferiority,stereotypical,0.75,0.0001500438127933
@@ -2050,8 +2050,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2076,stereotypical,stereotypical,0.75,0.0001500438127933
 2077,white_grievance,inferiority,0.85,0.0001700496544991
 2078,white_grievance,stereotypical,0.75,0.0001500438127933
-2079,incitement,white grievance,0.85,0.0001700496544991
-2080,incitement,white grievance,0.85,0.0001700496544991
+2079,incitement,white_grievance,0.85,0.0001700496544991
+2080,incitement,white_grievance,0.85,0.0001700496544991
 2081,white_grievance,stereotypical,0.75,0.0001500438127933
 2082,stereotypical,incitement,0.85,0.0001700496544991
 2083,other,stereotypical,0.75,0.0001500438127933
@@ -2061,12 +2061,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2087,white_grievance,stereotypical,0.75,0.0001500438127933
 2088,stereotypical,stereotypical,0.75,0.0001500438127933
 2089,white_grievance,stereotypical,0.75,0.0001500438127933
-2090,incitement,white grievance,0.85,0.0001700496544991
-2091,white_grievance,white grievance,0.85,0.0001700496544991
+2090,incitement,white_grievance,0.85,0.0001700496544991
+2091,white_grievance,white_grievance,0.85,0.0001700496544991
 2092,inferiority,inferiority,0.85,0.0001700496544991
 2093,inferiority,incitement,0.85,0.0001700496544991
-2094,white_grievance,white grievance,0.85,0.0001700496544991
-2095,other,white grievance,0.85,0.0001700496544991
+2094,white_grievance,white_grievance,0.85,0.0001700496544991
+2095,other,white_grievance,0.85,0.0001700496544991
 2096,white_grievance,stereotypical,0.75,0.0001500438127933
 2097,stereotypical,stereotypical,0.75,0.0001500438127933
 2098,white_grievance,incitement,0.85,0.0001700496544991
@@ -2096,9 +2096,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2122,other,stereotypical,0.75,0.0001500438127933
 2123,incitement,stereotypical,0.75,0.0001500438127933
 2124,white_grievance,incitement,0.85,0.0001700496544991
-2125,irony,white grievance,0.85,0.0001700496544991
+2125,irony,white_grievance,0.85,0.0001700496544991
 2126,white_grievance,stereotypical,0.75,0.0001500438127933
-2127,other,white grievance,0.85,0.0001700496544991
+2127,other,white_grievance,0.85,0.0001700496544991
 2128,stereotypical,stereotypical,0.75,0.0001500438127933
 2129,incitement,stereotypical,0.75,0.0001500438127933
 2130,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2110,7 +2110,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2136,stereotypical,stereotypical,0.75,0.0001500438127933
 2137,white_grievance,stereotypical,0.75,0.0001500438127933
 2138,irony,incitement,0.85,0.0001700496544991
-2139,white_grievance,white grievance,0.85,0.0001700496544991
+2139,white_grievance,white_grievance,0.85,0.0001700496544991
 2140,white_grievance,stereotypical,0.75,0.0001500438127933
 2141,inferiority,stereotypical,0.75,0.0001500438127933
 2142,inferiority,stereotypical,0.75,0.0001500438127933
@@ -2119,7 +2119,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2145,incitement,stereotypical,0.75,0.0001500438127933
 2146,stereotypical,threatening,0.85,0.0001700496544991
 2147,white_grievance,stereotypical,0.75,0.0001500438127933
-2148,white_grievance,white grievance,0.85,0.0001700496544991
+2148,white_grievance,white_grievance,0.85,0.0001700496544991
 2149,stereotypical,incitement,0.85,0.0001700496544991
 2150,inferiority,incitement,0.85,0.0001700496544991
 2151,incitement,incitement,0.85,0.0001700496544991
@@ -2131,12 +2131,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2157,inferiority,stereotypical,0.75,0.0001500438127933
 2158,incitement,stereotypical,0.75,0.0001500438127933
 2159,stereotypical,stereotypical,0.75,0.0001500438127933
-2160,white_grievance,white grievance,0.85,0.0001700496544991
-2161,white_grievance,white grievance,0.85,0.0001700496544991
+2160,white_grievance,white_grievance,0.85,0.0001700496544991
+2161,white_grievance,white_grievance,0.85,0.0001700496544991
 2162,stereotypical,stereotypical,0.75,0.0001500438127933
-2163,incitement,white grievance,0.85,0.0001700496544991
-2164,incitement,white grievance,0.85,0.0001700496544991
-2165,incitement,white grievance,0.85,0.0001700496544991
+2163,incitement,white_grievance,0.85,0.0001700496544991
+2164,incitement,white_grievance,0.85,0.0001700496544991
+2165,incitement,white_grievance,0.85,0.0001700496544991
 2166,inferiority,inferiority,0.85,0.0001700496544991
 2167,white_grievance,stereotypical,0.75,0.0001500438127933
 2168,incitement,stereotypical,0.75,0.0001500438127933
@@ -2144,13 +2144,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2170,stereotypical,stereotypical,0.75,0.0001500438127933
 2171,incitement,threatening,0.85,0.0001700496544991
 2172,stereotypical,incitement,0.85,0.0001700496544991
-2173,incitement,white grievance,0.85,0.0001700496544991
+2173,incitement,white_grievance,0.85,0.0001700496544991
 2174,white_grievance,stereotypical,0.75,0.0001500438127933
 2175,other,inferiority,0.85,0.0001700496544991
 2176,white_grievance,stereotypical,0.75,0.0001500438127933
 2177,incitement,stereotypical,0.75,0.0001500438127933
 2178,white_grievance,stereotypical,0.75,0.0001500438127933
-2179,white_grievance,white grievance,0.85,0.0001700496544991
+2179,white_grievance,white_grievance,0.85,0.0001700496544991
 2180,stereotypical,stereotypical,0.75,0.0001500438127933
 2181,inferiority,stereotypical,0.75,0.0001500438127933
 2182,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2166,12 +2166,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2192,irony,inferiority,0.85,0.0001700496544991
 2193,irony,stereotypical,0.75,0.0001500438127933
 2194,incitement,stereotypical,0.75,0.0001500438127933
-2195,white_grievance,white grievance,0.85,0.0001700496544991
+2195,white_grievance,white_grievance,0.85,0.0001700496544991
 2196,stereotypical,stereotypical,0.75,0.0001500438127933
 2197,incitement,stereotypical,0.75,0.0001500438127933
 2198,other,inferiority,0.85,0.0001700496544991
 2199,stereotypical,stereotypical,0.75,0.0001500438127933
-2200,white_grievance,white grievance,0.85,0.0001700496544991
+2200,white_grievance,white_grievance,0.85,0.0001700496544991
 2201,incitement,stereotypical,0.75,0.0001500438127933
 2202,incitement,incitement,0.75,0.0001500438127933
 2203,stereotypical,incitement,0.85,0.0001700496544991
@@ -2179,15 +2179,15 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2205,stereotypical,incitement,0.85,0.0001700496544991
 2206,stereotypical,stereotypical,0.75,0.0001500438127933
 2207,white_grievance,incitement,0.85,0.0001700496544991
-2208,incitement,white grievance,0.85,0.0001700496544991
+2208,incitement,white_grievance,0.85,0.0001700496544991
 2209,incitement,inferiority,0.85,0.0001700496544991
 2210,other,inferiority,0.85,0.0001700496544991
 2211,incitement,stereotypical,0.75,0.0001500438127933
 2212,irony,stereotypical,0.75,0.0001500438127933
 2213,incitement,stereotypical,0.75,0.0001500438127933
-2214,white_grievance,white grievance,0.85,0.0001700496544991
+2214,white_grievance,white_grievance,0.85,0.0001700496544991
 2215,white_grievance,inferiority,0.85,0.0001700496544991
-2216,white_grievance,white grievance,0.85,0.0001700496544991
+2216,white_grievance,white_grievance,0.85,0.0001700496544991
 2217,incitement,stereotypical,0.75,0.0001500438127933
 2218,incitement,stereotypical,0.75,0.0001500438127933
 2219,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2197,18 +2197,18 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2223,incitement,incitement,0.85,0.0001700496544991
 2224,incitement,stereotypical,0.75,0.0001500438127933
 2225,incitement,stereotypical,0.75,0.0001500438127933
-2226,white_grievance,white grievance,0.85,0.0001700496544991
+2226,white_grievance,white_grievance,0.85,0.0001700496544991
 2227,incitement,threatening,0.85,0.0001700496544991
 2228,white_grievance,threatening,0.85,0.0001700496544991
 2229,incitement,stereotypical,0.75,0.0001500438127933
 2230,incitement,stereotypical,0.75,0.0001500438127933
 2231,incitement,threatening,0.85,0.0001700496544991
 2232,incitement,stereotypical,0.75,0.0001500438127933
-2233,incitement,white grievance,0.85,0.0001700496544991
+2233,incitement,white_grievance,0.85,0.0001700496544991
 2234,white_grievance,stereotypical,0.75,0.0001500438127933
-2235,incitement,white grievance,0.85,0.0001700496544991
+2235,incitement,white_grievance,0.85,0.0001700496544991
 2236,incitement,stereotypical,0.75,0.0001500438127933
-2237,incitement,white grievance,0.85,0.0001700496544991
+2237,incitement,white_grievance,0.85,0.0001700496544991
 2238,white_grievance,stereotypical,0.75,0.0001500438127933
 2239,white_grievance,stereotypical,0.75,0.0001500438127933
 2240,white_grievance,incitement,0.85,0.0001700496544991
@@ -2217,23 +2217,23 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2243,incitement,stereotypical,0.75,0.0001500438127933
 2244,incitement,stereotypical,0.75,0.0001500438127933
 2245,incitement,incitement,0.85,0.0001700496544991
-2246,incitement,white grievance,0.85,0.0001700496544991
+2246,incitement,white_grievance,0.85,0.0001700496544991
 2247,white_grievance,stereotypical,0.75,0.0001500438127933
 2248,irony,stereotypical,0.75,0.0001500438127933
 2249,incitement,stereotypical,0.75,0.0001500438127933
 2250,inferiority,stereotypical,0.75,0.0001500438127933
 2251,incitement,stereotypical,0.75,0.0001500438127933
 2252,white_grievance,stereotypical,0.75,0.0001500438127933
-2253,incitement,white grievance,0.85,0.0001700496544991
-2254,incitement,white grievance,0.85,0.0001700496544991
-2255,incitement,white grievance,0.85,0.0001700496544991
+2253,incitement,white_grievance,0.85,0.0001700496544991
+2254,incitement,white_grievance,0.85,0.0001700496544991
+2255,incitement,white_grievance,0.85,0.0001700496544991
 2256,incitement,stereotypical,0.75,0.0001500438127933
-2257,incitement,white grievance,0.85,0.0001700496544991
-2258,incitement,white grievance,0.85,0.0001700496544991
+2257,incitement,white_grievance,0.85,0.0001700496544991
+2258,incitement,white_grievance,0.85,0.0001700496544991
 2259,white_grievance,threatening,0.85,0.0001700496544991
 2260,stereotypical,stereotypical,0.75,0.0001500438127933
 2261,stereotypical,stereotypical,0.75,0.0001500438127933
-2262,white_grievance,white grievance,0.85,0.0001700496544991
+2262,white_grievance,white_grievance,0.85,0.0001700496544991
 2263,stereotypical,stereotypical,0.75,0.0001500438127933
 2264,incitement,stereotypical,0.75,0.0001500438127933
 2265,incitement,stereotypical,0.75,0.0001500438127933
@@ -2244,7 +2244,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2270,irony,stereotypical,0.75,0.0001500438127933
 2271,incitement,stereotypical,0.75,0.0001500438127933
 2272,stereotypical,stereotypical,0.75,0.0001500438127933
-2273,stereotypical,white grievance,0.85,0.0001700496544991
+2273,stereotypical,white_grievance,0.85,0.0001700496544991
 2274,white_grievance,stereotypical,0.75,0.0001500438127933
 2275,white_grievance,stereotypical,0.75,0.0001500438127933
 2276,threatening,threatening,0.85,0.0001700496544991
@@ -2273,7 +2273,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2299,stereotypical,inferiority,0.85,0.0001700496544991
 2300,stereotypical,incitement,0.85,0.0001700496544991
 2301,white_grievance,stereotypical,0.75,0.0001500438127933
-2302,incitement,white grievance,0.85,0.0001700496544991
+2302,incitement,white_grievance,0.85,0.0001700496544991
 2303,stereotypical,incitement,0.85,0.0001700496544991
 2304,white_grievance,threatening,0.85,0.0001700496544991
 2305,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2312,24 +2312,24 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2338,white_grievance,stereotypical,0.75,0.0001500438127933
 2339,stereotypical,stereotypical,0.75,0.0001500438127933
 2340,stereotypical,stereotypical,0.75,0.0001500438127933
-2341,white_grievance,white grievance,0.85,0.0001700496544991
-2342,white_grievance,white grievance,0.85,0.0001700496544991
+2341,white_grievance,white_grievance,0.85,0.0001700496544991
+2342,white_grievance,white_grievance,0.85,0.0001700496544991
 2343,stereotypical,incitement,0.85,0.0001700496544991
-2344,white_grievance,white grievance,0.85,0.0001700496544991
+2344,white_grievance,white_grievance,0.85,0.0001700496544991
 2345,irony,stereotypical,0.75,0.0001500438127933
-2346,incitement,white grievance,0.85,0.0001700496544991
+2346,incitement,white_grievance,0.85,0.0001700496544991
 2347,stereotypical,stereotypical,0.75,0.0001500438127933
 2348,white_grievance,stereotypical,0.75,0.0001500438127933
 2349,incitement,threatening,0.85,0.0001700496544991
 2350,stereotypical,stereotypical,0.75,0.0001500438127933
 2351,stereotypical,stereotypical,0.75,0.0001500438127933
-2352,white_grievance,white grievance,0.85,0.0001700496544991
+2352,white_grievance,white_grievance,0.85,0.0001700496544991
 2353,incitement,stereotypical,0.75,0.0001500438127933
 2354,incitement,inferiority,0.85,0.0001700496544991
 2355,white_grievance,stereotypical,0.75,0.0001500438127933
 2356,stereotypical,stereotypical,0.75,0.0001500438127933
 2357,white_grievance,stereotypical,0.75,0.0001500438127933
-2358,white_grievance,white grievance,0.85,0.0001700496544991
+2358,white_grievance,white_grievance,0.85,0.0001700496544991
 2359,incitement,stereotypical,0.75,0.0001500438127933
 2360,stereotypical,stereotypical,0.75,0.0001500438127933
 2361,white_grievance,threatening,0.85,0.0001700496544991
@@ -2349,9 +2349,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2375,stereotypical,stereotypical,0.75,0.0001500438127933
 2376,incitement,stereotypical,0.75,0.0001500438127933
 2377,stereotypical,stereotypical,0.75,0.0001500438127933
-2378,incitement,white grievance,0.85,0.0001700496544991
+2378,incitement,white_grievance,0.85,0.0001700496544991
 2379,stereotypical,stereotypical,0.75,0.0001500438127933
-2380,white_grievance,white grievance,0.85,0.0001700496544991
+2380,white_grievance,white_grievance,0.85,0.0001700496544991
 2381,stereotypical,inferiority,0.85,0.0001700496544991
 2382,stereotypical,stereotypical,0.75,0.0001500438127933
 2383,incitement,stereotypical,0.75,0.0001500438127933
@@ -2389,11 +2389,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2415,stereotypical,stereotypical,0.75,0.0001500438127933
 2416,stereotypical,stereotypical,0.75,0.0001500438127933
 2417,white_grievance,stereotypical,0.75,0.0001500438127933
-2418,white_grievance,white grievance,0.85,0.0001700496544991
+2418,white_grievance,white_grievance,0.85,0.0001700496544991
 2419,white_grievance,incitement,0.85,0.0001700496544991
 2420,stereotypical,stereotypical,0.75,0.0001500438127933
 2421,white_grievance,stereotypical,0.75,0.0001500438127933
-2422,white_grievance,white grievance,0.85,0.0001700496544991
+2422,white_grievance,white_grievance,0.85,0.0001700496544991
 2423,white_grievance,stereotypical,0.75,0.0001500438127933
 2424,white_grievance,stereotypical,0.75,0.0001500438127933
 2425,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2413,7 +2413,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2439,stereotypical,stereotypical,0.75,0.0001500438127933
 2440,incitement,threatening,0.85,0.0001700496544991
 2441,stereotypical,stereotypical,0.75,0.0001500438127933
-2442,incitement,white grievance,0.85,0.0001700496544991
+2442,incitement,white_grievance,0.85,0.0001700496544991
 2443,white_grievance,inferiority,0.85,0.0001700496544991
 2444,irony,inferiority,0.85,0.0001700496544991
 2445,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2436,7 +2436,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2462,stereotypical,incitement,0.75,0.0001500438127933
 2463,incitement,stereotypical,0.75,0.0001500438127933
 2464,incitement,stereotypical,0.75,0.0001500438127933
-2465,white_grievance,white grievance,0.85,0.0001700496544991
+2465,white_grievance,white_grievance,0.85,0.0001700496544991
 2466,stereotypical,inferiority,0.85,0.0001700496544991
 2467,inferiority,stereotypical,0.75,0.0001500438127933
 2468,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2447,26 +2447,26 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2473,incitement,incitement,0.85,0.0001700496544991
 2474,stereotypical,stereotypical,0.75,0.0001500438127933
 2475,white_grievance,stereotypical,0.75,0.0001500438127933
-2476,incitement,white grievance,0.85,0.0001700496544991
-2477,white_grievance,white grievance,0.85,0.0001700496544991
-2478,white_grievance,white grievance,0.85,0.0001700496544991
+2476,incitement,white_grievance,0.85,0.0001700496544991
+2477,white_grievance,white_grievance,0.85,0.0001700496544991
+2478,white_grievance,white_grievance,0.85,0.0001700496544991
 2479,white_grievance,stereotypical,0.75,0.0001500438127933
 2480,white_grievance,stereotypical,0.75,0.0001500438127933
 2481,stereotypical,stereotypical,0.75,0.0001500438127933
 2482,incitement,stereotypical,0.75,0.0001500438127933
 2483,stereotypical,stereotypical,0.75,0.0001500438127933
-2484,incitement,white grievance,0.85,0.0001700496544991
+2484,incitement,white_grievance,0.85,0.0001700496544991
 2485,inferiority,inferiority,0.85,0.0001700496544991
 2486,white_grievance,stereotypical,0.75,0.0001500438127933
 2487,white_grievance,stereotypical,0.75,0.0001500438127933
-2488,white_grievance,white grievance,0.85,0.0001700496544991
+2488,white_grievance,white_grievance,0.85,0.0001700496544991
 2489,inferiority,stereotypical,0.75,0.0001500438127933
 2490,incitement,inferiority,0.85,0.0001700496544991
 2491,incitement,stereotypical,0.75,0.0001500438127933
 2492,stereotypical,stereotypical,0.75,0.0001500438127933
 2493,incitement,stereotypical,0.75,0.0001500438127933
 2494,inferiority,inferiority,0.85,0.0001700496544991
-2495,white_grievance,white grievance,0.85,0.0001700496544991
+2495,white_grievance,white_grievance,0.85,0.0001700496544991
 2496,white_grievance,incitement,0.85,0.0001700496544991
 2497,stereotypical,stereotypical,0.75,0.0001500438127933
 2498,inferiority,stereotypical,0.75,0.0001500438127933
@@ -2474,10 +2474,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2500,white_grievance,incitement,0.85,0.0001700496544991
 2501,irony,stereotypical,0.75,0.0001500438127933
 2502,stereotypical,inferiority,0.85,0.0001700496544991
-2503,white_grievance,white grievance,0.85,0.0001700496544991
+2503,white_grievance,white_grievance,0.85,0.0001700496544991
 2504,incitement,stereotypical,0.75,0.0001500438127933
 2505,white_grievance,stereotypical,0.75,0.0001500438127933
-2506,incitement,white grievance,0.85,0.0001700496544991
+2506,incitement,white_grievance,0.85,0.0001700496544991
 2507,incitement,stereotypical,0.75,0.0001500438127933
 2508,stereotypical,incitement,0.85,0.0001700496544991
 2509,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2517,18 +2517,18 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2543,white_grievance,stereotypical,0.75,0.0001500438127933
 2544,white_grievance,stereotypical,0.75,0.0001500438127933
 2545,irony,stereotypical,0.75,0.0001500438127933
-2546,incitement,white grievance,0.85,0.0001700496544991
+2546,incitement,white_grievance,0.85,0.0001700496544991
 2547,incitement,stereotypical,0.75,0.0001500438127933
 2548,white_grievance,stereotypical,0.75,0.0001500438127933
-2549,incitement,white grievance,0.85,0.0001700496544991
-2550,incitement,white grievance,0.85,0.0001700496544991
+2549,incitement,white_grievance,0.85,0.0001700496544991
+2550,incitement,white_grievance,0.85,0.0001700496544991
 2551,white_grievance,stereotypical,0.75,0.0001500438127933
-2552,incitement,white grievance,0.85,0.0001700496544991
+2552,incitement,white_grievance,0.85,0.0001700496544991
 2553,incitement,stereotypical,0.75,0.0001500438127933
 2554,white_grievance,stereotypical,0.75,0.0001500438127933
 2555,stereotypical,stereotypical,0.75,0.0001500438127933
 2556,irony,stereotypical,0.75,0.0001500438127933
-2557,white_grievance,white grievance,0.85,0.0001700496544991
+2557,white_grievance,white_grievance,0.85,0.0001700496544991
 2558,incitement,incitement,0.85,0.0001700496544991
 2559,stereotypical,inferiority,0.85,0.0001700496544991
 2560,stereotypical,incitement,0.85,0.0001700496544991
@@ -2585,26 +2585,26 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2611,stereotypical,stereotypical,0.75,0.0001500438127933
 2612,white_grievance,stereotypical,0.75,0.0001500438127933
 2613,white_grievance,incitement,0.85,0.0001700496544991
-2614,incitement,white grievance,0.85,0.0001700496544991
+2614,incitement,white_grievance,0.85,0.0001700496544991
 2615,white_grievance,inferiority,0.85,0.0001700496544991
 2616,white_grievance,stereotypical,0.75,0.0001500438127933
 2617,incitement,stereotypical,0.75,0.0001500438127933
 2618,incitement,stereotypical,0.75,0.0001500438127933
-2619,incitement,white grievance,0.85,0.0001700496544991
+2619,incitement,white_grievance,0.85,0.0001700496544991
 2620,incitement,threatening,0.85,0.0001700496544991
 2621,stereotypical,stereotypical,0.75,0.0001500438127933
 2622,stereotypical,stereotypical,0.75,0.0001500438127933
 2623,incitement,stereotypical,0.75,0.0001500438127933
-2624,white_grievance,white grievance,0.85,0.0001700496544991
+2624,white_grievance,white_grievance,0.85,0.0001700496544991
 2625,incitement,stereotypical,0.75,0.0001500438127933
 2626,stereotypical,stereotypical,0.75,0.0001500438127933
-2627,incitement,white grievance,0.85,0.0001700496544991
-2628,white_grievance,white grievance,0.85,0.0001700496544991
+2627,incitement,white_grievance,0.85,0.0001700496544991
+2628,white_grievance,white_grievance,0.85,0.0001700496544991
 2629,white_grievance,stereotypical,0.75,0.0001500438127933
 2630,white_grievance,stereotypical,0.75,0.0001500438127933
-2631,white_grievance,white grievance,0.85,0.0001700496544991
+2631,white_grievance,white_grievance,0.85,0.0001700496544991
 2632,stereotypical,stereotypical,0.75,0.0001500438127933
-2633,white_grievance,white grievance,0.85,0.0001700496544991
+2633,white_grievance,white_grievance,0.85,0.0001700496544991
 2634,white_grievance,inferiority,0.85,0.0001700496544991
 2635,white_grievance,incitement,0.85,0.0001700496544991
 2636,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2612,11 +2612,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2638,stereotypical,threatening,0.85,0.0001700496544991
 2639,white_grievance,stereotypical,0.75,0.0001500438127933
 2640,stereotypical,stereotypical,0.75,0.0001500438127933
-2641,white_grievance,white grievance,0.85,0.0001700496544991
+2641,white_grievance,white_grievance,0.85,0.0001700496544991
 2642,white_grievance,stereotypical,0.75,0.0001500438127933
 2643,incitement,stereotypical,0.75,0.0001500438127933
 2644,incitement,stereotypical,0.75,0.0001500438127933
-2645,white_grievance,white grievance,0.85,0.0001700496544991
+2645,white_grievance,white_grievance,0.85,0.0001700496544991
 2646,white_grievance,threatening,0.85,0.0001700496544991
 2647,white_grievance,inferiority,0.85,0.0001700496544991
 2648,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2634,7 +2634,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2660,inferiority,stereotypical,0.75,0.0001500438127933
 2661,stereotypical,stereotypical,0.75,0.0001500438127933
 2662,white_grievance,stereotypical,0.75,0.0001500438127933
-2663,incitement,white grievance,0.85,0.0001700496544991
+2663,incitement,white_grievance,0.85,0.0001700496544991
 2664,white_grievance,stereotypical,0.75,0.0001500438127933
 2665,white_grievance,stereotypical,0.75,0.0001500438127933
 2666,incitement,stereotypical,0.75,0.0001500438127933
@@ -2650,18 +2650,18 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2676,stereotypical,stereotypical,0.75,0.0001500438127933
 2677,inferiority,threatening,0.85,0.0001700496544991
 2678,incitement,stereotypical,0.75,0.0001500438127933
-2679,white_grievance,white grievance,0.85,0.0001700496544991
+2679,white_grievance,white_grievance,0.85,0.0001700496544991
 2680,white_grievance,stereotypical,0.75,0.0001500438127933
 2681,white_grievance,incitement,0.85,0.0001700496544991
 2682,white_grievance,stereotypical,0.75,0.0001500438127933
 2683,stereotypical,stereotypical,0.75,0.0001500438127933
 2684,stereotypical,stereotypical,0.75,0.0001500438127933
-2685,incitement,white grievance,0.85,0.0001700496544991
+2685,incitement,white_grievance,0.85,0.0001700496544991
 2686,white_grievance,stereotypical,0.75,0.0001500438127933
 2687,white_grievance,stereotypical,0.75,0.0001500438127933
 2688,white_grievance,stereotypical,0.75,0.0001500438127933
-2689,white_grievance,white grievance,0.85,0.0001700496544991
-2690,white_grievance,white grievance,0.85,0.0001700496544991
+2689,white_grievance,white_grievance,0.85,0.0001700496544991
+2690,white_grievance,white_grievance,0.85,0.0001700496544991
 2691,incitement,threatening,0.85,0.0001700496544991
 2692,incitement,stereotypical,0.75,0.0001500438127933
 2693,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2671,12 +2671,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2697,incitement,stereotypical,0.75,0.0001500438127933
 2698,white_grievance,stereotypical,0.75,0.0001500438127933
 2699,stereotypical,stereotypical,0.75,0.0001500438127933
-2700,white_grievance,white grievance,0.85,0.0001700496544991
+2700,white_grievance,white_grievance,0.85,0.0001700496544991
 2701,white_grievance,stereotypical,0.75,0.0001500438127933
 2702,white_grievance,stereotypical,0.75,0.0001500438127933
 2703,inferiority,inferiority,0.85,0.0001700496544991
-2704,inferiority,white grievance,0.85,0.0001700496544991
-2705,white_grievance,white grievance,0.85,0.0001700496544991
+2704,inferiority,white_grievance,0.85,0.0001700496544991
+2705,white_grievance,white_grievance,0.85,0.0001700496544991
 2706,white_grievance,stereotypical,0.75,0.0001500438127933
 2707,white_grievance,stereotypical,0.75,0.0001500438127933
 2708,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2688,32 +2688,32 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2714,inferiority,stereotypical,0.75,0.0001500438127933
 2715,white_grievance,threatening,0.85,0.0001700496544991
 2716,stereotypical,stereotypical,0.75,0.0001500438127933
-2717,incitement,white grievance,0.85,0.0001700496544991
-2718,white_grievance,white grievance,0.85,0.0001700496544991
+2717,incitement,white_grievance,0.85,0.0001700496544991
+2718,white_grievance,white_grievance,0.85,0.0001700496544991
 2719,white_grievance,stereotypical,0.75,0.0001500438127933
 2720,white_grievance,stereotypical,0.75,0.0001500438127933
 2721,white_grievance,stereotypical,0.75,0.0001500438127933
 2722,white_grievance,inferiority,0.85,0.0001700496544991
-2723,white_grievance,white grievance,0.85,0.0001700496544991
-2724,white_grievance,white grievance,0.85,0.0001700496544991
-2725,incitement,white grievance,0.85,0.0001700496544991
+2723,white_grievance,white_grievance,0.85,0.0001700496544991
+2724,white_grievance,white_grievance,0.85,0.0001700496544991
+2725,incitement,white_grievance,0.85,0.0001700496544991
 2726,white_grievance,incitement,0.85,0.0001700496544991
 2727,white_grievance,stereotypical,0.75,0.0001500438127933
 2728,white_grievance,stereotypical,0.75,0.0001500438127933
 2729,stereotypical,stereotypical,0.75,0.0001500438127933
 2730,incitement,stereotypical,0.75,0.0001500438127933
-2731,incitement,white grievance,0.85,0.0001700496544991
+2731,incitement,white_grievance,0.85,0.0001700496544991
 2732,incitement,incitement,0.85,0.0001700496544991
 2733,white_grievance,stereotypical,0.75,0.0001500438127933
 2734,white_grievance,stereotypical,0.75,0.0001500438127933
 2735,incitement,incitement,0.85,0.0001700496544991
 2736,inferiority,stereotypical,0.75,0.0001500438127933
-2737,incitement,white grievance,0.85,0.0001700496544991
+2737,incitement,white_grievance,0.85,0.0001700496544991
 2738,white_grievance,inferiority,0.85,0.0001700496544991
 2739,white_grievance,stereotypical,0.75,0.0001500438127933
 2740,incitement,stereotypical,0.75,0.0001500438127933
 2741,white_grievance,stereotypical,0.75,0.0001500438127933
-2742,white_grievance,white grievance,0.85,0.0001700496544991
+2742,white_grievance,white_grievance,0.85,0.0001700496544991
 2743,incitement,incitement,0.75,0.0001500438127933
 2744,white_grievance,incitement,0.85,0.0001700496544991
 2745,white_grievance,threatening,0.85,0.0001700496544991
@@ -2749,9 +2749,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2775,white_grievance,stereotypical,0.75,0.0001500438127933
 2776,incitement,incitement,0.85,0.0001700496544991
 2777,white_grievance,stereotypical,0.75,0.0001500438127933
-2778,white_grievance,white grievance,0.85,0.0001700496544991
-2779,white_grievance,white grievance,0.85,0.0001700496544991
-2780,white_grievance,white grievance,0.85,0.0001700496544991
+2778,white_grievance,white_grievance,0.85,0.0001700496544991
+2779,white_grievance,white_grievance,0.85,0.0001700496544991
+2780,white_grievance,white_grievance,0.85,0.0001700496544991
 2781,stereotypical,stereotypical,0.75,0.0001500438127933
 2782,incitement,stereotypical,0.75,0.0001500438127933
 2783,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2761,14 +2761,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2787,white_grievance,stereotypical,0.75,0.0001500438127933
 2788,white_grievance,stereotypical,0.75,0.0001500438127933
 2789,stereotypical,stereotypical,0.75,0.0001500438127933
-2790,incitement,white grievance,0.85,0.0001700496544991
+2790,incitement,white_grievance,0.85,0.0001700496544991
 2791,incitement,incitement,0.85,0.0001700496544991
 2792,incitement,stereotypical,0.75,0.0001500438127933
 2793,incitement,stereotypical,0.75,0.0001500438127933
 2794,stereotypical,stereotypical,0.75,0.0001500438127933
-2795,white_grievance,white grievance,0.85,0.0001700496544991
+2795,white_grievance,white_grievance,0.85,0.0001700496544991
 2796,incitement,stereotypical,0.75,0.0001500438127933
-2797,stereotypical,white grievance,0.85,0.0001700496544991
+2797,stereotypical,white_grievance,0.85,0.0001700496544991
 2798,stereotypical,stereotypical,0.75,0.0001500438127933
 2799,white_grievance,stereotypical,0.75,0.0001500438127933
 2800,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2778,8 +2778,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2804,stereotypical,stereotypical,0.75,0.0001500438127933
 2805,stereotypical,stereotypical,0.75,0.0001500438127933
 2806,incitement,incitement,0.85,0.0001700496544991
-2807,incitement,white grievance,0.85,0.0001700496544991
-2808,incitement,white grievance,0.85,0.0001700496544991
+2807,incitement,white_grievance,0.85,0.0001700496544991
+2808,incitement,white_grievance,0.85,0.0001700496544991
 2809,stereotypical,threatening,0.85,0.0001700496544991
 2810,incitement,incitement,0.85,0.0001700496544991
 2811,incitement,stereotypical,0.75,0.0001500438127933
@@ -2798,7 +2798,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2824,incitement,incitement,0.85,0.0001700496544991
 2825,incitement,incitement,0.85,0.0001700496544991
 2826,white_grievance,stereotypical,0.75,0.0001500438127933
-2827,incitement,white grievance,0.85,0.0001700496544991
+2827,incitement,white_grievance,0.85,0.0001700496544991
 2828,white_grievance,stereotypical,0.75,0.0001500438127933
 2829,inferiority,stereotypical,0.75,0.0001500438127933
 2830,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2815,10 +2815,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2841,incitement,stereotypical,0.75,0.0001500438127933
 2842,white_grievance,incitement,0.85,0.0001700496544991
 2843,stereotypical,threatening,0.85,0.0001700496544991
-2844,white_grievance,white grievance,0.85,0.0001700496544991
+2844,white_grievance,white_grievance,0.85,0.0001700496544991
 2845,incitement,stereotypical,0.75,0.0001500438127933
 2846,incitement,stereotypical,0.75,0.0001500438127933
-2847,incitement,white grievance,0.85,0.0001700496544991
+2847,incitement,white_grievance,0.85,0.0001700496544991
 2848,white_grievance,stereotypical,0.75,0.0001500438127933
 2849,incitement,incitement,0.85,0.0001700496544991
 2850,incitement,stereotypical,0.75,0.0001500438127933
@@ -2830,7 +2830,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2856,stereotypical,stereotypical,0.75,0.0001500438127933
 2857,stereotypical,threatening,0.85,0.0001700496544991
 2858,white_grievance,stereotypical,0.75,0.0001500438127933
-2859,incitement,white grievance,0.85,0.0001700496544991
+2859,incitement,white_grievance,0.85,0.0001700496544991
 2860,irony,stereotypical,0.75,0.0001500438127933
 2861,stereotypical,threatening,0.85,0.0001700496544991
 2862,incitement,incitement,0.85,0.0001700496544991
@@ -2840,10 +2840,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2866,stereotypical,incitement,0.85,0.0001700496544991
 2867,incitement,stereotypical,0.75,0.0001500438127933
 2868,incitement,incitement,0.85,0.0001700496544991
-2869,white_grievance,white grievance,0.85,0.0001700496544991
+2869,white_grievance,white_grievance,0.85,0.0001700496544991
 2870,white_grievance,stereotypical,0.75,0.0001500438127933
-2871,incitement,white grievance,0.85,0.0001700496544991
-2872,incitement,white grievance,0.85,0.0001700496544991
+2871,incitement,white_grievance,0.85,0.0001700496544991
+2872,incitement,white_grievance,0.85,0.0001700496544991
 2873,white_grievance,stereotypical,0.75,0.0001500438127933
 2874,threatening,stereotypical,0.75,0.0001500438127933
 2875,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -2870,7 +2870,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2896,threatening,incitement,0.85,0.0001700496544991
 2897,incitement,stereotypical,0.75,0.0001500438127933
 2898,white_grievance,stereotypical,0.75,0.0001500438127933
-2899,white_grievance,white grievance,0.85,0.0001700496544991
+2899,white_grievance,white_grievance,0.85,0.0001700496544991
 2900,stereotypical,incitement,0.85,0.0001700496544991
 2901,stereotypical,stereotypical,0.75,0.0001500438127933
 2902,inferiority,stereotypical,0.75,0.0001500438127933
@@ -2898,7 +2898,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2924,incitement,threatening,0.85,0.0001700496544991
 2925,incitement,incitement,0.85,0.0001700496544991
 2926,white_grievance,stereotypical,0.75,0.0001500438127933
-2927,incitement,white grievance,0.85,0.0001700496544991
+2927,incitement,white_grievance,0.85,0.0001700496544991
 2928,incitement,inferiority,0.85,0.0001700496544991
 2929,stereotypical,incitement,0.85,0.0001700496544991
 2930,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -2912,7 +2912,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2938,incitement,stereotypical,0.75,0.0001500438127933
 2939,stereotypical,stereotypical,0.75,0.0001500438127933
 2940,incitement,stereotypical,0.75,0.0001500438127933
-2941,incitement,white grievance,0.85,0.0001700496544991
+2941,incitement,white_grievance,0.85,0.0001700496544991
 2942,incitement,stereotypical,0.75,0.0001500438127933
 2943,incitement,stereotypical,0.75,0.0001500438127933
 2944,white_grievance,incitement,0.85,0.0001700496544991
@@ -2934,11 +2934,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2960,incitement,stereotypical,0.75,0.0001500438127933
 2961,inferiority,stereotypical,0.75,0.0001500438127933
 2962,incitement,incitement,0.75,0.0001500438127933
-2963,incitement,white grievance,0.85,0.0001700496544991
+2963,incitement,white_grievance,0.85,0.0001700496544991
 2964,incitement,stereotypical,0.75,0.0001500438127933
 2965,white_grievance,stereotypical,0.75,0.0001500438127933
 2966,incitement,incitement,0.85,0.0001700496544991
-2967,incitement,white grievance,0.85,0.0001700496544991
+2967,incitement,white_grievance,0.85,0.0001700496544991
 2968,incitement,stereotypical,0.75,0.0001500438127933
 2969,incitement,stereotypical,0.75,0.0001500438127933
 2970,incitement,incitement,0.85,0.0001700496544991
@@ -2948,18 +2948,18 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 2974,inferiority,stereotypical,0.75,0.0001500438127933
 2975,stereotypical,stereotypical,0.75,0.0001500438127933
 2976,incitement,stereotypical,0.75,0.0001500438127933
-2977,incitement,white grievance,0.85,0.0001700496544991
+2977,incitement,white_grievance,0.85,0.0001700496544991
 2978,incitement,incitement,0.85,0.0001700496544991
 2979,incitement,stereotypical,0.75,0.0001500438127933
-2980,white_grievance,white grievance,0.85,0.0001700496544991
+2980,white_grievance,white_grievance,0.85,0.0001700496544991
 2981,incitement,inferiority,0.85,0.0001700496544991
 2982,white_grievance,stereotypical,0.75,0.0001500438127933
-2983,incitement,white grievance,0.85,0.0001700496544991
+2983,incitement,white_grievance,0.85,0.0001700496544991
 2984,stereotypical,stereotypical,0.75,0.0001500438127933
 2985,white_grievance,stereotypical,0.75,0.0001500438127933
 2986,white_grievance,stereotypical,0.75,0.0001500438127933
 2987,incitement,stereotypical,0.75,0.0001500438127933
-2988,incitement,white grievance,0.85,0.0001700496544991
+2988,incitement,white_grievance,0.85,0.0001700496544991
 2989,white_grievance,stereotypical,0.75,0.0001500438127933
 2990,other,stereotypical,0.75,0.0001500438127933
 2991,incitement,stereotypical,0.75,0.0001500438127933
@@ -2980,9 +2980,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3006,incitement,stereotypical,0.75,0.0001500438127933
 3007,stereotypical,stereotypical,0.75,0.0001500438127933
 3008,stereotypical,stereotypical,0.75,0.0001500438127933
-3009,white_grievance,white grievance,0.85,0.0001700496544991
+3009,white_grievance,white_grievance,0.85,0.0001700496544991
 3010,stereotypical,stereotypical,0.75,0.0001500438127933
-3011,white_grievance,white grievance,0.85,0.0001700496544991
+3011,white_grievance,white_grievance,0.85,0.0001700496544991
 3012,incitement,inferiority,0.85,0.0001700496544991
 3013,stereotypical,inferiority,0.85,0.0001700496544991
 3014,incitement,stereotypical,0.75,0.0001500438127933
@@ -3000,15 +3000,15 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3026,stereotypical,inferiority,0.85,0.0001700496544991
 3027,stereotypical,threatening,0.85,0.0001700496544991
 3028,incitement,stereotypical,0.75,0.0001500438127933
-3029,incitement,white grievance,0.85,0.0001700496544991
+3029,incitement,white_grievance,0.85,0.0001700496544991
 3030,white_grievance,stereotypical,0.75,0.0001500438127933
 3031,stereotypical,incitement,0.85,0.0001700496544991
 3032,incitement,incitement,0.85,0.0001700496544991
 3033,stereotypical,stereotypical,0.75,0.0001500438127933
-3034,white_grievance,white grievance,0.85,0.0001700496544991
+3034,white_grievance,white_grievance,0.85,0.0001700496544991
 3035,white_grievance,stereotypical,0.75,0.0001500438127933
 3036,threatening,stereotypical,0.75,0.0001500438127933
-3037,incitement,white grievance,0.85,0.0001700496544991
+3037,incitement,white_grievance,0.85,0.0001700496544991
 3038,white_grievance,stereotypical,0.75,0.0001500438127933
 3039,threatening,stereotypical,0.75,0.0001500438127933
 3040,inferiority,stereotypical,0.75,0.0001500438127933
@@ -3020,14 +3020,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3046,white_grievance,stereotypical,0.75,0.0001500438127933
 3047,incitement,inferiority,0.85,0.0001700496544991
 3048,incitement,incitement,0.85,0.0001700496544991
-3049,incitement,white grievance,0.85,0.0001700496544991
+3049,incitement,white_grievance,0.85,0.0001700496544991
 3050,incitement,stereotypical,0.75,0.0001500438127933
 3051,white_grievance,stereotypical,0.75,0.0001500438127933
 3052,threatening,inferiority,0.85,0.0001700496544991
 3053,white_grievance,stereotypical,0.75,0.0001500438127933
 3054,stereotypical,stereotypical,0.75,0.0001500438127933
 3055,inferiority,stereotypical,0.75,0.0001500438127933
-3056,white_grievance,white grievance,0.85,0.0001700496544991
+3056,white_grievance,white_grievance,0.85,0.0001700496544991
 3057,white_grievance,stereotypical,0.75,0.0001500438127933
 3058,stereotypical,threatening,0.85,0.0001700496544991
 3059,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3057,9 +3057,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3083,threatening,threatening,0.85,0.0001700496544991
 3084,incitement,stereotypical,0.75,0.0001500438127933
 3085,incitement,stereotypical,0.75,0.0001500438127933
-3086,incitement,white grievance,0.85,0.0001700496544991
+3086,incitement,white_grievance,0.85,0.0001700496544991
 3087,incitement,stereotypical,0.75,0.0001500438127933
-3088,white_grievance,white grievance,0.85,0.0001700496544991
+3088,white_grievance,white_grievance,0.85,0.0001700496544991
 3089,stereotypical,stereotypical,0.75,0.0001500438127933
 3090,stereotypical,stereotypical,0.75,0.0001500438127933
 3091,white_grievance,incitement,0.85,0.0001700496544991
@@ -3076,8 +3076,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3102,white_grievance,stereotypical,0.75,0.0001500438127933
 3103,stereotypical,stereotypical,0.75,0.0001500438127933
 3104,incitement,stereotypical,0.75,0.0001500438127933
-3105,incitement,white grievance,0.85,0.0001700496544991
-3106,white_grievance,white grievance,0.85,0.0001700496544991
+3105,incitement,white_grievance,0.85,0.0001700496544991
+3106,white_grievance,white_grievance,0.85,0.0001700496544991
 3107,stereotypical,stereotypical,0.75,0.0001500438127933
 3108,stereotypical,stereotypical,0.75,0.0001500438127933
 3109,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3086,7 +3086,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3112,incitement,incitement,0.85,0.0001700496544991
 3113,stereotypical,stereotypical,0.75,0.0001500438127933
 3114,stereotypical,incitement,0.85,0.0001700496544991
-3115,incitement,white grievance,0.85,0.0001700496544991
+3115,incitement,white_grievance,0.85,0.0001700496544991
 3116,stereotypical,stereotypical,0.75,0.0001500438127933
 3117,stereotypical,stereotypical,0.75,0.0001500438127933
 3118,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3094,7 +3094,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3120,incitement,inferiority,0.85,0.0001700496544991
 3121,incitement,stereotypical,0.75,0.0001500438127933
 3122,white_grievance,stereotypical,0.75,0.0001500438127933
-3123,incitement,white grievance,0.85,0.0001700496544991
+3123,incitement,white_grievance,0.85,0.0001700496544991
 3124,white_grievance,stereotypical,0.75,0.0001500438127933
 3125,irony,threatening,0.85,0.0001700496544991
 3126,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3104,16 +3104,16 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3130,stereotypical,stereotypical,0.75,0.0001500438127933
 3131,stereotypical,stereotypical,0.75,0.0001500438127933
 3132,stereotypical,stereotypical,0.75,0.0001500438127933
-3133,white_grievance,white grievance,0.85,0.0001700496544991
-3134,white_grievance,white grievance,0.85,0.0001700496544991
+3133,white_grievance,white_grievance,0.85,0.0001700496544991
+3134,white_grievance,white_grievance,0.85,0.0001700496544991
 3135,white_grievance,stereotypical,0.75,0.0001500438127933
-3136,white_grievance,white grievance,0.85,0.0001700496544991
+3136,white_grievance,white_grievance,0.85,0.0001700496544991
 3137,white_grievance,stereotypical,0.75,0.0001500438127933
-3138,white_grievance,white grievance,0.85,0.0001700496544991
+3138,white_grievance,white_grievance,0.85,0.0001700496544991
 3139,irony,incitement,0.85,0.0001700496544991
 3140,white_grievance,stereotypical,0.75,0.0001500438127933
 3141,white_grievance,stereotypical,0.75,0.0001500438127933
-3142,white_grievance,white grievance,0.85,0.0001700496544991
+3142,white_grievance,white_grievance,0.85,0.0001700496544991
 3143,incitement,stereotypical,0.75,0.0001500438127933
 3144,stereotypical,stereotypical,0.75,0.0001500438127933
 3145,inferiority,stereotypical,0.75,0.0001500438127933
@@ -3121,17 +3121,17 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3147,white_grievance,stereotypical,0.75,0.0001500438127933
 3148,irony,stereotypical,0.75,0.0001500438127933
 3149,stereotypical,stereotypical,0.75,0.0001500438127933
-3150,white_grievance,white grievance,0.85,0.0001700496544991
+3150,white_grievance,white_grievance,0.85,0.0001700496544991
 3151,incitement,incitement,0.85,0.0001700496544991
 3152,white_grievance,stereotypical,0.75,0.0001500438127933
 3153,inferiority,stereotypical,0.75,0.0001500438127933
-3154,incitement,white grievance,0.85,0.0001700496544991
+3154,incitement,white_grievance,0.85,0.0001700496544991
 3155,white_grievance,stereotypical,0.75,0.0001500438127933
 3156,incitement,incitement,0.85,0.0001700496544991
 3157,white_grievance,stereotypical,0.75,0.0001500438127933
 3158,incitement,stereotypical,0.75,0.0001500438127933
 3159,white_grievance,stereotypical,0.75,0.0001500438127933
-3160,white_grievance,white grievance,0.85,0.0001700496544991
+3160,white_grievance,white_grievance,0.85,0.0001700496544991
 3161,incitement,stereotypical,0.75,0.0001500438127933
 3162,other,stereotypical,0.75,0.0001500438127933
 3163,other,stereotypical,0.75,0.0001500438127933
@@ -3139,8 +3139,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3165,white_grievance,stereotypical,0.75,0.0001500438127933
 3166,white_grievance,stereotypical,0.75,0.0001500438127933
 3167,stereotypical,stereotypical,0.75,0.0001500438127933
-3168,white_grievance,white grievance,0.85,0.0001700496544991
-3169,incitement,white grievance,0.85,0.0001700496544991
+3168,white_grievance,white_grievance,0.85,0.0001700496544991
+3169,incitement,white_grievance,0.85,0.0001700496544991
 3170,white_grievance,stereotypical,0.75,0.0001500438127933
 3171,stereotypical,stereotypical,0.75,0.0001500438127933
 3172,inferiority,stereotypical,0.75,0.0001500438127933
@@ -3154,7 +3154,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3180,incitement,stereotypical,0.75,0.0001500438127933
 3181,white_grievance,threatening,0.85,0.0001700496544991
 3182,white_grievance,stereotypical,0.75,0.0001500438127933
-3183,white_grievance,white grievance,0.85,0.0001700496544991
+3183,white_grievance,white_grievance,0.85,0.0001700496544991
 3184,irony,stereotypical,0.75,0.0001500438127933
 3185,stereotypical,stereotypical,0.75,0.0001500438127933
 3186,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3162,17 +3162,17 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3188,inferiority,stereotypical,0.75,0.0001500438127933
 3189,stereotypical,stereotypical,0.75,0.0001500438127933
 3190,white_grievance,stereotypical,0.75,0.0001500438127933
-3191,white_grievance,white grievance,0.85,0.0001700496544991
+3191,white_grievance,white_grievance,0.85,0.0001700496544991
 3192,white_grievance,stereotypical,0.75,0.0001500438127933
 3193,incitement,stereotypical,0.75,0.0001500438127933
 3194,inferiority,threatening,0.85,0.0001700496544991
 3195,incitement,incitement,0.85,0.0001700496544991
 3196,inferiority,stereotypical,0.75,0.0001500438127933
-3197,white_grievance,white grievance,0.85,0.0001700496544991
+3197,white_grievance,white_grievance,0.85,0.0001700496544991
 3198,white_grievance,inferiority,0.85,0.0001700496544991
 3199,white_grievance,stereotypical,0.75,0.0001500438127933
 3200,white_grievance,incitement,0.75,0.0001500438127933
-3201,white_grievance,white grievance,0.85,0.0001700496544991
+3201,white_grievance,white_grievance,0.85,0.0001700496544991
 3202,white_grievance,stereotypical,0.75,0.0001500438127933
 3203,stereotypical,stereotypical,0.75,0.0001500438127933
 3204,irony,stereotypical,0.75,0.0001500438127933
@@ -3181,7 +3181,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3207,stereotypical,incitement,0.85,0.0001700496544991
 3208,white_grievance,stereotypical,0.75,0.0001500438127933
 3209,inferiority,inferiority,0.85,0.0001700496544991
-3210,incitement,white grievance,0.85,0.0001700496544991
+3210,incitement,white_grievance,0.85,0.0001700496544991
 3211,white_grievance,stereotypical,0.75,0.0001500438127933
 3212,incitement,stereotypical,0.75,0.0001500438127933
 3213,incitement,stereotypical,0.75,0.0001500438127933
@@ -3198,21 +3198,21 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3224,incitement,incitement,0.75,0.0001500438127933
 3225,incitement,stereotypical,0.75,0.0001500438127933
 3226,stereotypical,stereotypical,0.75,0.0001500438127933
-3227,incitement,white grievance,0.85,0.0001700496544991
+3227,incitement,white_grievance,0.85,0.0001700496544991
 3228,white_grievance,inferiority,0.85,0.0001700496544991
-3229,white_grievance,white grievance,0.85,0.0001700496544991
+3229,white_grievance,white_grievance,0.85,0.0001700496544991
 3230,stereotypical,stereotypical,0.75,0.0001500438127933
 3231,stereotypical,inferiority,0.85,0.0001700496544991
 3232,white_grievance,stereotypical,0.75,0.0001500438127933
 3233,white_grievance,stereotypical,0.75,0.0001500438127933
 3234,white_grievance,incitement,0.85,0.0001700496544991
-3235,white_grievance,white grievance,0.85,0.0001700496544991
+3235,white_grievance,white_grievance,0.85,0.0001700496544991
 3236,stereotypical,stereotypical,0.75,0.0001500438127933
 3237,white_grievance,stereotypical,0.75,0.0001500438127933
 3238,incitement,stereotypical,0.75,0.0001500438127933
 3239,incitement,stereotypical,0.75,0.0001500438127933
 3240,stereotypical,threatening,0.85,0.0001700496544991
-3241,inferiority,white grievance,0.85,0.0001700496544991
+3241,inferiority,white_grievance,0.85,0.0001700496544991
 3242,stereotypical,stereotypical,0.75,0.0001500438127933
 3243,stereotypical,stereotypical,0.75,0.0001500438127933
 3244,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3227,7 +3227,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3253,white_grievance,stereotypical,0.75,0.0001500438127933
 3254,incitement,stereotypical,0.75,0.0001500438127933
 3255,white_grievance,incitement,0.85,0.0001700496544991
-3256,white_grievance,white grievance,0.85,0.0001700496544991
+3256,white_grievance,white_grievance,0.85,0.0001700496544991
 3257,stereotypical,stereotypical,0.75,0.0001500438127933
 3258,incitement,stereotypical,0.75,0.0001500438127933
 3259,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3241,11 +3241,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3267,white_grievance,inferiority,0.85,0.0001700496544991
 3268,stereotypical,stereotypical,0.75,0.0001500438127933
 3269,inferiority,stereotypical,0.75,0.0001500438127933
-3270,white_grievance,white grievance,0.85,0.0001700496544991
+3270,white_grievance,white_grievance,0.85,0.0001700496544991
 3271,white_grievance,stereotypical,0.75,0.0001500438127933
-3272,incitement,white grievance,0.85,0.0001700496544991
+3272,incitement,white_grievance,0.85,0.0001700496544991
 3273,incitement,incitement,0.85,0.0001700496544991
-3274,irony,white grievance,0.85,0.0001700496544991
+3274,irony,white_grievance,0.85,0.0001700496544991
 3275,white_grievance,threatening,0.85,0.0001700496544991
 3276,inferiority,stereotypical,0.75,0.0001500438127933
 3277,incitement,stereotypical,0.75,0.0001500438127933
@@ -3257,18 +3257,18 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3283,white_grievance,stereotypical,0.75,0.0001500438127933
 3284,white_grievance,stereotypical,0.75,0.0001500438127933
 3285,white_grievance,stereotypical,0.75,0.0001500438127933
-3286,white_grievance,white grievance,0.85,0.0001700496544991
+3286,white_grievance,white_grievance,0.85,0.0001700496544991
 3287,incitement,stereotypical,0.75,0.0001500438127933
 3288,white_grievance,inferiority,0.85,0.0001700496544991
 3289,white_grievance,stereotypical,0.75,0.0001500438127933
-3290,incitement,white grievance,0.85,0.0001700496544991
+3290,incitement,white_grievance,0.85,0.0001700496544991
 3291,incitement,stereotypical,0.75,0.0001500438127933
 3292,white_grievance,stereotypical,0.75,0.0001500438127933
 3293,white_grievance,stereotypical,0.75,0.0001500438127933
 3294,irony,stereotypical,0.75,0.0001500438127933
 3295,incitement,stereotypical,0.75,0.0001500438127933
 3296,stereotypical,incitement,0.85,0.0001700496544991
-3297,white_grievance,white grievance,0.85,0.0001700496544991
+3297,white_grievance,white_grievance,0.85,0.0001700496544991
 3298,inferiority,inferiority,0.85,0.0001700496544991
 3299,incitement,stereotypical,0.75,0.0001500438127933
 3300,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3280,9 +3280,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3306,stereotypical,incitement,0.85,0.0001700496544991
 3307,stereotypical,stereotypical,0.75,0.0001500438127933
 3308,incitement,stereotypical,0.75,0.0001500438127933
-3309,threatening,white grievance,0.85,0.0001700496544991
+3309,threatening,white_grievance,0.85,0.0001700496544991
 3310,incitement,incitement,0.85,0.0001700496544991
-3311,white_grievance,white grievance,0.85,0.0001700496544991
+3311,white_grievance,white_grievance,0.85,0.0001700496544991
 3312,white_grievance,stereotypical,0.75,0.0001500438127933
 3313,white_grievance,stereotypical,0.75,0.0001500438127933
 3314,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3296,14 +3296,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3322,incitement,inferiority,0.85,0.0001700496544991
 3323,incitement,stereotypical,0.75,0.0001500438127933
 3324,white_grievance,stereotypical,0.75,0.0001500438127933
-3325,incitement,white grievance,0.85,0.0001700496544991
+3325,incitement,white_grievance,0.85,0.0001700496544991
 3326,white_grievance,stereotypical,0.75,0.0001500438127933
 3327,white_grievance,stereotypical,0.75,0.0001500438127933
 3328,white_grievance,stereotypical,0.75,0.0001500438127933
 3329,white_grievance,stereotypical,0.75,0.0001500438127933
 3330,white_grievance,stereotypical,0.75,0.0001500438127933
 3331,white_grievance,stereotypical,0.75,0.0001500438127933
-3332,white_grievance,white grievance,0.85,0.0001700496544991
+3332,white_grievance,white_grievance,0.85,0.0001700496544991
 3333,white_grievance,stereotypical,0.75,0.0001500438127933
 3334,stereotypical,stereotypical,0.75,0.0001500438127933
 3335,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3311,7 +3311,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3337,incitement,stereotypical,0.75,0.0001500438127933
 3338,incitement,stereotypical,0.75,0.0001500438127933
 3339,stereotypical,incitement,0.75,0.0001500438127933
-3340,white_grievance,white grievance,0.85,0.0001700496544991
+3340,white_grievance,white_grievance,0.85,0.0001700496544991
 3341,stereotypical,stereotypical,0.75,0.0001500438127933
 3342,white_grievance,stereotypical,0.75,0.0001500438127933
 3343,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3324,18 +3324,18 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3350,incitement,stereotypical,0.75,0.0001500438127933
 3351,white_grievance,stereotypical,0.75,0.0001500438127933
 3352,white_grievance,stereotypical,0.75,0.0001500438127933
-3353,inferiority,white grievance,0.85,0.0001700496544991
+3353,inferiority,white_grievance,0.85,0.0001700496544991
 3354,white_grievance,stereotypical,0.75,0.0001500438127933
 3355,incitement,incitement,0.85,0.0001700496544991
 3356,white_grievance,stereotypical,0.75,0.0001500438127933
 3357,white_grievance,stereotypical,0.75,0.0001500438127933
-3358,white_grievance,white grievance,0.85,0.0001700496544991
+3358,white_grievance,white_grievance,0.85,0.0001700496544991
 3359,white_grievance,stereotypical,0.75,0.0001500438127933
 3360,stereotypical,incitement,0.75,0.0001500438127933
 3361,irony,stereotypical,0.75,0.0001500438127933
 3362,white_grievance,stereotypical,0.75,0.0001500438127933
-3363,white_grievance,white grievance,0.85,0.0001700496544991
-3364,inferiority,white grievance,0.85,0.0001700496544991
+3363,white_grievance,white_grievance,0.85,0.0001700496544991
+3364,inferiority,white_grievance,0.85,0.0001700496544991
 3365,incitement,stereotypical,0.75,0.0001500438127933
 3366,stereotypical,incitement,0.85,0.0001700496544991
 3367,incitement,incitement,0.75,0.0001500438127933
@@ -3343,11 +3343,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3369,white_grievance,stereotypical,0.75,0.0001500438127933
 3370,incitement,incitement,0.85,0.0001700496544991
 3371,white_grievance,stereotypical,0.75,0.0001500438127933
-3372,white_grievance,white grievance,0.85,0.0001700496544991
+3372,white_grievance,white_grievance,0.85,0.0001700496544991
 3373,incitement,incitement,0.85,0.0001700496544991
 3374,white_grievance,threatening,0.85,0.0001700496544991
 3375,white_grievance,stereotypical,0.75,0.0001500438127933
-3376,white_grievance,white grievance,0.85,0.0001700496544991
+3376,white_grievance,white_grievance,0.85,0.0001700496544991
 3377,white_grievance,threatening,0.85,0.0001700496544991
 3378,white_grievance,stereotypical,0.75,0.0001500438127933
 3379,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3374,19 +3374,19 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3400,white_grievance,stereotypical,0.75,0.0001500438127933
 3401,white_grievance,stereotypical,0.75,0.0001500438127933
 3402,white_grievance,stereotypical,0.75,0.0001500438127933
-3403,white_grievance,white grievance,0.85,0.0001700496544991
+3403,white_grievance,white_grievance,0.85,0.0001700496544991
 3404,incitement,stereotypical,0.75,0.0001500438127933
 3405,stereotypical,threatening,0.85,0.0001700496544991
 3406,white_grievance,stereotypical,0.75,0.0001500438127933
 3407,inferiority,stereotypical,0.75,0.0001500438127933
 3408,white_grievance,threatening,0.85,0.0001700496544991
 3409,white_grievance,stereotypical,0.75,0.0001500438127933
-3410,white_grievance,white grievance,0.85,0.0001700496544991
+3410,white_grievance,white_grievance,0.85,0.0001700496544991
 3411,white_grievance,stereotypical,0.75,0.0001500438127933
-3412,inferiority,white grievance,0.85,0.0001700496544991
+3412,inferiority,white_grievance,0.85,0.0001700496544991
 3413,stereotypical,stereotypical,0.75,0.0001500438127933
 3414,stereotypical,incitement,0.85,0.0001700496544991
-3415,white_grievance,white grievance,0.85,0.0001700496544991
+3415,white_grievance,white_grievance,0.85,0.0001700496544991
 3416,white_grievance,inferiority,0.85,0.0001700496544991
 3417,white_grievance,stereotypical,0.75,0.0001500438127933
 3418,incitement,stereotypical,0.75,0.0001500438127933
@@ -3395,17 +3395,17 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3421,white_grievance,stereotypical,0.75,0.0001500438127933
 3422,stereotypical,stereotypical,0.75,0.0001500438127933
 3423,stereotypical,stereotypical,0.75,0.0001500438127933
-3424,incitement,white grievance,0.85,0.0001700496544991
+3424,incitement,white_grievance,0.85,0.0001700496544991
 3425,stereotypical,threatening,0.85,0.0001700496544991
 3426,incitement,inferiority,0.85,0.0001700496544991
 3427,stereotypical,stereotypical,0.75,0.0001500438127933
 3428,threatening,incitement,0.85,0.0001700496544991
 3429,stereotypical,threatening,0.85,0.0001700496544991
 3430,stereotypical,stereotypical,0.75,0.0001500438127933
-3431,incitement,white grievance,0.85,0.0001700496544991
-3432,other,white grievance,0.85,0.0001700496544991
+3431,incitement,white_grievance,0.85,0.0001700496544991
+3432,other,white_grievance,0.85,0.0001700496544991
 3433,stereotypical,threatening,0.85,0.0001700496544991
-3434,white_grievance,white grievance,0.85,0.0001700496544991
+3434,white_grievance,white_grievance,0.85,0.0001700496544991
 3435,stereotypical,stereotypical,0.75,0.0001500438127933
 3436,white_grievance,incitement,0.85,0.0001700496544991
 3437,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3415,7 +3415,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3441,white_grievance,stereotypical,0.75,0.0001500438127933
 3442,stereotypical,stereotypical,0.75,0.0001500438127933
 3443,stereotypical,stereotypical,0.75,0.0001500438127933
-3444,white_grievance,white grievance,0.85,0.0001700496544991
+3444,white_grievance,white_grievance,0.85,0.0001700496544991
 3445,white_grievance,stereotypical,0.75,0.0001500438127933
 3446,threatening,stereotypical,0.75,0.0001500438127933
 3447,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3435,8 +3435,8 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3461,white_grievance,stereotypical,0.75,0.0001500438127933
 3462,white_grievance,stereotypical,0.75,0.0001500438127933
 3463,incitement,inferiority,0.85,0.0001700496544991
-3464,white_grievance,white grievance,0.85,0.0001700496544991
-3465,incitement,white grievance,0.85,0.0001700496544991
+3464,white_grievance,white_grievance,0.85,0.0001700496544991
+3465,incitement,white_grievance,0.85,0.0001700496544991
 3466,stereotypical,incitement,0.85,0.0001700496544991
 3467,stereotypical,incitement,0.85,0.0001700496544991
 3468,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3456,17 +3456,17 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3482,white_grievance,stereotypical,0.75,0.0001500438127933
 3483,stereotypical,stereotypical,0.75,0.0001500438127933
 3484,incitement,stereotypical,0.75,0.0001500438127933
-3485,white_grievance,white grievance,0.85,0.0001700496544991
+3485,white_grievance,white_grievance,0.85,0.0001700496544991
 3486,incitement,incitement,0.85,0.0001700496544991
-3487,incitement,white grievance,0.85,0.0001700496544991
+3487,incitement,white_grievance,0.85,0.0001700496544991
 3488,incitement,incitement,0.85,0.0001700496544991
 3489,stereotypical,incitement,0.85,0.0001700496544991
-3490,white_grievance,white grievance,0.85,0.0001700496544991
+3490,white_grievance,white_grievance,0.85,0.0001700496544991
 3491,white_grievance,stereotypical,0.75,0.0001500438127933
 3492,white_grievance,stereotypical,0.75,0.0001500438127933
 3493,stereotypical,stereotypical,0.75,0.0001500438127933
 3494,stereotypical,threatening,0.85,0.0001700496544991
-3495,irony,white grievance,0.85,0.0001700496544991
+3495,irony,white_grievance,0.85,0.0001700496544991
 3496,white_grievance,stereotypical,0.75,0.0001500438127933
 3497,inferiority,inferiority,0.85,0.0001700496544991
 3498,incitement,stereotypical,0.75,0.0001500438127933
@@ -3475,19 +3475,19 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3501,incitement,stereotypical,0.75,0.0001500438127933
 3502,incitement,stereotypical,0.75,0.0001500438127933
 3503,incitement,incitement,0.85,0.0001700496544991
-3504,white_grievance,white grievance,0.85,0.0001700496544991
-3505,incitement,white grievance,0.85,0.0001700496544991
+3504,white_grievance,white_grievance,0.85,0.0001700496544991
+3505,incitement,white_grievance,0.85,0.0001700496544991
 3506,incitement,stereotypical,0.75,0.0001500438127933
 3507,incitement,threatening,0.85,0.0001700496544991
-3508,incitement,white grievance,0.85,0.0001700496544991
+3508,incitement,white_grievance,0.85,0.0001700496544991
 3509,incitement,stereotypical,0.75,0.0001500438127933
 3510,white_grievance,stereotypical,0.75,0.0001500438127933
 3511,incitement,stereotypical,0.75,0.0001500438127933
 3512,stereotypical,stereotypical,0.75,0.0001500438127933
 3513,white_grievance,stereotypical,0.75,0.0001500438127933
 3514,incitement,stereotypical,0.75,0.0001500438127933
-3515,white_grievance,white grievance,0.85,0.0001700496544991
-3516,incitement,white grievance,0.85,0.0001700496544991
+3515,white_grievance,white_grievance,0.85,0.0001700496544991
+3516,incitement,white_grievance,0.85,0.0001700496544991
 3517,white_grievance,inferiority,0.85,0.0001700496544991
 3518,white_grievance,stereotypical,0.75,0.0001500438127933
 3519,incitement,stereotypical,0.75,0.0001500438127933
@@ -3523,14 +3523,14 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3549,stereotypical,stereotypical,0.75,0.0001500438127933
 3550,incitement,stereotypical,0.75,0.0001500438127933
 3551,stereotypical,inferiority,0.85,0.0001700496544991
-3552,white_grievance,white grievance,0.85,0.0001700496544991
+3552,white_grievance,white_grievance,0.85,0.0001700496544991
 3553,other,stereotypical,0.75,0.0001500438127933
 3554,incitement,incitement,0.85,0.0001700496544991
 3555,white_grievance,stereotypical,0.75,0.0001500438127933
 3556,incitement,stereotypical,0.75,0.0001500438127933
-3557,white_grievance,white grievance,0.85,0.0001700496544991
+3557,white_grievance,white_grievance,0.85,0.0001700496544991
 3558,white_grievance,stereotypical,0.75,0.0001500438127933
-3559,incitement,white grievance,0.85,0.0001700496544991
+3559,incitement,white_grievance,0.85,0.0001700496544991
 3560,white_grievance,stereotypical,0.75,0.0001500438127933
 3561,incitement,stereotypical,0.75,0.0001500438127933
 3562,white_grievance,incitement,0.85,0.0001700496544991
@@ -3538,21 +3538,21 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3564,incitement,stereotypical,0.75,0.0001500438127933
 3565,stereotypical,stereotypical,0.75,0.0001500438127933
 3566,other,inferiority,0.85,0.0001700496544991
-3567,white_grievance,white grievance,0.85,0.0001700496544991
+3567,white_grievance,white_grievance,0.85,0.0001700496544991
 3568,incitement,stereotypical,0.75,0.0001500438127933
 3569,white_grievance,stereotypical,0.75,0.0001500438127933
-3570,white_grievance,white grievance,0.85,0.0001700496544991
+3570,white_grievance,white_grievance,0.85,0.0001700496544991
 3571,inferiority,inferiority,0.85,0.0001700496544991
 3572,stereotypical,stereotypical,0.75,0.0001500438127933
 3573,white_grievance,stereotypical,0.75,0.0001500438127933
-3574,incitement,white grievance,0.85,0.0001700496544991
+3574,incitement,white_grievance,0.85,0.0001700496544991
 3575,stereotypical,stereotypical,0.75,0.0001500438127933
 3576,incitement,stereotypical,0.75,0.0001500438127933
 3577,white_grievance,stereotypical,0.75,0.0001500438127933
 3578,incitement,stereotypical,0.75,0.0001500438127933
-3579,white_grievance,white grievance,0.85,0.0001700496544991
+3579,white_grievance,white_grievance,0.85,0.0001700496544991
 3580,incitement,stereotypical,0.75,0.0001500438127933
-3581,incitement,white grievance,0.85,0.0001700496544991
+3581,incitement,white_grievance,0.85,0.0001700496544991
 3582,threatening,threatening,0.85,0.0001700496544991
 3583,other,inferiority,0.85,0.0001700496544991
 3584,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3570,11 +3570,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3596,incitement,stereotypical,0.75,0.0001500438127933
 3597,incitement,incitement,0.85,0.0001700496544991
 3598,incitement,stereotypical,0.75,0.0001500438127933
-3599,inferiority,white grievance,0.85,0.0001700496544991
+3599,inferiority,white_grievance,0.85,0.0001700496544991
 3600,incitement,stereotypical,0.75,0.0001500438127933
 3601,white_grievance,stereotypical,0.75,0.0001500438127933
 3602,incitement,incitement,0.85,0.0001700496544991
-3603,incitement,white grievance,0.85,0.0001700496544991
+3603,incitement,white_grievance,0.85,0.0001700496544991
 3604,incitement,stereotypical,0.75,0.0001500438127933
 3605,incitement,stereotypical,0.75,0.0001500438127933
 3606,incitement,stereotypical,0.75,0.0001500438127933
@@ -3583,16 +3583,16 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3609,inferiority,stereotypical,0.75,0.0001500438127933
 3610,stereotypical,stereotypical,0.75,0.0001500438127933
 3611,incitement,stereotypical,0.75,0.0001500438127933
-3612,incitement,white grievance,0.85,0.0001700496544991
+3612,incitement,white_grievance,0.85,0.0001700496544991
 3613,other,stereotypical,0.75,0.0001500438127933
-3614,white_grievance,white grievance,0.85,0.0001700496544991
+3614,white_grievance,white_grievance,0.85,0.0001700496544991
 3615,stereotypical,threatening,0.85,0.0001700496544991
 3616,white_grievance,stereotypical,0.75,0.0001500438127933
 3617,irony,stereotypical,0.75,0.0001500438127933
 3618,incitement,incitement,0.85,0.0001700496544991
 3619,stereotypical,inferiority,0.85,0.0001700496544991
 3620,stereotypical,inferiority,0.85,0.0001700496544991
-3621,incitement,white grievance,0.85,0.0001700496544991
+3621,incitement,white_grievance,0.85,0.0001700496544991
 3622,incitement,incitement,0.85,0.0001700496544991
 3623,incitement,stereotypical,0.75,0.0001500438127933
 3624,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -3604,13 +3604,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3630,stereotypical,stereotypical,0.75,0.0001500438127933
 3631,white_grievance,stereotypical,0.75,0.0001500438127933
 3632,stereotypical,stereotypical,0.75,0.0001500438127933
-3633,white_grievance,white grievance,0.85,0.0001700496544991
+3633,white_grievance,white_grievance,0.85,0.0001700496544991
 3634,stereotypical,stereotypical,0.75,0.0001500438127933
 3635,stereotypical,stereotypical,0.75,0.0001500438127933
 3636,incitement,incitement,0.85,0.0001700496544991
 3637,white_grievance,stereotypical,0.75,0.0001500438127933
 3638,incitement,incitement,0.85,0.0001700496544991
-3639,incitement,white grievance,0.85,0.0001700496544991
+3639,incitement,white_grievance,0.85,0.0001700496544991
 3640,stereotypical,stereotypical,0.75,0.0001500438127933
 3641,incitement,stereotypical,0.75,0.0001500438127933
 3642,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3623,49 +3623,49 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3649,stereotypical,stereotypical,0.75,0.0001500438127933
 3650,white_grievance,stereotypical,0.75,0.0001500438127933
 3651,incitement,incitement,0.85,0.0001700496544991
-3652,white_grievance,white grievance,0.85,0.0001700496544991
+3652,white_grievance,white_grievance,0.85,0.0001700496544991
 3653,incitement,incitement,0.85,0.0001700496544991
 3654,stereotypical,threatening,0.85,0.0001700496544991
-3655,white_grievance,white grievance,0.85,0.0001700496544991
+3655,white_grievance,white_grievance,0.85,0.0001700496544991
 3656,white_grievance,stereotypical,0.75,0.0001500438127933
 3657,stereotypical,stereotypical,0.75,0.0001500438127933
 3658,stereotypical,stereotypical,0.75,0.0001500438127933
 3659,stereotypical,stereotypical,0.75,0.0001500438127933
-3660,incitement,white grievance,0.85,0.0001700496544991
+3660,incitement,white_grievance,0.85,0.0001700496544991
 3661,incitement,stereotypical,0.75,0.0001500438127933
 3662,incitement,incitement,0.85,0.0001700496544991
 3663,inferiority,inferiority,0.85,0.0001700496544991
 3664,incitement,stereotypical,0.75,0.0001500438127933
 3665,incitement,stereotypical,0.75,0.0001500438127933
 3666,stereotypical,stereotypical,0.75,0.0001500438127933
-3667,white_grievance,white grievance,0.85,0.0001700496544991
+3667,white_grievance,white_grievance,0.85,0.0001700496544991
 3668,threatening,threatening,0.85,0.0001700496544991
 3669,stereotypical,stereotypical,0.75,0.0001500438127933
-3670,white_grievance,white grievance,0.85,0.0001700496544991
-3671,white_grievance,white grievance,0.85,0.0001700496544991
+3670,white_grievance,white_grievance,0.85,0.0001700496544991
+3671,white_grievance,white_grievance,0.85,0.0001700496544991
 3672,white_grievance,stereotypical,0.75,0.0001500438127933
 3673,stereotypical,stereotypical,0.75,0.0001500438127933
 3674,incitement,stereotypical,0.75,0.0001500438127933
 3675,incitement,stereotypical,0.75,0.0001500438127933
 3676,stereotypical,stereotypical,0.75,0.0001500438127933
-3677,incitement,white grievance,0.85,0.0001700496544991
+3677,incitement,white_grievance,0.85,0.0001700496544991
 3678,white_grievance,stereotypical,0.75,0.0001500438127933
-3679,white_grievance,white grievance,0.85,0.0001700496544991
+3679,white_grievance,white_grievance,0.85,0.0001700496544991
 3680,white_grievance,incitement,0.85,0.0001700496544991
 3681,irony,stereotypical,0.75,0.0001500438127933
 3682,stereotypical,stereotypical,0.75,0.0001500438127933
 3683,white_grievance,stereotypical,0.75,0.0001500438127933
 3684,incitement,stereotypical,0.75,0.0001500438127933
 3685,incitement,incitement,0.85,0.0001700496544991
-3686,white_grievance,white grievance,0.85,0.0001700496544991
+3686,white_grievance,white_grievance,0.85,0.0001700496544991
 3687,stereotypical,inferiority,0.85,0.0001700496544991
 3688,inferiority,incitement,0.85,0.0001700496544991
 3689,stereotypical,stereotypical,0.75,0.0001500438127933
-3690,white_grievance,white grievance,0.85,0.0001700496544991
+3690,white_grievance,white_grievance,0.85,0.0001700496544991
 3691,stereotypical,stereotypical,0.75,0.0001500438127933
 3692,white_grievance,stereotypical,0.75,0.0001500438127933
 3693,white_grievance,incitement,0.85,0.0001700496544991
-3694,white_grievance,white grievance,0.85,0.0001700496544991
+3694,white_grievance,white_grievance,0.85,0.0001700496544991
 3695,white_grievance,stereotypical,0.75,0.0001500438127933
 3696,incitement,stereotypical,0.75,0.0001500438127933
 3697,stereotypical,incitement,0.85,0.0001700496544991
@@ -3689,13 +3689,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3715,other,incitement,0.85,0.0001700496544991
 3716,incitement,stereotypical,0.75,0.0001500438127933
 3717,white_grievance,stereotypical,0.75,0.0001500438127933
-3718,incitement,white grievance,0.85,0.0001700496544991
-3719,incitement,white grievance,0.85,0.0001700496544991
+3718,incitement,white_grievance,0.85,0.0001700496544991
+3719,incitement,white_grievance,0.85,0.0001700496544991
 3720,white_grievance,stereotypical,0.75,0.0001500438127933
 3721,threatening,stereotypical,0.75,0.0001500438127933
 3722,white_grievance,stereotypical,0.75,0.0001500438127933
 3723,inferiority,stereotypical,0.75,0.0001500438127933
-3724,white_grievance,white grievance,0.85,0.0001700496544991
+3724,white_grievance,white_grievance,0.85,0.0001700496544991
 3725,incitement,stereotypical,0.75,0.0001500438127933
 3726,white_grievance,inferiority,0.85,0.0001700496544991
 3727,irony,stereotypical,0.75,0.0001500438127933
@@ -3703,37 +3703,37 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3729,stereotypical,stereotypical,0.75,0.0001500438127933
 3730,white_grievance,stereotypical,0.75,0.0001500438127933
 3731,incitement,incitement,0.85,0.0001700496544991
-3732,incitement,white grievance,0.85,0.0001700496544991
+3732,incitement,white_grievance,0.85,0.0001700496544991
 3733,inferiority,incitement,0.85,0.0001700496544991
 3734,incitement,incitement,0.85,0.0001700496544991
 3735,incitement,stereotypical,0.75,0.0001500438127933
-3736,white_grievance,white grievance,0.85,0.0001700496544991
+3736,white_grievance,white_grievance,0.85,0.0001700496544991
 3737,incitement,threatening,0.85,0.0001700496544991
 3738,incitement,stereotypical,0.75,0.0001500438127933
 3739,irony,stereotypical,0.75,0.0001500438127933
 3740,stereotypical,stereotypical,0.75,0.0001500438127933
-3741,incitement,white grievance,0.85,0.0001700496544991
+3741,incitement,white_grievance,0.85,0.0001700496544991
 3742,stereotypical,stereotypical,0.75,0.0001500438127933
 3743,stereotypical,stereotypical,0.75,0.0001500438127933
 3744,threatening,stereotypical,0.75,0.0001500438127933
-3745,stereotypical,white grievance,0.85,0.0001700496544991
+3745,stereotypical,white_grievance,0.85,0.0001700496544991
 3746,incitement,stereotypical,0.75,0.0001500438127933
-3747,incitement,white grievance,0.85,0.0001700496544991
+3747,incitement,white_grievance,0.85,0.0001700496544991
 3748,incitement,stereotypical,0.75,0.0001500438127933
 3749,threatening,stereotypical,0.75,0.0001500438127933
 3750,incitement,inferiority,0.85,0.0001700496544991
 3751,incitement,inferiority,0.85,0.0001700496544991
-3752,incitement,white grievance,0.85,0.0001700496544991
+3752,incitement,white_grievance,0.85,0.0001700496544991
 3753,white_grievance,stereotypical,0.75,0.0001500438127933
 3754,incitement,stereotypical,0.75,0.0001500438127933
 3755,threatening,threatening,0.85,0.0001700496544991
-3756,white_grievance,white grievance,0.85,0.0001700496544991
+3756,white_grievance,white_grievance,0.85,0.0001700496544991
 3757,white_grievance,stereotypical,0.75,0.0001500438127933
-3758,stereotypical,white grievance,0.85,0.0001700496544991
+3758,stereotypical,white_grievance,0.85,0.0001700496544991
 3759,stereotypical,incitement,0.85,0.0001700496544991
 3760,stereotypical,stereotypical,0.75,0.0001500438127933
 3761,incitement,stereotypical,0.75,0.0001500438127933
-3762,incitement,white grievance,0.85,0.0001700496544991
+3762,incitement,white_grievance,0.85,0.0001700496544991
 3763,inferiority,stereotypical,0.75,0.0001500438127933
 3764,irony,stereotypical,0.75,0.0001500438127933
 3765,stereotypical,inferiority,0.85,0.0001700496544991
@@ -3748,10 +3748,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3774,white_grievance,stereotypical,0.75,0.0001500438127933
 3775,white_grievance,stereotypical,0.75,0.0001500438127933
 3776,white_grievance,threatening,0.85,0.0001700496544991
-3777,white_grievance,white grievance,0.85,0.0001700496544991
+3777,white_grievance,white_grievance,0.85,0.0001700496544991
 3778,white_grievance,stereotypical,0.75,0.0001500438127933
 3779,white_grievance,stereotypical,0.75,0.0001500438127933
-3780,white_grievance,white grievance,0.85,0.0001700496544991
+3780,white_grievance,white_grievance,0.85,0.0001700496544991
 3781,white_grievance,stereotypical,0.75,0.0001500438127933
 3782,stereotypical,stereotypical,0.75,0.0001500438127933
 3783,stereotypical,incitement,0.85,0.0001700496544991
@@ -3759,11 +3759,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3785,stereotypical,stereotypical,0.75,0.0001500438127933
 3786,incitement,stereotypical,0.75,0.0001500438127933
 3787,stereotypical,stereotypical,0.75,0.0001500438127933
-3788,incitement,white grievance,0.85,0.0001700496544991
+3788,incitement,white_grievance,0.85,0.0001700496544991
 3789,white_grievance,stereotypical,0.75,0.0001500438127933
 3790,incitement,incitement,0.85,0.0001700496544991
-3791,white_grievance,white grievance,0.85,0.0001700496544991
-3792,incitement,white grievance,0.85,0.0001700496544991
+3791,white_grievance,white_grievance,0.85,0.0001700496544991
+3792,incitement,white_grievance,0.85,0.0001700496544991
 3793,white_grievance,inferiority,0.85,0.0001700496544991
 3794,incitement,stereotypical,0.75,0.0001500438127933
 3795,incitement,stereotypical,0.75,0.0001500438127933
@@ -3774,10 +3774,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3800,stereotypical,stereotypical,0.75,0.0001500438127933
 3801,stereotypical,stereotypical,0.75,0.0001500438127933
 3802,white_grievance,stereotypical,0.75,0.0001500438127933
-3803,white_grievance,white grievance,0.85,0.0001700496544991
+3803,white_grievance,white_grievance,0.85,0.0001700496544991
 3804,white_grievance,stereotypical,0.75,0.0001500438127933
 3805,incitement,incitement,0.85,0.0001700496544991
-3806,incitement,white grievance,0.85,0.0001700496544991
+3806,incitement,white_grievance,0.85,0.0001700496544991
 3807,white_grievance,stereotypical,0.75,0.0001500438127933
 3808,white_grievance,stereotypical,0.75,0.0001500438127933
 3809,incitement,incitement,0.85,0.0001700496544991
@@ -3794,13 +3794,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3820,white_grievance,stereotypical,0.75,0.0001500438127933
 3821,stereotypical,incitement,0.85,0.0001700496544991
 3822,incitement,incitement,0.85,0.0001700496544991
-3823,white_grievance,white grievance,0.85,0.0001700496544991
+3823,white_grievance,white_grievance,0.85,0.0001700496544991
 3824,white_grievance,stereotypical,0.75,0.0001500438127933
 3825,stereotypical,stereotypical,0.75,0.0001500438127933
 3826,white_grievance,stereotypical,0.75,0.0001500438127933
 3827,white_grievance,stereotypical,0.75,0.0001500438127933
 3828,white_grievance,incitement,0.85,0.0001700496544991
-3829,white_grievance,white grievance,0.85,0.0001700496544991
+3829,white_grievance,white_grievance,0.85,0.0001700496544991
 3830,incitement,stereotypical,0.75,0.0001500438127933
 3831,incitement,incitement,0.85,0.0001700496544991
 3832,incitement,stereotypical,0.75,0.0001500438127933
@@ -3813,21 +3813,21 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3839,inferiority,threatening,0.85,0.0001700496544991
 3840,white_grievance,incitement,0.85,0.0001700496544991
 3841,white_grievance,stereotypical,0.75,0.0001500438127933
-3842,stereotypical,white grievance,0.85,0.0001700496544991
+3842,stereotypical,white_grievance,0.85,0.0001700496544991
 3843,incitement,stereotypical,0.75,0.0001500438127933
 3844,white_grievance,stereotypical,0.75,0.0001500438127933
 3845,stereotypical,incitement,0.85,0.0001700496544991
-3846,white_grievance,white grievance,0.85,0.0001700496544991
+3846,white_grievance,white_grievance,0.85,0.0001700496544991
 3847,inferiority,incitement,0.85,0.0001700496544991
 3848,inferiority,stereotypical,0.75,0.0001500438127933
 3849,inferiority,inferiority,0.85,0.0001700496544991
 3850,incitement,stereotypical,0.75,0.0001500438127933
 3851,white_grievance,stereotypical,0.75,0.0001500438127933
 3852,white_grievance,stereotypical,0.75,0.0001500438127933
-3853,white_grievance,white grievance,0.85,0.0001700496544991
+3853,white_grievance,white_grievance,0.85,0.0001700496544991
 3854,stereotypical,stereotypical,0.75,0.0001500438127933
 3855,incitement,stereotypical,0.75,0.0001500438127933
-3856,white_grievance,white grievance,0.85,0.0001700496544991
+3856,white_grievance,white_grievance,0.85,0.0001700496544991
 3857,white_grievance,stereotypical,0.75,0.0001500438127933
 3858,white_grievance,stereotypical,0.75,0.0001500438127933
 3859,inferiority,inferiority,0.85,0.0001700496544991
@@ -3848,7 +3848,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3874,white_grievance,stereotypical,0.75,0.0001500438127933
 3875,white_grievance,incitement,0.85,0.0001700496544991
 3876,white_grievance,inferiority,0.85,0.0001700496544991
-3877,white_grievance,white grievance,0.85,0.0001700496544991
+3877,white_grievance,white_grievance,0.85,0.0001700496544991
 3878,white_grievance,stereotypical,0.75,0.0001500438127933
 3879,white_grievance,stereotypical,0.75,0.0001500438127933
 3880,white_grievance,inferiority,0.85,0.0001700496544991
@@ -3864,7 +3864,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3890,inferiority,stereotypical,0.75,0.0001500438127933
 3891,inferiority,stereotypical,0.75,0.0001500438127933
 3892,incitement,incitement,0.85,0.0001700496544991
-3893,white_grievance,white grievance,0.85,0.0001700496544991
+3893,white_grievance,white_grievance,0.85,0.0001700496544991
 3894,white_grievance,inferiority,0.85,0.0001700496544991
 3895,incitement,stereotypical,0.75,0.0001500438127933
 3896,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3872,9 +3872,9 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3898,inferiority,inferiority,0.85,0.0001700496544991
 3899,white_grievance,stereotypical,0.75,0.0001500438127933
 3900,incitement,stereotypical,0.75,0.0001500438127933
-3901,incitement,white grievance,0.85,0.0001700496544991
+3901,incitement,white_grievance,0.85,0.0001700496544991
 3902,stereotypical,stereotypical,0.75,0.0001500438127933
-3903,white_grievance,white grievance,0.85,0.0001700496544991
+3903,white_grievance,white_grievance,0.85,0.0001700496544991
 3904,inferiority,threatening,0.85,0.0001700496544991
 3905,white_grievance,stereotypical,0.75,0.0001500438127933
 3906,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3892,23 +3892,23 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3918,white_grievance,stereotypical,0.75,0.0001500438127933
 3919,incitement,stereotypical,0.75,0.0001500438127933
 3920,stereotypical,stereotypical,0.75,0.0001500438127933
-3921,incitement,white grievance,0.85,0.0001700496544991
+3921,incitement,white_grievance,0.85,0.0001700496544991
 3922,white_grievance,stereotypical,0.75,0.0001500438127933
 3923,white_grievance,stereotypical,0.75,0.0001500438127933
-3924,incitement,white grievance,0.85,0.0001700496544991
+3924,incitement,white_grievance,0.85,0.0001700496544991
 3925,white_grievance,incitement,0.85,0.0001700496544991
 3926,stereotypical,stereotypical,0.75,0.0001500438127933
-3927,white_grievance,white grievance,0.85,0.0001700496544991
+3927,white_grievance,white_grievance,0.85,0.0001700496544991
 3928,incitement,stereotypical,0.75,0.0001500438127933
 3929,white_grievance,inferiority,0.85,0.0001700496544991
 3930,stereotypical,inferiority,0.85,0.0001700496544991
 3931,white_grievance,threatening,0.85,0.0001700496544991
-3932,white_grievance,white grievance,0.85,0.0001700496544991
+3932,white_grievance,white_grievance,0.85,0.0001700496544991
 3933,stereotypical,inferiority,0.85,0.0001700496544991
 3934,white_grievance,stereotypical,0.75,0.0001500438127933
 3935,stereotypical,stereotypical,0.75,0.0001500438127933
 3936,stereotypical,stereotypical,0.75,0.0001500438127933
-3937,white_grievance,white grievance,0.85,0.0001700496544991
+3937,white_grievance,white_grievance,0.85,0.0001700496544991
 3938,stereotypical,incitement,0.85,0.0001700496544991
 3939,white_grievance,inferiority,0.85,0.0001700496544991
 3940,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3925,7 +3925,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3951,white_grievance,stereotypical,0.75,0.0001500438127933
 3952,white_grievance,stereotypical,0.75,0.0001500438127933
 3953,stereotypical,stereotypical,0.75,0.0001500438127933
-3954,white_grievance,white grievance,0.85,0.0001700496544991
+3954,white_grievance,white_grievance,0.85,0.0001700496544991
 3955,white_grievance,stereotypical,0.75,0.0001500438127933
 3956,white_grievance,stereotypical,0.75,0.0001500438127933
 3957,incitement,incitement,0.85,0.0001700496544991
@@ -3935,12 +3935,12 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3961,stereotypical,stereotypical,0.75,0.0001500438127933
 3962,white_grievance,stereotypical,0.75,0.0001500438127933
 3963,white_grievance,stereotypical,0.75,0.0001500438127933
-3964,white_grievance,white grievance,0.85,0.0001700496544991
-3965,white_grievance,white grievance,0.85,0.0001700496544991
+3964,white_grievance,white_grievance,0.85,0.0001700496544991
+3965,white_grievance,white_grievance,0.85,0.0001700496544991
 3966,white_grievance,stereotypical,0.75,0.0001500438127933
 3967,incitement,stereotypical,0.75,0.0001500438127933
-3968,white_grievance,white grievance,0.85,0.0001700496544991
-3969,white_grievance,white grievance,0.85,0.0001700496544991
+3968,white_grievance,white_grievance,0.85,0.0001700496544991
+3969,white_grievance,white_grievance,0.85,0.0001700496544991
 3970,stereotypical,inferiority,0.85,0.0001700496544991
 3971,white_grievance,stereotypical,0.75,0.0001500438127933
 3972,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3955,7 +3955,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3981,stereotypical,stereotypical,0.75,0.0001500438127933
 3982,incitement,stereotypical,0.75,0.0001500438127933
 3983,incitement,stereotypical,0.75,0.0001500438127933
-3984,incitement,white grievance,0.85,0.0001700496544991
+3984,incitement,white_grievance,0.85,0.0001700496544991
 3985,white_grievance,stereotypical,0.75,0.0001500438127933
 3986,white_grievance,stereotypical,0.75,0.0001500438127933
 3987,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -3967,15 +3967,15 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 3993,incitement,threatening,0.85,0.0001700496544991
 3994,white_grievance,incitement,0.85,0.0001700496544991
 3995,white_grievance,incitement,0.85,0.0001700496544991
-3996,incitement,white grievance,0.85,0.0001700496544991
-3997,white_grievance,white grievance,0.85,0.0001700496544991
+3996,incitement,white_grievance,0.85,0.0001700496544991
+3997,white_grievance,white_grievance,0.85,0.0001700496544991
 3998,white_grievance,incitement,0.85,0.0001700496544991
 3999,incitement,stereotypical,0.75,0.0001500438127933
 4000,white_grievance,stereotypical,0.75,0.0001500438127933
 4001,white_grievance,stereotypical,0.75,0.0001500438127933
 4002,white_grievance,stereotypical,0.75,0.0001500438127933
 4003,incitement,stereotypical,0.75,0.0001500438127933
-4004,incitement,white grievance,0.85,0.0001700496544991
+4004,incitement,white_grievance,0.85,0.0001700496544991
 4005,white_grievance,stereotypical,0.75,0.0001500438127933
 4006,white_grievance,stereotypical,0.75,0.0001500438127933
 4007,incitement,stereotypical,0.75,0.0001500438127933
@@ -3989,10 +3989,10 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4015,stereotypical,stereotypical,0.75,0.0001500438127933
 4016,white_grievance,incitement,0.85,0.0001700496544991
 4017,incitement,inferiority,0.85,0.0001700496544991
-4018,white_grievance,white grievance,0.85,0.0001700496544991
+4018,white_grievance,white_grievance,0.85,0.0001700496544991
 4019,incitement,incitement,0.85,0.0001700496544991
 4020,stereotypical,inferiority,0.85,0.0001700496544991
-4021,incitement,white grievance,0.85,0.0001700496544991
+4021,incitement,white_grievance,0.85,0.0001700496544991
 4022,white_grievance,stereotypical,0.75,0.0001500438127933
 4023,white_grievance,stereotypical,0.75,0.0001500438127933
 4024,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -4002,7 +4002,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4028,other,stereotypical,0.75,0.0001500438127933
 4029,stereotypical,inferiority,0.85,0.0001700496544991
 4030,stereotypical,stereotypical,0.75,0.0001500438127933
-4031,incitement,white grievance,0.85,0.0001700496544991
+4031,incitement,white_grievance,0.85,0.0001700496544991
 4032,inferiority,stereotypical,0.75,0.0001500438127933
 4033,incitement,stereotypical,0.75,0.0001500438127933
 4034,incitement,stereotypical,0.75,0.0001500438127933
@@ -4013,7 +4013,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4039,incitement,incitement,0.85,0.0001700496544991
 4040,stereotypical,stereotypical,0.75,0.0001500438127933
 4041,incitement,stereotypical,0.75,0.0001500438127933
-4042,white_grievance,white grievance,0.85,0.0001700496544991
+4042,white_grievance,white_grievance,0.85,0.0001700496544991
 4043,stereotypical,inferiority,0.85,0.0001700496544991
 4044,stereotypical,threatening,0.85,0.0001700496544991
 4045,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -4023,7 +4023,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4049,incitement,incitement,0.85,0.0001700496544991
 4050,stereotypical,incitement,0.85,0.0001700496544991
 4051,white_grievance,stereotypical,0.75,0.0001500438127933
-4052,incitement,white grievance,0.85,0.0001700496544991
+4052,incitement,white_grievance,0.85,0.0001700496544991
 4053,incitement,inferiority,0.85,0.0001700496544991
 4054,incitement,stereotypical,0.75,0.0001500438127933
 4055,incitement,stereotypical,0.75,0.0001500438127933
@@ -4065,13 +4065,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4091,incitement,stereotypical,0.75,0.0001500438127933
 4092,stereotypical,stereotypical,0.75,0.0001500438127933
 4093,stereotypical,stereotypical,0.75,0.0001500438127933
-4094,incitement,white grievance,0.85,0.0001700496544991
+4094,incitement,white_grievance,0.85,0.0001700496544991
 4095,incitement,incitement,0.85,0.0001700496544991
 4096,white_grievance,threatening,0.85,0.0001700496544991
 4097,stereotypical,stereotypical,0.75,0.0001500438127933
 4098,incitement,incitement,0.85,0.0001700496544991
 4099,white_grievance,stereotypical,0.75,0.0001500438127933
-4100,incitement,white grievance,0.85,0.0001700496544991
+4100,incitement,white_grievance,0.85,0.0001700496544991
 4101,inferiority,stereotypical,0.75,0.0001500438127933
 4102,incitement,stereotypical,0.75,0.0001500438127933
 4103,stereotypical,stereotypical,0.75,0.0001500438127933
@@ -4081,7 +4081,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4107,white_grievance,stereotypical,0.75,0.0001500438127933
 4108,incitement,stereotypical,0.75,0.0001500438127933
 4109,stereotypical,stereotypical,0.75,0.0001500438127933
-4110,white_grievance,white grievance,0.85,0.0001700496544991
+4110,white_grievance,white_grievance,0.85,0.0001700496544991
 4111,incitement,stereotypical,0.75,0.0001500438127933
 4112,incitement,inferiority,0.85,0.0001700496544991
 4113,incitement,stereotypical,0.75,0.0001500438127933
@@ -4101,11 +4101,11 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4127,white_grievance,stereotypical,0.75,0.0001500438127933
 4128,incitement,incitement,0.85,0.0001700496544991
 4129,incitement,stereotypical,0.75,0.0001500438127933
-4130,white_grievance,white grievance,0.85,0.0001700496544991
+4130,white_grievance,white_grievance,0.85,0.0001700496544991
 4131,inferiority,stereotypical,0.75,0.0001500438127933
 4132,white_grievance,stereotypical,0.75,0.0001500438127933
 4133,other,stereotypical,0.75,0.0001500438127933
-4134,incitement,white grievance,0.85,0.0001700496544991
+4134,incitement,white_grievance,0.85,0.0001700496544991
 4135,stereotypical,stereotypical,0.75,0.0001500438127933
 4136,white_grievance,stereotypical,0.75,0.0001500438127933
 4137,incitement,stereotypical,0.75,0.0001500438127933
@@ -4123,7 +4123,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4149,stereotypical,inferiority,0.85,0.0001700496544991
 4150,white_grievance,stereotypical,0.75,0.0001500438127933
 4151,incitement,stereotypical,0.75,0.0001500438127933
-4152,incitement,white grievance,0.85,0.0001700496544991
+4152,incitement,white_grievance,0.85,0.0001700496544991
 4153,inferiority,stereotypical,0.75,0.0001500438127933
 4154,inferiority,stereotypical,0.75,0.0001500438127933
 4155,inferiority,stereotypical,0.75,0.0001500438127933
@@ -4329,7 +4329,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4355,inferiority,inferiority,0.85,0.0001700496544991
 4356,inferiority,inferiority,0.85,0.0001700496544991
 4357,inferiority,stereotypical,0.75,0.0001500438127933
-4358,inferiority,white grievance,0.85,0.0001700496544991
+4358,inferiority,white_grievance,0.85,0.0001700496544991
 4359,inferiority,stereotypical,0.75,0.0001500438127933
 4360,inferiority,inferiority,0.85,0.0001700496544991
 4361,inferiority,stereotypical,0.75,0.0001500438127933
@@ -4586,7 +4586,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4612,inferiority,threatening,0.85,0.0001700496544991
 4613,inferiority,stereotypical,0.75,0.0001500438127933
 4614,inferiority,inferiority,0.85,0.0001700496544991
-4615,inferiority,white grievance,0.85,0.0001700496544991
+4615,inferiority,white_grievance,0.85,0.0001700496544991
 4616,inferiority,stereotypical,0.75,0.0001500438127933
 4617,irony,stereotypical,0.75,0.0001500438127933
 4618,inferiority,inferiority,0.85,0.0001700496544991
@@ -4702,7 +4702,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4728,irony,stereotypical,0.75,0.0001500438127933
 4729,irony,stereotypical,0.75,0.0001500438127933
 4730,inferiority,inferiority,0.85,0.0001700496544991
-4731,irony,white grievance,0.85,0.0001700496544991
+4731,irony,white_grievance,0.85,0.0001700496544991
 4732,irony,stereotypical,0.75,0.0001500438127933
 4733,threatening,incitement,0.85,0.0001700496544991
 4734,incitement,threatening,0.85,0.0001700496544991
@@ -4772,7 +4772,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 4798,irony,incitement,0.85,0.0001700496544991
 4799,irony,stereotypical,0.75,0.0001500438127933
 4800,irony,stereotypical,0.75,0.0001500438127933
-4801,inferiority,white grievance,0.85,0.0001700496544991
+4801,inferiority,white_grievance,0.85,0.0001700496544991
 4802,inferiority,inferiority,0.85,0.0001700496544991
 4803,irony,irony,0.85,0.0001700496544991
 4804,irony,inferiority,0.85,0.0001700496544991
@@ -5262,7 +5262,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 5288,threatening,threatening,0.85,0.0001700496544991
 5289,incitement,stereotypical,0.75,0.0001500438127933
 5290,threatening,threatening,0.85,0.0001700496544991
-5291,white_grievance,white grievance,0.85,0.0001700496544991
+5291,white_grievance,white_grievance,0.85,0.0001700496544991
 5292,incitement,threatening,0.85,0.0001700496544991
 5293,incitement,stereotypical,0.75,0.0001500438127933
 5294,incitement,threatening,0.85,0.0001700496544991
@@ -5459,7 +5459,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 5485,threatening,stereotypical,0.75,0.0001500438127933
 5486,threatening,threatening,0.85,0.0001700496544991
 5487,threatening,stereotypical,0.75,0.0001500438127933
-5488,threatening,white grievance,0.85,0.0001700496544991
+5488,threatening,white_grievance,0.85,0.0001700496544991
 5489,threatening,stereotypical,0.75,0.0001500438127933
 5490,threatening,stereotypical,0.75,0.0001500438127933
 5491,threatening,stereotypical,0.75,0.0001500438127933
@@ -5748,16 +5748,16 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 5774,threatening,incitement,0.85,0.0001700496544991
 5775,incitement,inferiority,0.85,0.0001700496544991
 5776,stereotypical,incitement,0.85,0.0001700496544991
-5777,threatening,white grievance,0.85,0.0001700496544991
+5777,threatening,white_grievance,0.85,0.0001700496544991
 5778,threatening,threatening,0.85,0.0001700496544991
 5779,stereotypical,stereotypical,0.75,0.0001500438127933
 5780,threatening,threatening,0.85,0.0001700496544991
 5781,threatening,threatening,0.85,0.0001700496544991
-5782,threatening,white grievance,0.85,0.0001700496544991
+5782,threatening,white_grievance,0.85,0.0001700496544991
 5783,stereotypical,inferiority,0.85,0.0001700496544991
 5784,threatening,threatening,0.85,0.0001700496544991
 5785,threatening,threatening,0.85,0.0001700496544991
-5786,threatening,white grievance,0.85,0.0001700496544991
+5786,threatening,white_grievance,0.85,0.0001700496544991
 5787,threatening,stereotypical,0.75,0.0001500438127933
 5788,threatening,incitement,0.85,0.0001700496544991
 5789,threatening,stereotypical,0.75,0.0001500438127933
@@ -5785,7 +5785,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 5811,irony,stereotypical,0.75,0.0001500438127933
 5812,irony,inferiority,0.85,0.0001700496544991
 5813,inferiority,stereotypical,0.75,0.0001500438127933
-5814,white_grievance,white grievance,0.85,0.0001700496544991
+5814,white_grievance,white_grievance,0.85,0.0001700496544991
 5815,irony,irony,0.85,0.0001700496544991
 5816,irony,irony,0.85,0.0001700496544991
 5817,irony,stereotypical,0.75,0.0001500438127933
@@ -6218,7 +6218,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 6244,inferiority,stereotypical,0.75,0.0001500438127933
 6245,other,inferiority,0.85,0.0001700496544991
 6246,stereotypical,stereotypical,0.75,0.0001500438127933
-6247,white_grievance,white grievance,0.85,0.0001700496544991
+6247,white_grievance,white_grievance,0.85,0.0001700496544991
 6248,inferiority,stereotypical,0.75,0.0001500438127933
 6249,stereotypical,stereotypical,0.75,0.0001500438127933
 6250,other,stereotypical,0.75,0.0001500438127933
@@ -6232,7 +6232,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 6258,other,inferiority,0.85,0.0001700496544991
 6259,inferiority,stereotypical,0.75,0.0001500438127933
 6260,stereotypical,stereotypical,0.75,0.0001500438127933
-6261,white_grievance,white grievance,0.85,0.0001700496544991
+6261,white_grievance,white_grievance,0.85,0.0001700496544991
 6262,other,stereotypical,0.75,0.0001500438127933
 6263,other,stereotypical,0.75,0.0001500438127933
 6264,other,stereotypical,0.75,0.0001500438127933
@@ -6326,7 +6326,7 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 6,white_grievance,inferiority,0.85,0.0001700496544991
 7,white_grievance,stereotypical,0.75,0.0001500438127933
 8,incitement,stereotypical,0.75,0.0001500438127933
-9,white_grievance,white grievance,0.85,0.0001700496544991
+9,white_grievance,white_grievance,0.85,0.0001700496544991
 10,white_grievance,stereotypical,0.75,0.0001500438127933
 11,stereotypical,stereotypical,0.75,0.0001500438127933
 12,white_grievance,stereotypical,0.75,0.0001500438127933
@@ -6335,13 +6335,13 @@ Index,gold_label,gpt_label,Confidence,confidence_normalized
 15,stereotypical,stereotypical,0.75,0.0001500438127933
 16,incitement,stereotypical,0.75,0.0001500438127933
 17,incitement,incitement,0.85,0.0001700496544991
-18,incitement,white grievance,0.85,0.0001700496544991
+18,incitement,white_grievance,0.85,0.0001700496544991
 19,incitement,incitement,0.85,0.0001700496544991
 20,stereotypical,stereotypical,0.75,0.0001500438127933
-21,white_grievance,white grievance,0.85,0.0001700496544991
+21,white_grievance,white_grievance,0.85,0.0001700496544991
 22,incitement,stereotypical,0.75,0.0001500438127933
 23,irony,inferiority,0.85,0.0001700496544991
-24,other,white grievance,0.85,0.0001700496544991
+24,other,white_grievance,0.85,0.0001700496544991
 25,white_grievance,stereotypical,0.75,0.0001500438127933
 26,stereotypical,threatening,0.85,0.0001700496544991
 27,stereotypical,inferiority,0.85,0.0001700496544991

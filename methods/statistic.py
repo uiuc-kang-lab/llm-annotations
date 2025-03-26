@@ -21,9 +21,11 @@ def compute_statistics(data: pd.DataFrame, dataset: str, label_column: str = "gp
         return percentage
 
     if dataset == "persuasion":
-        n_positive = len(data[data[label_column] == "True"])
-        percentage = n_positive / len(data)
-        return percentage
+        data[label_column] = data[label_column].astype(str).str.strip().str.lower()
+        data["gold_label"] = data["gold_label"].astype(str).str.strip().str.lower()
+        n_false = len(data[data["gold_label"] == "true"])
+        prevalence_false = n_false / len(data)
+        return prevalence_false
 
     if dataset == "mrpc":
         correct_predictions = (data[label_column] == data["gold_label"]).sum()

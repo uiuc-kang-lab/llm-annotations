@@ -4,16 +4,19 @@ from load_dataset import load_data
 import argparse
 
 
+from statistic import compute_statistics  # Import compute_statistics for dataset-specific logic
+
 def importance_sampling(
     df: pd.DataFrame,
     confidence_col: str,
     gold_label_col: str,
     gpt_label_col: str,
     sample_sizes: list,
-    repeat: int = 1000
+    repeat: int = 1000,
+    dataset_name: str = None  # Pass dataset_name to compute the correct statistic
 ) -> pd.DataFrame:
     """
-    Perform importance sampling to estimate accuracy using model confidence as sampling weights.
+    Perform importance sampling to estimate dataset-specific statistics using model confidence as sampling weights.
 
     Parameters:
     - df: Dataset with predictions and gold labels
@@ -22,6 +25,7 @@ def importance_sampling(
     - gpt_label_col: Column with LLM predictions
     - sample_sizes: List of sample sizes (human budget)
     - repeat: Number of sampling iterations for stability
+    - dataset_name: Name of the dataset to handle dataset-specific logic
 
     Returns:
     - DataFrame with relative error for each sample size
@@ -30,8 +34,8 @@ def importance_sampling(
     # Step 1: Normalize confidence scores
     df["importance"] = df[confidence_col] / df[confidence_col].sum()
 
-    # Step 2: Compute ground-truth accuracy
-    true_accuracy = (df[gold_label_col] == df[gpt_label_col]).sum() / len(df)
+    # Step 2: Compute ground-truth statistic using compute_statistics
+    true_statistic = compute_statistics(df, dataset_name, label_column=gpt_label_col)
 
     results = {"Human Samples": [], "Relative Error": []}
 
@@ -43,12 +47,11 @@ def importance_sampling(
             sampled_indices = np.random.choice(df.index, size=n_samples, p=df["importance"].values, replace=True)
             sampled = df.loc[sampled_indices]
 
-            # Step 4: Accuracy from gold vs. gpt labels in the sample
-            correct = (sampled[gold_label_col] == sampled[gpt_label_col]).sum()
-            estimate = correct / n_samples
+            # Step 4: Calculate the estimate from the sampled data
+            estimate = compute_statistics(sampled, dataset_name, label_column=gpt_label_col)
 
             # Step 5: Relative error
-            error = abs(estimate - true_accuracy) / true_accuracy
+            error = abs(estimate - true_statistic) / true_statistic
             errors.append(error)
 
         results["Human Samples"].append(n_samples)
@@ -88,7 +91,8 @@ def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size:
         gold_label_col=gold_label_col,
         gpt_label_col=gpt_label_col,
         sample_sizes=sample_sizes,
-        repeat=repeat
+        repeat=repeat,
+        dataset_name=dataset_name  # Pass dataset_name explicitly
     )
 
     # Print results

@@ -33,9 +33,10 @@ def run_uniform_sampling(dataset: str, step_size: int, repeat: int):
             sampled_data = data.sample(frac=1, random_state=None).reset_index(drop=True)
             
             # Construct the label column
-            sampled_data["label"] = sampled_data["gpt_label"].to_numpy()
+            sampled_data["label"] = sampled_data["gpt_label"].astype(str).to_numpy()  # Ensure gpt_label is string
             if human_samples > 0:
-                sampled_data.loc[:human_samples - 1, "label"] = sampled_data["gold_label"].to_numpy()[:human_samples]
+                # Explicitly cast gold_label to string before assignment
+                sampled_data.loc[:human_samples - 1, "label"] = sampled_data["gold_label"].astype(str).to_numpy()[:human_samples]
             
             # Compute the statistic for the hybrid dataset
             try:
