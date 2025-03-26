@@ -16,43 +16,32 @@ def run_uniform_sampling(dataset: str, step_size: int, repeat: int):
     Returns:
         None
     """
-    # Load the dataset and compute the ground truth
     data, groundtruth = load_data(dataset)
     total_size = len(data)
     
-    # Start with all samples labeled by GPT
     for human_samples in range(0, total_size + 1, step_size):
-        # Calculate the number of LLM samples
         llm_samples = total_size - human_samples
         
-        # Store relative errors for multiple iterations
         relative_errors = []
         
         for _ in range(repeat):
-            # Shuffle the dataset for each iteration
             sampled_data = data.sample(frac=1, random_state=None).reset_index(drop=True)
             
-            # Construct the label column
             sampled_data["label"] = sampled_data["gpt_label"].astype(str).to_numpy()  # Ensure gpt_label is string
             if human_samples > 0:
-                # Explicitly cast gold_label to string before assignment
                 sampled_data.loc[:human_samples - 1, "label"] = sampled_data["gold_label"].astype(str).to_numpy()[:human_samples]
             
-            # Compute the statistic for the hybrid dataset
             try:
                 estimate = compute_statistics(sampled_data, dataset, label_column="label")
             except Exception as e:
                 print(f"Error computing statistics: {e}")
                 estimate = 0
             
-            # Compute the relative error
             relative_error = abs(estimate - groundtruth) / groundtruth if groundtruth != 0 else float('inf')
             relative_errors.append(relative_error)
         
-        # Compute the average relative error across iterations
         avg_relative_error = np.mean(relative_errors)
         
-        # Print the results
         print(f"Average relative error of uniform sampling: {avg_relative_error}")
         print(f"Cost: {llm_samples} llm and {human_samples} human samples")
 

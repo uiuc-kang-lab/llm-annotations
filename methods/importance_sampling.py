@@ -13,7 +13,7 @@ def importance_sampling(
     gpt_label_col: str,
     sample_sizes: list,
     repeat: int = 1000,
-    dataset_name: str = None  # Pass dataset_name to compute the correct statistic
+    dataset_name: str = None
 ) -> pd.DataFrame:
     """
     Perform importance sampling to estimate dataset-specific statistics using model confidence as sampling weights.
@@ -31,10 +31,8 @@ def importance_sampling(
     - DataFrame with relative error for each sample size
     """
 
-    # Step 1: Normalize confidence scores
     df["importance"] = df[confidence_col] / df[confidence_col].sum()
 
-    # Step 2: Compute ground-truth statistic using compute_statistics
     true_statistic = compute_statistics(df, dataset_name, label_column=gpt_label_col)
 
     results = {"Human Samples": [], "Relative Error": []}
@@ -43,14 +41,11 @@ def importance_sampling(
         errors = []
 
         for _ in range(repeat):
-            # Step 3: Sample using importance weights
             sampled_indices = np.random.choice(df.index, size=n_samples, p=df["importance"].values, replace=True)
             sampled = df.loc[sampled_indices]
 
-            # Step 4: Calculate the estimate from the sampled data
             estimate = compute_statistics(sampled, dataset_name, label_column=gpt_label_col)
 
-            # Step 5: Relative error
             error = abs(estimate - true_statistic) / true_statistic
             errors.append(error)
 
@@ -73,18 +68,14 @@ def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size:
     Returns:
         None
     """
-    # Load the dataset and compute the true statistic
     dataset, _ = load_data(dataset_name)
 
-    # Define column names (adjust these if your dataset uses different names)
     confidence_col = "confidence_normalized"
     gold_label_col = "gold_label"
     gpt_label_col = "gpt_label"
 
-    # Generate sample sizes in steps of `step_size`
     sample_sizes = list(range(step_size, max_human_budget + 1, step_size))
 
-    # Run importance sampling
     results = importance_sampling(
         df=dataset,
         confidence_col=confidence_col,
@@ -92,10 +83,9 @@ def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size:
         gpt_label_col=gpt_label_col,
         sample_sizes=sample_sizes,
         repeat=repeat,
-        dataset_name=dataset_name  # Pass dataset_name explicitly
+        dataset_name=dataset_name
     )
 
-    # Print results
     print(results)
 
 

@@ -18,6 +18,5 @@ def load_data(dataset: str, label_column: str = "gold_label") -> Tuple[pd.DataFr
     else:
         raise NotImplementedError(f"Dataset '{dataset}' not implemented")
     
-    # Compute the statistic using the specified label column
     statistic = compute_statistics(data, dataset, label_column=label_column)
     return data, statistic
