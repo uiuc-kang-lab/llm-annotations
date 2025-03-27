@@ -3,8 +3,9 @@ import numpy as np
 from load_dataset import load_data
 from statistic import compute_statistics
 import argparse
+import os
 
-def run_uniform_sampling(dataset: str, step_size: int, repeat: int):
+def run_uniform_sampling(dataset: str, step_size: int, repeat: int, save_dir: str):
     """
     Run uniform sampling by incrementally replacing LLM samples with human samples.
 
@@ -12,45 +13,72 @@ def run_uniform_sampling(dataset: str, step_size: int, repeat: int):
         dataset (str): The name of the dataset.
         step_size (int): The number of samples to increment at each step.
         repeat (int): The number of iterations for each step size.
+        save_dir (str): The directory to save the CSV results.
 
     Returns:
         None
     """
     data, groundtruth = load_data(dataset)
     total_size = len(data)
-    
+
+    # Ensure the save directory exists
+    os.makedirs(save_dir, exist_ok=True)
+    output_file = os.path.join(save_dir, f"{dataset}_uniform_sampling.csv")
+
+    # Write CSV header
+    with open(output_file, "w") as f:
+        f.write("Dataset,Human_Samples,AvgRelativeError,LLM_Samples\n")
+
     for human_samples in range(0, total_size + 1, step_size):
         llm_samples = total_size - human_samples
-        
         relative_errors = []
-        
+
         for _ in range(repeat):
             sampled_data = data.sample(frac=1, random_state=None).reset_index(drop=True)
-            
-            sampled_data["label"] = sampled_data["gpt_label"].astype(str).to_numpy()  # Ensure gpt_label is string
+
+            # Conditionally cast labels depending on the dataset’s statistic
+            # (adjust these groups as needed for your logic)
+            if dataset in ["helmet", "global_warming", "mrpc", "med-safe"]:
+                sampled_data["label"] = sampled_data["gpt_label"].astype(int, errors="ignore")
+            else:
+                sampled_data["label"] = sampled_data["gpt_label"].astype(str)
+
+            # Replace part of the labels with gold labels
             if human_samples > 0:
-                sampled_data.loc[:human_samples - 1, "label"] = sampled_data["gold_label"].astype(str).to_numpy()[:human_samples]
-            
+                if dataset in ["helmet", "global_warming", "mrpc", "med-safe"]:
+                    sampled_data.loc[:human_samples - 1, "label"] = (
+                        sampled_data["gold_label"].astype(int, errors="ignore").to_numpy()[:human_samples]
+                    )
+                else:
+                    sampled_data.loc[:human_samples - 1, "label"] = (
+                        sampled_data["gold_label"].astype(str).to_numpy()[:human_samples]
+                    )
+
             try:
                 estimate = compute_statistics(sampled_data, dataset, label_column="label")
             except Exception as e:
                 print(f"Error computing statistics: {e}")
                 estimate = 0
-            
-            relative_error = abs(estimate - groundtruth) / groundtruth if groundtruth != 0 else float('inf')
-            relative_errors.append(relative_error)
-        
+
+            if groundtruth != 0:
+                relative_errors.append(abs(estimate - groundtruth) / groundtruth)
+            else:
+                relative_errors.append(float('inf'))
+
         avg_relative_error = np.mean(relative_errors)
-        
-        print(f"Average relative error of uniform sampling: {avg_relative_error}")
-        print(f"Cost: {llm_samples} llm and {human_samples} human samples")
+
+        # Append results to CSV
+        with open(output_file, "a") as f:
+            f.write(f"{dataset},{human_samples},{avg_relative_error},{llm_samples}\n")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run uniform sampling on a dataset')
     parser.add_argument('--dataset', type=str, help='Dataset name')
     parser.add_argument('--step_size', type=int, default=100, help='Number of samples to increment at each step')
     parser.add_argument('--repeat', type=int, default=10, help='Number of iterations for each step size')
+    parser.add_argument('--save_dir', type=str, default="./", help='Directory to save the result')
     args = parser.parse_args()
-    
+
     # Run uniform sampling
-    run_uniform_sampling(args.dataset, step_size=args.step_size, repeat=args.repeat)
+    run_uniform_sampling(args.dataset, step_size=args.step_size, repeat=args.repeat, save_dir=args.save_dir)
