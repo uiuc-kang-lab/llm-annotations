@@ -12,13 +12,11 @@ def run_llm_human_confidence(dataset: str, human_budget: float, use_confidence: 
     human_label_size = min(human_label_size, len(data))  # Ensure it does not exceed dataset size
 
     if use_confidence:
-        # Confidence-based sampling
         data.sort_values(by="confidence_normalized", ascending=False, inplace=True)
         data.reset_index(drop=True, inplace=True)
         data["label"] = data["gold_label"].to_numpy()
 
         if human_label_size < len(data):
-            # Use .iloc to slice by position
             data.iloc[human_label_size:, data.columns.get_loc("label")] = \
                 data.iloc[human_label_size:, data.columns.get_loc("gpt_label")].to_numpy()
         try:
@@ -30,13 +28,11 @@ def run_llm_human_confidence(dataset: str, human_budget: float, use_confidence: 
         relative_error = abs(estimate - groundtruth) / groundtruth
 
     else:
-        # Random sampling
         relative_errors = []
         for _ in range(repeat):
             shuffled = data.sample(frac=1).reset_index(drop=True)  # keep original data intact
             shuffled["label"] = shuffled["gold_label"].to_numpy()
             if human_label_size < len(shuffled):
-                # Again, use .iloc
                 shuffled.iloc[human_label_size:, shuffled.columns.get_loc("label")] = \
                     shuffled.iloc[human_label_size:, shuffled.columns.get_loc("gpt_label")].to_numpy()
             try:
@@ -46,7 +42,6 @@ def run_llm_human_confidence(dataset: str, human_budget: float, use_confidence: 
                 estimate = 0
                 continue
             relative_errors.append(abs(estimate - groundtruth) / groundtruth)
-        # Root mean square error of each sample's relative error
         relative_error = np.sqrt(np.mean(np.array(relative_errors)**2))
 
     return relative_error, len(data), human_label_size
@@ -61,13 +56,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
     args.use_confidence = (args.use_confidence == "True")
     
-    # Ensure the save directory exists
     os.makedirs(args.save_dir, exist_ok=True)
     
-    # Define the output file path
     output_file = os.path.join(args.save_dir, f"{args.dataset}_llm_human.csv")
     
-    # Write the header to the CSV file
     with open(output_file, "w") as f:
         f.write("Dataset,Cost_Human,Relative_Error,Cost_LLM\n")
     

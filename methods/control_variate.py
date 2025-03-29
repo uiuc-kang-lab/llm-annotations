@@ -57,7 +57,6 @@ def run_control_variate(dataset_name, step_size, max_human_budget, repeat, save_
     total_samples = len(df)
     max_size = min(max_human_budget, total_samples)
 
-    # Build a sequence of sample sizes from step_size to max_size
     sample_sizes = list(range(step_size, max_size + 1, step_size))
 
     results = control_variate_sampling(
@@ -70,7 +69,6 @@ def run_control_variate(dataset_name, step_size, max_human_budget, repeat, save_
         dataset_name=dataset_name
     )
 
-    # Save results to CSV
     os.makedirs(save_dir, exist_ok=True)
     output_file = os.path.join(save_dir, f"{dataset_name}_control_variate.csv")
     results.insert(0, "Dataset", dataset_name)

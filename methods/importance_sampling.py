@@ -49,7 +49,6 @@ def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size:
     gold_label_col = "gold_label"
     gpt_label_col = "gpt_label"
 
-    # Always go up to the dataset’s full size (or the user-provided max, if smaller)
     total_samples = len(dataset)
     max_size = min(max_human_budget, total_samples)
 
@@ -67,7 +66,6 @@ def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size:
     os.makedirs(save_dir, exist_ok=True)
     output_file = os.path.join(save_dir, f"{dataset_name}_importance_sampling.csv")
 
-    # Add a column for Dataset and save
     results.insert(0, "Dataset", dataset_name)
     results.to_csv(output_file, index=False)
     print(f"Saved results to {output_file}")

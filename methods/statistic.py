@@ -7,16 +7,12 @@ def compute_statistics(data: pd.DataFrame, dataset: str, label_column: str = "gp
         n_data_agree_affirming = len(data[(data[label_column] == 1) & (data["contains_affirming_device"] == True)])
         n_data_agree_not_affirming = len(data[(data[label_column] == 1) & (data["contains_affirming_device"] == False)])
         
-        # Guard against zero counts
         if n_data_affirming == 0 or n_data_not_affirming == 0:
-            # No data in one of the categories, return 0 (or any default)
             return 0
         
-        # Compute proportions
         p_affirming = n_data_agree_affirming / n_data_affirming
         p_not_affirming = n_data_agree_not_affirming / n_data_not_affirming
         
-        # Guard if p == 1 or p == 0 to avoid dividing by zero
         if p_affirming == 0 or p_affirming == 1 or p_not_affirming == 0 or p_not_affirming == 1:
             return 0
 
