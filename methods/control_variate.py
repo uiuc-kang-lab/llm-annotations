@@ -54,8 +54,11 @@ def run_control_variate(dataset_name, step_size, max_human_budget, repeat, save_
     gold_label_col = "gold_label"
     gpt_label_col = "gpt_label"
 
-    # Build a sequence of sample sizes from step_size to max_human_budget
-    sample_sizes = list(range(step_size, max_human_budget + 1, step_size))
+    total_samples = len(df)
+    max_size = min(max_human_budget, total_samples)
+
+    # Build a sequence of sample sizes from step_size to max_size
+    sample_sizes = list(range(step_size, max_size + 1, step_size))
 
     results = control_variate_sampling(
         df=df,
