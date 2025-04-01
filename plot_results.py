@@ -38,15 +38,25 @@ def plot_dataset(dataset):
     for method in METHODS:
         results = load_results(method, dataset)
         if results is not None:
-            if "Human_Samples" in results.columns:
-                x = results["Human_Samples"]
-            elif "Human Samples" in results.columns:
-                x = results["Human Samples"]
+            if method == "llm_human":
+                # Handle LLM + Human results specifically
+                if "Cost_Human" in results.columns and "Relative_Error" in results.columns:
+                    x = results["Cost_Human"]
+                    y = results["Relative_Error"]
+                    plt.plot(x, y, label="LLM + Human", linestyle="-", color="purple")  # Solid line
+                else:
+                    print(f"LLM + Human results for {dataset} are missing required columns.")
             else:
-                continue  # Skip if no human samples column is found
+                # Handle other methods
+                if "Human_Samples" in results.columns:
+                    x = results["Human_Samples"]
+                elif "Human Samples" in results.columns:
+                    x = results["Human Samples"]
+                else:
+                    continue  # Skip if no human samples column is found
 
-            y = results["Relative Error"] if "Relative Error" in results.columns else results["AvgRelativeError"]
-            plt.plot(x, y, label=method.replace("_", " ").title())
+                y = results["Relative Error"] if "Relative Error" in results.columns else results["AvgRelativeError"]
+                plt.plot(x, y, label=method.replace("_", " ").title())
 
     plt.title(f"Performance Comparison for {dataset.replace('_', ' ').title()}")
     plt.xlabel("Number of Human Samples")
