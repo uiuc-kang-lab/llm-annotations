@@ -1,6 +1,6 @@
 import sys
-from load_dataset import load_data
-from statistic import compute_statistics
+from methods.load_dataset import load_data
+from methods.statistic import compute_statistics
 
 def run_llm_only(dataset: str):
     data, groundtruth = load_data(dataset)

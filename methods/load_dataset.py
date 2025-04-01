@@ -1,6 +1,6 @@
 import pandas as pd
 from typing import Tuple
-from statistic import compute_statistics
+from methods.statistic import compute_statistics
 
 def load_data(dataset: str, label_column: str = "gold_label") -> Tuple[pd.DataFrame, float]:
     if dataset == "global_warming":
