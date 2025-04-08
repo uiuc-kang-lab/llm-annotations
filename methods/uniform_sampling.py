@@ -1,7 +1,7 @@
 import sys
 import numpy as np
-from load_dataset import load_data
-from statistic import compute_statistics
+from methods.load_dataset import load_data
+from methods.statistic import compute_statistics
 import argparse
 import os
 

@@ -15,6 +15,8 @@ def load_data(dataset: str, label_column: str = "gold_label") -> Tuple[pd.DataFr
         data = pd.read_csv("../llm-annotations/datasets/coannotating/MRPC.csv")
     elif dataset == "med-safe":
         data = pd.read_csv("../llm-annotations/datasets/judge-bench/judge_bench.csv")
+    elif dataset == "mt-bench":
+        data = pd.read_csv("../llm-annotations/datasets/mt-bench/mt-bench.csv")
     else:
         raise NotImplementedError(f"Dataset '{dataset}' not implemented")
     
