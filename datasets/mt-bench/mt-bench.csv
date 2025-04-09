@@ -1,4 +1,4 @@
-model_a,model_b,gold_label,gpt_label,confidence_normalized
+model_a,model_b,gold_label,gpt_label,confidence
 alpaca-13b,gpt-3.5-turbo,model_b,model_b,0.9
 alpaca-13b,gpt-3.5-turbo,model_b,model_b,0.95
 alpaca-13b,gpt-3.5-turbo,model_b,model_b,0.9
