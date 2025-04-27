@@ -66,12 +66,12 @@ def plot_dataset(dataset):
     plt.gca().yaxis.set_major_locator(MaxNLocator(5))  # Fewer y-axis ticks
 
     plt.xlabel("Number of Human Samples", fontsize=50, weight='bold')  # MASSIVE x-axis label
-    plt.ylabel("Relative Error", fontsize=50, weight='bold')  # MASSIVE y-axis label
+    plt.ylabel("Relative Error (%)", fontsize=50, weight='bold')  # MASSIVE y-axis label with (%)
     plt.grid(True, linestyle='--', alpha=0.7)
 
     # Show legend only for the "helmet" dataset with larger font size
     if dataset == "helmet":
-        plt.legend(fontsize=40, loc="best")  # Increased legend font size
+        plt.legend(fontsize=60, loc="best")  # Further increased legend font size
 
     plt.tight_layout()
 
