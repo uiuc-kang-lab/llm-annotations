@@ -36,7 +36,7 @@ def plot_dataset(dataset):
         color="red",
         linestyle="--",
         linewidth=6,  # Thicker baseline line
-        label="LLM Only Baseline"
+        label="LLM Only Baseline" if dataset == "helmet" else None  # Add to legend only for "helmet"
     )
 
     # Plot results for each method
@@ -47,7 +47,10 @@ def plot_dataset(dataset):
                 if "Cost_Human" in results.columns and "Relative_Error" in results.columns:
                     x = results["Cost_Human"]
                     y = results["Relative_Error"]
-                    plt.plot(x, y, linestyle="-", color="purple", linewidth=6, label="LLM + Human")  # Thicker trend line
+                    plt.plot(
+                        x, y, linestyle="-", color="purple", linewidth=6,
+                        label="LLM + Human" if dataset == "helmet" else None  # Add to legend only for "helmet"
+                    )
             else:
                 if "Human_Samples" in results.columns:
                     x = results["Human_Samples"]
@@ -59,19 +62,24 @@ def plot_dataset(dataset):
                 y_col = "Relative Error" if "Relative Error" in results.columns else "AvgRelativeError"
                 if y_col in results.columns:
                     y = results[y_col]
-                    plt.plot(x, y, linewidth=6, label=method)  # Thicker trend line
+                    plt.plot(
+                        x, y, linewidth=6,
+                        label=method if (dataset == "helmet" and method in ["uniform_sampling"]) or
+                                         (dataset == "implicit_hate" and method in ["importance_sampling", "control_variate"])
+                                         else None  # Add to legend conditionally
+                    )
 
     # Reduce the number of ticks for cleaner increments
     plt.gca().xaxis.set_major_locator(MaxNLocator(5))  # Fewer x-axis ticks
     plt.gca().yaxis.set_major_locator(MaxNLocator(5))  # Fewer y-axis ticks
 
-    plt.xlabel("Number of Human Samples", fontsize=50, weight='bold')  # MASSIVE x-axis label
-    plt.ylabel("Relative Error (%)", fontsize=50, weight='bold')  # MASSIVE y-axis label with (%)
+    plt.xlabel("Number of Human Samples", fontsize=50)  # Unbolded x-axis label
+    plt.ylabel("Relative Error (%)", fontsize=50)  # Unbolded y-axis label with (%)
     plt.grid(True, linestyle='--', alpha=0.7)
 
-    # Show legend only for the "helmet" dataset with larger font size
-    if dataset == "helmet":
-        plt.legend(fontsize=60, loc="best")  # Further increased legend font size
+    # Show legend for specific datasets
+    if dataset in ["helmet", "implicit_hate"]:
+        plt.legend(fontsize=50, loc="best")  # Legend for specific datasets
 
     plt.tight_layout()
 
