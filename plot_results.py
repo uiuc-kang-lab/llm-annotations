@@ -23,6 +23,13 @@ def get_llm_only_baseline(dataset):
     relative_error, _, _ = run_llm_only(dataset)
     return relative_error
 
+def format_label(label):
+    """Format legend labels by removing underscores, capitalizing words, and replacing 'llm' with 'LLM'."""
+    formatted_label = label.replace("_", " ").title().replace("Llm", "LLM")
+    if formatted_label == "LLM Human":
+        return "LLM + Human"  # Special case for LLM Human
+    return formatted_label
+
 def plot_dataset(dataset):
     # Bigger figure and thicker axis lines
     plt.figure(figsize=(18, 14))  # Larger figure size for better readability
@@ -36,7 +43,7 @@ def plot_dataset(dataset):
         color="red",
         linestyle="--",
         linewidth=6,  # Thicker baseline line
-        label="LLM Only Baseline" if dataset == "helmet" else None  # Add to legend only for "helmet"
+        label=format_label("llm_only_baseline") if dataset == "helmet" else None  # Add to legend only for "helmet"
     )
 
     # Plot results for each method
@@ -49,7 +56,7 @@ def plot_dataset(dataset):
                     y = results["Relative_Error"]
                     plt.plot(
                         x, y, linestyle="-", color="purple", linewidth=6,
-                        label="LLM + Human" if dataset == "helmet" else None  # Add to legend only for "helmet"
+                        label=format_label("llm_human") if dataset == "helmet" else None  # Add to legend only for "helmet"
                     )
             else:
                 if "Human_Samples" in results.columns:
@@ -64,9 +71,9 @@ def plot_dataset(dataset):
                     y = results[y_col]
                     plt.plot(
                         x, y, linewidth=6,
-                        label=method if (dataset == "helmet" and method in ["uniform_sampling"]) or
-                                         (dataset == "implicit_hate" and method in ["importance_sampling", "control_variate"])
-                                         else None  # Add to legend conditionally
+                        label=format_label(method) if (dataset == "helmet" and method in ["uniform_sampling"]) or
+                                                     (dataset == "implicit_hate" and method in ["importance_sampling", "control_variate"])
+                                                     else None  # Add to legend conditionally
                     )
 
     # Reduce the number of ticks for cleaner increments
