@@ -31,8 +31,8 @@ def format_label(label):
     return formatted_label
 
 def percentage_formatter(x, _):
-    """Format y-axis labels as percentages."""
-    return f"{x * 100:.0f}%"
+    """Format y-axis labels as plain numbers multiplied by 100."""
+    return f"{x * 100:.0f}"  # Removed the '%' symbol
 
 def plot_dataset(dataset):
     # Bigger figure and thicker axis lines
@@ -88,7 +88,7 @@ def plot_dataset(dataset):
     plt.gca().yaxis.set_major_formatter(FuncFormatter(percentage_formatter))
 
     plt.xlabel("Number of Human Samples", fontsize=50)  # Unbolded x-axis label
-    plt.ylabel("Relative Error (%)", fontsize=50)  # Unbolded y-axis label with (%)
+    plt.ylabel("Relative Error (x100)", fontsize=50)  # Updated y-axis label
     plt.grid(True, linestyle='--', alpha=0.7)
 
     # Show legend for specific datasets
