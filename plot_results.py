@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-from matplotlib.ticker import MaxNLocator
+from matplotlib.ticker import MaxNLocator, FuncFormatter
 from methods.load_dataset import load_data
 from methods.statistic import compute_statistics
 
@@ -29,6 +29,10 @@ def format_label(label):
     if formatted_label == "LLM Human":
         return "LLM + Human"  # Special case for LLM Human
     return formatted_label
+
+def percentage_formatter(x, _):
+    """Format y-axis labels as percentages."""
+    return f"{x * 100:.0f}%"
 
 def plot_dataset(dataset):
     # Bigger figure and thicker axis lines
@@ -79,6 +83,9 @@ def plot_dataset(dataset):
     # Reduce the number of ticks for cleaner increments
     plt.gca().xaxis.set_major_locator(MaxNLocator(5))  # Fewer x-axis ticks
     plt.gca().yaxis.set_major_locator(MaxNLocator(5))  # Fewer y-axis ticks
+
+    # Apply percentage formatter to y-axis
+    plt.gca().yaxis.set_major_formatter(FuncFormatter(percentage_formatter))
 
     plt.xlabel("Number of Human Samples", fontsize=50)  # Unbolded x-axis label
     plt.ylabel("Relative Error (%)", fontsize=50)  # Unbolded y-axis label with (%)
