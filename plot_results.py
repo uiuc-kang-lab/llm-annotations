@@ -88,7 +88,7 @@ def plot_dataset(dataset):
     plt.gca().yaxis.set_major_formatter(FuncFormatter(percentage_formatter))
 
     plt.xlabel("Number of Human Samples", fontsize=50)  # Unbolded x-axis label
-    plt.ylabel("Relative Error (x100)", fontsize=50)  # Updated y-axis label
+    plt.ylabel("Relative Error (%)", fontsize=50)  # Updated y-axis label
     plt.grid(True, linestyle='--', alpha=0.7)
 
     # Show legend for specific datasets

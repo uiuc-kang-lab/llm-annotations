@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 
 RESULTS_DIR = "/Users/zacharylee/llm-annotations/results"
 DATASETS = ["helmet", "implicit_hate", "med-safe", "mrpc", "persuasion"]
@@ -147,5 +148,185 @@ def main():
     else:
         print("No overall improvements found.")
 
+def required_sample_size(df, target_err):
+    """
+    Given a DataFrame (from a results CSV) with columns "Human Samples" and a relative error column,
+    return the minimum number of human samples required for the relative error to drop
+    below or equal to target_err. If the target is never reached, return the maximum samples.
+    """
+    sample_col = get_sample_col(df)
+    err_col = get_error_col(df)
+    if sample_col is None or err_col is None:
+        return None
+    
+    # Sort by sample size (ascending)
+    sorted_df = df.sort_values(by=sample_col)
+    # Find rows where the relative error is below the target
+    target_rows = sorted_df[sorted_df[err_col] <= target_err]
+    if not target_rows.empty:
+        return target_rows[sample_col].iloc[0]
+    else:
+        # If the target error is never reached, use the maximum sample size as a fallback
+        return sorted_df[sample_col].max()
+
+# Set the desired target error threshold (in the same units as in the CSV, e.g., percentage)
+target_error_threshold = .1  # e.g., we want the relative error to be at most 10%
+
+# We will compute cost savings comparing the uniform sampling baseline (N_uniform)
+# against each target method (e.g., control variates and importance sampling)
+print("\n=== ANNOTATION COST SAVINGS (AT TARGET ERROR THRESHOLD) ===")
+cost_savings = {method: [] for method in TARGET_METHODS}
+for dataset in DATASETS:
+    uniform_df = load_results("uniform_sampling", dataset)
+    if uniform_df is None:
+        print(f"No uniform sampling results for {dataset}. Skipping.")
+        continue
+
+    N_uniform = required_sample_size(uniform_df, target_error_threshold)
+    if N_uniform is None:
+        print(f"Could not determine required samples from uniform sampling for {dataset}.")
+        continue
+
+    print(f"\nDataset: {dataset} (Uniform requires {N_uniform} samples for error ≤ {target_error_threshold}%)")
+    for method in TARGET_METHODS:
+        target_df = load_results(method, dataset)
+        if target_df is None:
+            print(f"  No results for {method} on {dataset}.")
+            continue
+
+        N_method = required_sample_size(target_df, target_error_threshold)
+        if N_method is None:
+            print(f"  Could not determine required samples for {method} on {dataset}.")
+            continue
+        
+        # Compute relative savings: How many fewer labels are needed relative to uniform?
+        savings = (N_uniform - N_method) / N_uniform * 100  # percentage savings
+        improvement_factor = N_uniform / N_method  # cost improvement factor
+        cost_savings[method].append(savings)
+        print(f"  {method}: {N_method} samples required. Savings: {savings:.2f}% (Improvement factor: {improvement_factor:.2f}x)")
+
+# Compute cost savings comparing the uniform sampling baseline (N_uniform)
+# against each target method (e.g., control variates and importance sampling)
+print("\n=== ANNOTATION COST SAVINGS (AT TARGET ERROR THRESHOLD) ===")
+cost_savings = {method: [] for method in TARGET_METHODS}
+improvement_factors = {method: [] for method in TARGET_METHODS}   # new dict for improvement multipliers
+for dataset in DATASETS:
+    uniform_df = load_results("uniform_sampling", dataset)
+    if uniform_df is None:
+        print(f"No uniform sampling results for {dataset}. Skipping.")
+        continue
+
+    N_uniform = required_sample_size(uniform_df, target_error_threshold)
+    if N_uniform is None or N_uniform == 0:
+        print(f"Dataset: {dataset} returned {N_uniform} samples for uniform sampling. Skipping cost savings computation.")
+        continue
+
+    print(f"\nDataset: {dataset} (Uniform requires {N_uniform} samples for error ≤ {target_error_threshold}%)")
+    for method in TARGET_METHODS:
+        target_df = load_results(method, dataset)
+        if target_df is None:
+            print(f"  No results for {method} on {dataset}.")
+            continue
+
+        N_method = required_sample_size(target_df, target_error_threshold)
+        if N_method is None:
+            print(f"  Could not determine required samples for {method} on {dataset}.")
+            continue
+        
+        # Compute relative savings: How many fewer labels are needed compared to uniform?
+        savings = (N_uniform - N_method) / N_uniform * 100  # percentage savings
+        improvement_factor = N_uniform / N_method if N_method != 0 else float('inf')  # cost improvement multiplier
+        cost_savings[method].append(savings)
+        improvement_factors[method].append(improvement_factor)
+        print(f"  {method}: {N_method} samples required. Savings: {savings:.2f}% (Improvement factor: {improvement_factor:.2f}x)")
+
+# Report average cost savings per target method across datasets
+print("\n=== AVERAGE COST SAVINGS ACROSS DATASETS ===")
+for method, savings_list in cost_savings.items():
+    if savings_list:
+        avg_savings = sum(savings_list) / len(savings_list)
+        print(f"{method}: {avg_savings:.2f}% average savings")
+    else:
+        print(f"{method}: No valid savings computed.")
+
+# --- New Block: Compute and report overall average improvement multiplier ---
+print("\n=== AVERAGE IMPROVEMENT MULTIPLIER ACROSS DATASETS ===")
+for method, factors in improvement_factors.items():
+    if factors:
+        avg_factor = sum(factors) / len(factors)
+        print(f"{method}: {avg_factor:.2f}x average improvement multiplier")
+    else:
+        print(f"{method}: No improvement multiplier data.")
+
+# Define a list of thresholds (e.g., 20 points between 1 and 0)
+thresholds = np.linspace(1.0, 0.0, num=20)
+
+# Create containers to accumulate savings and multipliers for each method, across thresholds and datasets.
+savings_across_thresholds = {method: [] for method in TARGET_METHODS}
+multipliers_across_thresholds = {method: [] for method in TARGET_METHODS}
+
+# Iterate over error thresholds
+for thr in thresholds:
+    # For each threshold, accumulate savings and improvement multipliers across datasets.
+    current_threshold_savings = {method: [] for method in TARGET_METHODS}
+    current_threshold_multipliers = {method: [] for method in TARGET_METHODS}
+    for dataset in DATASETS:
+        uniform_df = load_results("uniform_sampling", dataset)
+        if uniform_df is None:
+            continue
+        N_uniform = required_sample_size(uniform_df, thr)
+        if N_uniform is None or N_uniform == 0:
+            continue
+
+        for method in TARGET_METHODS:
+            target_df = load_results(method, dataset)
+            if target_df is None:
+                continue
+            N_method = required_sample_size(target_df, thr)
+            if N_method is None or N_method == 0:
+                continue
+
+            # Calculate cost savings and improvement multiplier for this dataset at threshold thr.
+            savings = (N_uniform - N_method) / N_uniform * 100  # percentage savings
+            multiplier = N_uniform / N_method  # improvement multiplier
+            current_threshold_savings[method].append(savings)
+            current_threshold_multipliers[method].append(multiplier)
+    
+    # Average the savings and multipliers at this threshold for each method.
+    for method in TARGET_METHODS:
+        if current_threshold_savings[method]:
+            avg_savings_thr = sum(current_threshold_savings[method]) / len(current_threshold_savings[method])
+            savings_across_thresholds[method].append(avg_savings_thr)
+        if current_threshold_multipliers[method]:
+            avg_multiplier_thr = sum(current_threshold_multipliers[method]) / len(current_threshold_multipliers[method])
+            multipliers_across_thresholds[method].append(avg_multiplier_thr)
+
+# Now compute the overall average across thresholds for each method.
+print("\n=== OVERALL AVERAGE COST SAVINGS ACROSS THRESHOLDS ===")
+for method, savings_list in savings_across_thresholds.items():
+    if savings_list:
+        overall_avg_savings = sum(savings_list) / len(savings_list)
+        print(f"{method}: {overall_avg_savings:.2f}% average savings (averaged over thresholds)")
+    else:
+        print(f"{method}: No valid savings data.")
+
+print("\n=== OVERALL AVERAGE IMPROVEMENT MULTIPLIER ACROSS THRESHOLDS ===")
+for method, multipliers_list in multipliers_across_thresholds.items():
+    if multipliers_list:
+        overall_avg_multiplier = sum(multipliers_list) / len(multipliers_list)
+        print(f"{method}: {overall_avg_multiplier:.2f}x average improvement multiplier (averaged over thresholds)")
+    else:
+        print(f"{method}: No valid multiplier data.")
+
 if __name__ == "__main__":
+    # Example usage: print out minimum samples for uniform sampling on a specific dataset.
+    dataset = "med-safe"
+    uniform_df = load_results("uniform_sampling", dataset)
+    if uniform_df is not None:
+        target_err = target_error_threshold  # using the defined threshold (e.g., 0.1)
+        min_samples = required_sample_size(uniform_df, target_err)
+        print(f"\nFor dataset '{dataset}', the uniform sampling method requires {min_samples} samples to achieve ≤ {target_err}% error.")
+    else:
+        print(f"No uniform sampling results for {dataset}.")
+    
     main()
