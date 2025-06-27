@@ -318,6 +318,25 @@ for method, multipliers_list in multipliers_across_thresholds.items():
     else:
         print(f"{method}: No valid multiplier data.")
 
+# --- New Block: Compute and print average relative error for the med-safe dataset
+print("\n=== RELATIVE ERROR FOR MED-SAFE DATASET ===")
+dataset = "med-safe"
+# Create a list that includes TARGET_METHODS, "llm_human", and "uniform_sampling"
+methods_to_check = TARGET_METHODS + ["llm_human", "uniform_sampling"]
+for method in methods_to_check:
+    df_med_safe = load_results(method, dataset)
+    if df_med_safe is None:
+        print(f"No results for {method} on {dataset}.")
+        continue
+    err_col = get_error_col(df_med_safe)
+    if err_col is None:
+        print(f"No relative error column found for {method} on {dataset}.")
+        continue
+    
+    # Compute average relative error from the relative error values in the CSV
+    avg_rel_error = np.mean(df_med_safe[err_col])
+    print(f"{method}: Average Relative Error = {avg_rel_error * 100:.4f}%")
+
 if __name__ == "__main__":
     # Example usage: print out minimum samples for uniform sampling on a specific dataset.
     dataset = "med-safe"

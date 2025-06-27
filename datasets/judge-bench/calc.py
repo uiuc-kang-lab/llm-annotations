@@ -26,7 +26,10 @@ else:
     
     error = abs(gold_percentage - gpt_percentage)
     
+    mse = (gold_percentage - gpt_percentage) ** 2
+
     print("Filtered rows:", len(filtered))
     print(f"Gold Serious Percentage: {gold_percentage*100:.2f}%")
     print(f"GPT Serious Percentage: {gpt_percentage*100:.2f}%")
     print(f"Absolute Error: {error*100:.2f}%")
+    print(f"MSE: {mse:.6f}")
