@@ -113,11 +113,15 @@ def plot_dataset(dataset):
                     y = results[y_col]
                     plt.plot(
                         x, y, linewidth=6,
-                        label=format_label(method) if (dataset == "helmet" and method in ["uniform_sampling"]) or
-                                                     (dataset == "implicit_hate" and method in ["importance_sampling", "control_variate"])
-                                                     else None  # Add to legend conditionally
-                    )
-
+                        label=(
+                            "Importance + Control Variate" if (dataset == "implicit_hate" and method == "control_variate_importance_sampling")
+                            else format_label(method) if (
+                                (dataset == "helmet" and method in ["uniform_sampling"]) or
+                                (dataset == "implicit_hate" and method in ["importance_sampling", "control_variate"])
+                            )
+                            else None
+                        )
+)
     # Reduce the number of ticks for cleaner increments
     plt.gca().xaxis.set_major_locator(MaxNLocator(5))  # Fewer x-axis ticks
     plt.gca().yaxis.set_major_locator(MaxNLocator(5))  # Fewer y-axis ticks
@@ -131,7 +135,7 @@ def plot_dataset(dataset):
 
     # Show legend for specific datasets
     if dataset in ["helmet", "implicit_hate"]:
-        plt.legend(fontsize=50, loc="best")  # Legend for specific datasets
+        plt.legend(fontsize=40, loc="best")  # Legend for specific datasets
 
     plt.tight_layout()
 
