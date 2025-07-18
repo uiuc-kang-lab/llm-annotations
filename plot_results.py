@@ -6,7 +6,7 @@ from methods.load_dataset import load_data
 from methods.statistic import compute_statistics
 
 RESULTS_DIR = "/Users/zacharylee/llm-annotations/results"
-METHODS = ["uniform_sampling", "importance_sampling", "control_variate", "llm_human"]
+METHODS = ["uniform_sampling", "importance_sampling", "control_variate", "llm_human", "control_variate_importance_sampling"]
 
 DATASETS = ["global_warming", "helmet", "implicit_hate", "med-safe", "mrpc", "persuasion"]
 
@@ -33,6 +33,44 @@ def format_label(label):
 def percentage_formatter(x, _):
     """Format y-axis labels as plain numbers multiplied by 100."""
     return f"{x * 100:.0f}"  # Removed the '%' symbol
+
+def plot_confidence_vs_correctness(csv_path):
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import os
+    df = pd.read_csv(csv_path)
+    df['correct'] = df['gpt_label'] == df['gold_label']
+    median_conf = df['confidence_normalized'].median()
+    lower = df[df['confidence_normalized'] <= median_conf]
+    upper = df[df['confidence_normalized'] > median_conf]
+    lower_frac = lower['correct'].mean()
+    upper_frac = upper['correct'].mean()
+
+    # Plot 1: Bar chart for each group
+    plt.figure(figsize=(8, 6))
+    plt.bar(['Lower 50% Confidence', 'Upper 50% Confidence'], [lower_frac, upper_frac], color=['orange', 'blue'])
+    plt.ylabel("Likelihood of Correctness")
+    plt.title("Correctness by Confidence Percentile (Judge-Bench)")
+    plt.ylim(0, 1)
+    for i, v in enumerate([lower_frac, upper_frac]):
+        plt.text(i, v + 0.02, f"{v*100:.1f}%", ha='center', fontsize=14)
+    plt.tight_layout()
+    output_dir = os.path.join(RESULTS_DIR, "plots")
+    os.makedirs(output_dir, exist_ok=True)
+    plt.savefig(os.path.join(output_dir, "judge_bench_upper_vs_lower_confidence.pdf"), format="pdf")
+    plt.close()
+
+    # Plot 2: Difference in correctness
+    diff = upper_frac - lower_frac
+    plt.figure(figsize=(6, 6))
+    plt.bar(['Upper - Lower'], [diff], color='purple')
+    plt.ylabel("Difference in Correctness")
+    plt.title("Difference in Correctness\n(Upper 50% - Lower 50% Confidence)")
+    plt.ylim(-1, 1)
+    plt.text(0, diff + 0.02 if diff > 0 else diff - 0.08, f"{diff*100:.1f}%", ha='center', fontsize=14)
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, "judge_bench_confidence_correctness_difference.pdf"), format="pdf")
+    plt.close()
 
 def plot_dataset(dataset):
     # Bigger figure and thicker axis lines
@@ -108,6 +146,9 @@ def main():
         print(f"Plotting results for {dataset}...")
         plot_dataset(dataset)
     print("Plots saved in the 'results/plots' directory as PDF files.")
+    # NEW: Also plot confidence vs correctness for judge-bench
+    plot_confidence_vs_correctness("datasets/judge-bench/judge_bench.csv")
+    print("Judge-bench confidence vs correctness plot saved.")
 
 if __name__ == "__main__":
     main()
