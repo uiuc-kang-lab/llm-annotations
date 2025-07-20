@@ -37,15 +37,34 @@ def compute_statistics(data: pd.DataFrame, dataset: str, label_column: str = "gp
         return prevalence_true
 
     if dataset == "mrpc":
-        correct_predictions = (data[label_column] == data["gold_label"]).sum()
-        total_samples = len(data)
-        accuracy = correct_predictions / total_samples
-        return accuracy
+        n_positive = len(data[data[label_column] == 1])
+        proportion = n_positive / len(data)
+        return proportion
 
     if dataset == "med-safe":
         n_serious = len(data[data[label_column] == "Serious"])
         percentage = n_serious / len(data)
         return percentage
-
+    
+    if dataset == "mt-bench":
+        wins = ((data["model_a"] == "gpt-3.5-turbo") & (data[label_column] == "model_a")) | \
+                ((data["model_b"] == "gpt-3.5-turbo") & (data[label_column] == "model_b"))
+        return wins.sum() / len(data)
     else:
         raise NotImplementedError(f"Dataset '{dataset}' not implemented")
+    
+    
+def label2res(label, dataset: str):
+    if dataset == "helmet":
+        return label
+    elif dataset == "implicit_hate":
+        return label == "white_grievance"
+    elif dataset == "persuasion":
+        return label == "true"
+    elif dataset == "mrpc":
+        return label == 1
+    elif dataset == "med-safe":
+        return label == "Serious"
+    elif dataset == "mt-bench":
+        model_a, model_b, label = label
+        return (model_a == "gpt-3.5-turbo" and label == "model_a") or (model_b == "gpt-3.5-turbo" and label == "model_b")

@@ -3,6 +3,8 @@ import pandas as pd
 from load_dataset import load_data
 import argparse
 import os
+from tqdm import tqdm
+from methods.statistic import label2res
 
 from statistic import compute_statistics
 
@@ -18,29 +20,39 @@ def importance_sampling(
     """
     Perform importance sampling to estimate dataset-specific statistics using model confidence as sampling weights.
     """
-    df["importance"] = df[confidence_col] / df[confidence_col].sum()
-    true_statistic = compute_statistics(df, dataset_name, label_column=gpt_label_col)
+    p = df["proxy_label"] / df["proxy_label"].sum() 
+    
+    if dataset_name != "mt-bench":
+        df["gt_label_res"] = [label2res(label, dataset_name) for label in df[gold_label_col]]
+        df["gpt_label_res"] = [label2res(label, dataset_name) for label in df[gpt_label_col]]
+    else:
+        df["gt_label_res"] = [label2res([row["model_a"], row["model_b"], row[gold_label_col]], dataset_name) for _, row in df.iterrows()]
+        df["gpt_label_res"] = [label2res([row["model_a"], row["model_b"], row[gpt_label_col]], dataset_name) for _, row in df.iterrows()]
+        
+    true_statistic = np.mean(df["gt_label_res"])
 
-    results = {"Human Samples": [], "Relative Error": []}
+    results = {"Human_Samples": [], "AvgRelativeError": []}
 
-    for n_samples in sample_sizes:
+    for n_samples in tqdm(sample_sizes):
         errors = []
 
         for _ in range(repeat):
-            sampled_indices = np.random.choice(df.index, size=n_samples, p=df["importance"].values, replace=True)
-            sampled = df.loc[sampled_indices]
+            sampled_indices = np.random.choice(len(df), size=n_samples, replace=True, p=p)
+            sampled_df = df.loc[sampled_indices]
+            sampled_weights = p[sampled_indices]
+            
+            estimate = np.mean(sampled_df["gt_label_res"] / sampled_weights / len(df))
 
-            estimate = compute_statistics(sampled, dataset_name, label_column=gpt_label_col)
-            error = abs(estimate - true_statistic) / true_statistic if true_statistic != 0 else float('inf')
+            error = abs(estimate - true_statistic) / true_statistic
             errors.append(error)
 
         rmse = np.sqrt(np.mean(np.array(errors) ** 2))
-        results["Human Samples"].append(n_samples)
-        results["Relative Error"].append(rmse)
+        results["Human_Samples"].append(n_samples)
+        results["AvgRelativeError"].append(rmse)
 
     return pd.DataFrame(results)
 
-def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size: int, repeat: int, save_dir: str):
+def run_importance_sampling(dataset_name: str, max_human_labels: int, step_size: int, repeat: int, save_dir: str):
     """
     Run importance sampling on a dataset.
     """
@@ -50,7 +62,7 @@ def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size:
     gpt_label_col = "gpt_label"
 
     total_samples = len(dataset)
-    max_size = min(max_human_budget, total_samples)
+    max_size = min(max_human_labels, total_samples)
 
     sample_sizes = list(range(step_size, max_size + 1, step_size))
     results = importance_sampling(
@@ -73,7 +85,7 @@ def run_importance_sampling(dataset_name: str, max_human_budget: int, step_size:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run importance sampling on a dataset")
     parser.add_argument("--dataset", type=str, required=True, help="Name of the dataset (as defined in load_data)")
-    parser.add_argument("--max_human_budget", type=int, default=1000, help="Maximum number of human-labeled samples")
+    parser.add_argument("--max_human_labels", type=int, default=2000, help="Maximum number of human-labeled samples")
     parser.add_argument("--step_size", type=int, default=100, help="Step size for human budgets")
     parser.add_argument("--repeat", type=int, default=1000, help="Number of iterations for stability")
     parser.add_argument("--save_dir", type=str, default="./", help="Directory to save the result")
@@ -81,7 +93,7 @@ if __name__ == "__main__":
 
     run_importance_sampling(
         dataset_name=args.dataset,
-        max_human_budget=args.max_human_budget,
+        max_human_labels=args.max_human_labels,
         step_size=args.step_size,
         repeat=args.repeat,
         save_dir=args.save_dir
